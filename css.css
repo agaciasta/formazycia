@@ -1,0 +1,362 @@
+      /*Do wszystkeigo*/
+      .not-selectable {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      /*Baner Produktu*/      
+      .tabela_glowna
+      {
+        width: 100%!important; 
+        /*height: 330px!important;*/
+        padding: 50px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+      }
+      .tabela_glowna_pierwsza_kom
+      {
+        float: right;
+        display: block; 
+        width: 50%; 
+        height:100%!important;
+        padding-top: 25px;
+
+      }
+      .zamow_produkt_button
+      {
+        width: 150px;
+        height: 50px;
+        display:block;
+        background-color: rgba(176,132,255,255);
+        color: white;
+        border: none;
+        border-radius: 3px;
+        font-weight: 600;
+        font-size: 16px;
+        transition: 0.3s;
+        margin-top: 33px;
+      }
+      .zamow_produkt_button:hover
+      {
+        background-color: rgba(156,112,235,255);
+        color: rgba(245,245,245,255);
+
+      }
+      .zamow_produkt_button:active
+      {
+        background-color: rgba(146,102,225,255);
+        color: rgba(240, 240, 240,255);
+      }
+      .zamow_produkt_button p
+      {
+          position: relative;
+          top: 50%;
+          left: 50%;
+          text-align: center;
+          transform: translate(-50%,-50%);
+      }
+      .tabela_glowna_druga_kom
+      {
+        width: 50%;
+        height:100%!important;
+        float:left;
+        display: block;
+        padding-top:20px;
+        
+      }
+      .info_o_prowadzacym_i_czasie
+      {
+        float: left;
+        font-size: 18px;
+        font-weight: 900;
+        color:rgba(176,132,255,255);
+        display: flex;
+        justify-content: center;
+        gap: 6px;
+        flex-flow: row nowrap;
+      }
+      .info_o_prowadzacym_i_czasie img
+      {
+        width: 25px;
+        height: 25px;
+      }
+
+      .tytul_mocnego_kursu
+      {
+          font-size: 18px;
+          letter-spacing: -0.3px;
+          margin-top: 10px;
+          margin-bottom: 4px;
+          font-family: century gothic;
+          font-weight: 600;
+      }
+      .mocne_slowa_pod_tytulem
+      {
+        font-size: 19px;
+        margin-right: 30%;
+        font-family: 'Red Hat Display', sans-serif;
+        letter-spacing: 1px;
+        line-height: 130%;
+      }
+      .zdjecie_do_kursu
+      {
+        width: 550px; 
+        display: block;
+        margin: auto;
+        box-shadow: 0 0 45px rgb(176, 132, 255), 0 0 5px 2px rgb(0 0 0);
+        border-radius: 20px;
+        transition: 0.4s;
+
+      }
+
+      /*Tabela korzyści*/
+      .box_z_tabela_czterech_wskaznikow
+      {
+        width:100%;
+        height:300px;
+      }
+      .tabela_czterech_wskaznikow
+      {
+        position: relative;
+        left: 50%;
+        top:50%;
+        transform: translate(-50%, -50%);
+        border-collapse: collapse; /* To remove spacing between cells */
+      }
+      .komorka_czterech_wskaznikow
+      {
+        min-width: 200px;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 37.95px;
+        padding-left: 50px;
+        padding-right: 50px;
+        transition: 0.4s
+      }
+      .komorka_czterech_wskaznikow > img{
+        width: 110px;
+        height: auto;
+        margin: 0px auto;
+    }
+    
+    .komorka_czterech_wskaznikow p
+    {
+      color: rgba(176,132,255,255);
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border-bottom: 3px solid;
+      font-size: 38px;
+      font-weight: 500;
+      text-transform:uppercase;
+    }
+    .komorka_czterech_wskaznikow span
+    {
+      font-size:20px;
+      display:block;
+      height:30px;
+    }
+    
+    .poziom_ogien
+    {
+      height: 110px;
+    }
+    .poziom_ogien img
+    {
+      width:70px;
+    }
+    .poziom_ogien_lvl1
+    {
+      position: absolute;
+      left:130px;
+      top: 52px;
+    }
+    .poziom_ogien_lvl2
+    {
+        position:absolute;
+        left:100px;
+        top:30px;
+    }
+    .poziom_ogien_lvl3
+    {
+      position:absolute;
+      left: 160px;
+      top: 30px;
+    }
+
+    @media (max-width: 1600px)
+    {
+        .zdjecie_do_kursu
+        {
+          width:450px;
+        }
+        .info_o_prowadzacym_i_czasie
+        {
+          font-size: 14px;
+        }
+        .info_o_prowadzacym_i_czasie img
+        {
+          width: 20px;
+          height:20px;
+        }
+        .tytul_mocnego_kursu
+        {
+          font-size: 13px;
+        }
+        .mocne_slowa_pod_tytulem
+        {
+          font-size: 18px;
+        }
+        .zamow_produkt_button
+        {
+          width: 130px;
+          height: 40px;
+          font-size: 14px;
+        }
+    }
+      @media (max-width: 1200px)
+      {
+
+        /*Baner Produktu*/
+        .tabela_glowna_pierwsza_kom
+        {
+          float:none;
+          width:100%;
+          text-align: center;
+        }
+        .tabela_glowna_druga_kom
+        {
+          float:none;
+          width:100%;
+        }
+        .info_o_prowadzacym_i_czasie
+        {
+          padding-left: none;
+          margin-left: 48%;
+          transform: translate(-50%, 0%);
+        }
+        .zamow_produkt_button
+        {
+          position: relative;
+          left:50%;
+          transform: translate(-50%, 0%);
+        }
+        .mocne_slowa_pod_tytulem
+        {
+          margin-right: 200px;
+          margin-left: 200px;
+        }
+        .zdjecie_do_kursu
+        {
+          width: 300px;
+        }
+        
+        /*Tabela korzyści*/
+        .komorka_czterech_wskaznikow
+        {
+          padding-left: 30px;
+          padding-right: 30px;
+        }
+        .komorka_czterech_wskaznikow p
+        {
+          font-size: 20px;
+          margin-left: 20px;
+          margin-right: 20px;
+        }
+        .komorka_czterech_wskaznikow > img
+        {
+          width: 70px;
+        }
+        .komorka_czterech_wskaznikow span
+        {
+          font-size: 15px;
+        }
+        .poziom_ogien
+        {
+          height: 70px;
+        }
+        .poziom_ogien img
+        {
+          width: 40px;
+        }
+        .poziom_ogien_lvl1
+        {
+          position: absolute;
+          left: 95px;
+          top:40px;
+        }
+        .poziom_ogien_lvl2
+        {
+          position: absolute;
+          left: 78px;
+          top: 27px;
+        }
+        .poziom_ogien_lvl3
+        {
+          position: absolute;
+          left: 111px;
+          top: 27px;
+        }
+      }
+
+  @media (max-width: 900px) 
+  {
+    .info_o_prowadzacym_i_czasie
+    {
+      width: 80%;
+    }
+    .tytul_mocnego_kursu
+    {
+        margin-top:20px;
+    }
+    .mocne_slowa_pod_tytulem
+    {
+      margin-left: 50px;
+      margin-right: 50px;  
+    }
+    .zamow_produkt_button
+    {
+      margin-top:0px;
+      margin-bottom: 10px;
+    }
+    .zdjecie_do_kursu
+    {
+      margin: auto;
+      width:300px;
+    }
+
+    /*Tabela korzyści*/
+    .box_z_tabela_czterech_wskaznikow
+    {
+      height:750px;
+    }
+    .tabela_czterech_wskaznikow
+    {
+      top: 0%;
+      transform: translate(-50%, 0%);
+    }
+    .komorka_czterech_wskaznikow 
+    {
+      display:block;
+      padding-top: 60px;
+    }
+    .komorka_czterech_wskaznikow img
+    {
+      width: 50px;
+    }
+    .komorka_czterech_wskaznikow p
+    {
+      font-size: 20px;
+      width: 130px;
+      margin: auto;
+      margin-bottom: 10px;;
+    }
+    .komorka_czterech_wskaznikow span
+    {
+      font-size: 15px;
+    }
+  }
+
