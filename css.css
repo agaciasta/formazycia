@@ -186,6 +186,14 @@
       left: 160px;
       top: 30px;
     }
+    @media (min-width: 1600px)
+    {
+      /*Części ciała się nie mieściły więc ustawiłem stąła wartość*/
+      .komorka_czterech_wskaznikow p:nth-child(4)
+      {
+        width: 260px;
+      }
+    }
 
     @media (max-width: 1600px)
     {
