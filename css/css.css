@@ -164,8 +164,8 @@
     
     .poziom_ogien
     {
-      height: 110px;
-      width:auto;
+      height: 110px!important;
+      width:auto!important;
     }
 
     @media (min-width: 1600px)
@@ -266,8 +266,7 @@
         }
         .poziom_ogien
         {
-          height: 70px;
-          width:auto;
+          height: 70px!important;
         }
       }
 
