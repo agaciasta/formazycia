@@ -44,12 +44,14 @@
       {
         background-color: rgba(156,112,235,255);
         color: rgba(245,245,245,255);
+        scale: 1.05;
 
       }
       .zamow_produkt_button:active
       {
         background-color: rgba(146,102,225,255);
         color: rgba(240, 240, 240,255);
+        scale: 0.95;
       }
       .zamow_produkt_button p
       {
@@ -163,29 +165,9 @@
     .poziom_ogien
     {
       height: 110px;
+      width:auto;
     }
-    .poziom_ogien img
-    {
-      width:70px;
-    }
-    .poziom_ogien_lvl1
-    {
-      position: absolute;
-      left:130px;
-      top: 52px;
-    }
-    .poziom_ogien_lvl2
-    {
-        position:absolute;
-        left:100px;
-        top:30px;
-    }
-    .poziom_ogien_lvl3
-    {
-      position:absolute;
-      left: 160px;
-      top: 30px;
-    }
+
     @media (min-width: 1600px)
     {
       /*Części ciała się nie mieściły więc ustawiłem stąła wartość*/
@@ -285,28 +267,7 @@
         .poziom_ogien
         {
           height: 70px;
-        }
-        .poziom_ogien img
-        {
-          width: 40px;
-        }
-        .poziom_ogien_lvl1
-        {
-          position: absolute;
-          left: 95px;
-          top:40px;
-        }
-        .poziom_ogien_lvl2
-        {
-          position: absolute;
-          left: 78px;
-          top: 27px;
-        }
-        .poziom_ogien_lvl3
-        {
-          position: absolute;
-          left: 111px;
-          top: 27px;
+          width:auto;
         }
       }
 
