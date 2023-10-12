@@ -143,7 +143,6 @@ text-align: center;
   color: rgba(255,132,169,255);
   clear: left;
   float: left;
-  /* margin-bottom: 80px; */
   position: relative;
   left: 20px;
 }
@@ -154,11 +153,6 @@ text-align: center;
   float: right;
   position: relative;
   margin-right: 20px;
-}
-  .zalety_tablica li:nth-child(1)
-{
-  margin-top: 10px;
-  margin-bottom: 0px;
 }
 .zalety_tablica li:nth-child(2)
 {
