@@ -2,7 +2,7 @@
 .baner_glowny
 {
   width: 1295px;
-  height: 412px;
+  height: 416px;
   position: relative;
   left: 50%;
   top: 0;
@@ -55,7 +55,7 @@ inset: 0; /* same as { top: 0; right: 0; bottom: 0; left: 0; } */
 background-image: radial-gradient(rgba(84,47,145,255) ,rgba(156,112,235,255) 200%);
 z-index: 1;
 opacity: 0;
-    border-radius: 10px;
+border-radius: 10px;
 transition: opacity 0.25s linear; 
 }
 .baner_glowny a::after
@@ -226,7 +226,7 @@ text-align: center;
   top: -850px;
   left: 0;
   width: 9.6px;
-  height: 850%;
+  height: 850px;
   display: block;
   background: linear-gradient(360deg, rgba(255,132,169,255), rgba(255,132,169,0));
   border-bottom-left-radius: 20px;
