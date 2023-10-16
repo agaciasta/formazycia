@@ -7,12 +7,14 @@
   left: 50%;
   top: 0;
   transform: translate(-50%, 0);
+  z-index: 1;
 }
 
 .baner_glowny img
 {
   width: 100%;
   margin-top: -73px;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
 }
 
 .baner_glowny a span
@@ -107,15 +109,15 @@ text-align: center;
 }
 
 .zalety_tablica::after {
-    content: "";
+  content: "";
   right: 0;
-    width: 9.6px;
+  width: 9.6px;
   background: linear-gradient(360deg, rgba(182,132,254,255), rgba(182,132,254,0));
   position: relative;
   display: block;
   left: 1268px;
-  height: 1053px;
-  top: -200px;
+  height: 850px;
+  top: -101px;
   border-bottom-right-radius: 20px;
 }
 .zalety_tablica li p
@@ -126,6 +128,8 @@ text-align: center;
   vertical-align: middle;
   margin-left: 0;
   width: 450px;
+  font-weight: 600;
+  letter-spacing: -0.3px;;
 }
 .zalety_tablica li:nth-child(even) p
 {
@@ -153,10 +157,19 @@ text-align: center;
   float: right;
   position: relative;
   margin-right: 20px;
+  margin-top: -5px;
+}
+.zalety_tablica li:nth-child(1)
+{
+  margin-top: -50px;
 }
 .zalety_tablica li:nth-child(2)
 {
   margin-right: 22px;
+}
+.zalety_tablica li:nth-child(6)
+{
+  margin-bottom: -30px;
 }
 
 .zalety_tablica li:nth-child(odd)::before
@@ -210,10 +223,10 @@ text-align: center;
   .banerki-silka-dom::before{
   content: "";
   position: relative;
-  top: -1050px;
+  top: -850px;
   left: 0;
   width: 9.6px;
-  height: 1050px;
+  height: 850%;
   display: block;
   background: linear-gradient(360deg, rgba(255,132,169,255), rgba(255,132,169,0));
   border-bottom-left-radius: 20px;
@@ -226,6 +239,7 @@ text-align: center;
   margin: 0px;
   margin-top: -70px;
   width: 1295px;
+  box-shadow: 0px -3px 10px rgba(0,0,0,0.2);
   /*border-image-source: linear-gradient(to right, rgba(255,132,169,255) 48%, rgba(182,132,254,255) 62%);
   border-width: 9.66px;
   border-image-slice: 1;
