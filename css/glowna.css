@@ -256,10 +256,13 @@ opacity: 1;
   height: 210px;
   margin: 0px;
   margin-top: -70px;
-  width: 1295px;
+  width: 1313px;
+  left: -9px;
   box-shadow: 0px -3px 10px rgba(0,0,0,0.2);
   z-index: 2;
   position: relative;
+  background-color: transparent;
+  border-radius: 10px;
 
 }
 .banerki-silka-dom > div
@@ -275,10 +278,12 @@ opacity: 1;
   .banerki-silka-dom > div:nth-child(1) > img
 {
       border-bottom-left-radius: 10px;
+      border-top-left-radius:10px;
 }
     .banerki-silka-dom > div:nth-child(2) > img
 {
       border-bottom-right-radius: 10px;
+      border-top-right-radius: 10px;
 }
 
 @media (min-width: 901px) 
@@ -353,7 +358,7 @@ opacity: 1;
   width:100%;
 }
 
-.trening_dom_mobile img, .trening_silka_mobile
+.trening_dom_mobile img, .trening_silka_mobile img
 {
   width:100%;
 }
