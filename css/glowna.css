@@ -19,12 +19,12 @@
 
 .baner_glowny a span
 {
-      font-family: space grotesk;
-  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
   font-size: 19px;
-      color: rgba(250,250,250,255);
-      position: relative;
-      z-index: 10;
+  color: rgba(250,250,250,255);
+  position: relative;
+  z-index: 10;
 }
 .baner_glowny a:hover span
 {
@@ -42,7 +42,8 @@
   padding: 15px 10px;
   text-align: center;
   border-radius: 10px;
-   background-image: radial-gradient(rgba(156,112,235,255),rgba(84,47,145,255) 200%);
+   /*background-image: radial-gradient(rgba(156,112,235,255),rgba(84,47,145,255) 200%);*/
+   background-color: rgba(255, 143, 159, 1);
     z-index: 3;
   transition: scale 0.25s ease-out;
   
@@ -51,8 +52,9 @@
 .baner_glowny a::before {
 position: absolute;
 content: "";
-inset: 0; /* same as { top: 0; right: 0; bottom: 0; left: 0; } */
-background-image: radial-gradient(rgba(84,47,145,255) ,rgba(156,112,235,255) 200%);
+inset: 0;
+/*background-image: radial-gradient(rgba(84,47,145,255) ,rgba(156,112,235,255) 200%);*/
+background-image: radial-gradient(rgba(200, 93, 109, 1), rgba(255, 143, 159, 1) 200%);
 z-index: 1;
 opacity: 0;
 border-radius: 10px;
@@ -62,8 +64,9 @@ transition: opacity 0.25s linear;
 {
 position: absolute;
 content: "";
-inset: 0; /* same as { top: 0; right: 0; bottom: 0; left: 0; } */
-background-image: radial-gradient(rgba(69,32,120,255) ,rgba(141,97,220,255) 200%);
+inset: 0; 
+/*background-image: radial-gradient(rgba(69,32,120,255) ,rgba(141,97,220,255) 200%);*/
+background-image: radial-gradient(rgba(180, 63, 89, 1), rgba(245, 133, 149, 1) 200%);
 z-index: 2;
 opacity: 0;
     border-radius: 10px;
@@ -190,32 +193,31 @@ text-align: center;
   width: 80px!important;
   position: relative;
   right: 0;
-  min-width: 80px!important;
   background-size: contain;
   margin-left: 5px;
   background-repeat: no-repeat;
 }
-.zalety_tablica li:nth-child(1)::before
+.zalety_tablica li:nth-child(1)::before, .zalety_tablica_mobile_1 li:nth-child(1)::before
 {
   background-image: url("https://agaciasta.github.io/formazycia/img/ikonki/punkt_4/wspieraj%C4%85ca%20sie%20spolecznosc_roz.png");
 }
-.zalety_tablica li:nth-child(2)::after
+.zalety_tablica li:nth-child(2)::after, .zalety_tablica_mobile_2 li:nth-child(1)::after
 {
   background-image: url("https://agaciasta.github.io/formazycia/img/ikonki/punkt_4/Ponad%2050%20film%C3%B3w.png");
 }
-.zalety_tablica li:nth-child(3)::before
+.zalety_tablica li:nth-child(3)::before, .zalety_tablica_mobile_1 li:nth-child(2)::before
 {
   background-image: url("https://agaciasta.github.io/formazycia/img/ikonki/punkt_4/Nieważne%20na%20jakim%20etapie_roz.png");
 }
-.zalety_tablica li:nth-child(4)::after
+.zalety_tablica li:nth-child(4)::after, .zalety_tablica_mobile_2 li:nth-child(2)::after
 {
   background-image: url("https://agaciasta.github.io/formazycia/img/ikonki/punkt_4/Trenuj%20gdzie%20chcesz.png");
 }
-.zalety_tablica li:nth-child(5)::before
+.zalety_tablica li:nth-child(5)::before, .zalety_tablica_mobile_1 li:nth-child(3)::before
 {
   background-image: url("https://agaciasta.github.io/formazycia/img/ikonki/punkt_4/Wspólna%20realizacja%20celow_roz.png");
 }
-.zalety_tablica li:nth-child(6)::after
+.zalety_tablica li:nth-child(6)::after, .zalety_tablica_mobile_2 li:nth-child(3)::after
 {
   background-image: url("https://agaciasta.github.io/formazycia/img/ikonki/punkt_4/Stały%20kontakt.png");
 }
@@ -281,9 +283,74 @@ text-align: center;
 }
 /*Na mobilki*/
 
+
+.zalety_tablica_mobile_1, .zalety_tablica_mobile_2
+{
+  width: 100%;
+  height: 200px;
+}
+
+.zalety_tablica_mobile_1 li, .zalety_tablica_mobile_2 li
+{
+  display: table;
+  list-style: none;
+  width: 200px;
+}
+.zalety_tablica_mobile_1 li p, .zalety_tablica_mobile_2 li p
+{
+  display:table-cell;
+  font-size: 11px;
+  vertical-align: middle;
+}
+
+.zalety_tablica_mobile_1
+{
+  color: rgba(255,132,169,255);
+}
+
+.zalety_tablica_mobile_1 li::before
+{
+  content: '';
+  display: table-cell;
+  height: 40px;
+  width: 40px!important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 0;
+}
+
+.zalety_tablica_mobile_2
+{
+  color: rgba(182,132,255,255);
+}
+
+.zalety_tablica_mobile_2 li::after
+{
+    content: '';
+    display: table-cell;
+    height: 40px;
+    width: 40px!important;
+    position: relative;
+    right: 0;
+    background-size: contain;
+    margin-left: 5px;
+    background-repeat: no-repeat;
+}
+
+.trening_dom_mobile, .trening_silka_mobile
+{
+  width:100%;
+}
+
+.trening_dom_mobile img, .trening_silka_mobile
+{
+  width:100%;
+}
+
+
 @media(max-width:900px)
 {
-  .for_dekstop
+  .for_desktop
   {
       display: none;
   }
