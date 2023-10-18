@@ -304,6 +304,10 @@ opacity: 1;
 }
 /*Na mobilki*/
 
+.div_zalety_tablica_mobile_1
+{
+  margin-top:20px;
+}
 
 .zalety_tablica_mobile_1, .zalety_tablica_mobile_2
 {
@@ -411,10 +415,7 @@ opacity: 1;
   {
     font-size: 20px;
   }
+  
 
-  .zalety_tablica_mobile_1 li, .zalety_tablica_mobile_2 li
-  {
-    width: 150px;
-  }
 }
 
