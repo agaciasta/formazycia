@@ -267,3 +267,29 @@ text-align: center;
 {
       border-bottom-right-radius: 10px;
 }
+
+@media (min-width: 901px) 
+{
+    .for_dekstop
+    {
+      display: block;
+    }
+    .for_mobile
+    {
+      display: none;
+    }
+}
+/*Na mobilki*/
+
+@media(max-width:900px)
+{
+  .for_dekstop
+  {
+      display: none;
+  }
+  .for_mobile
+  {
+    display:block;
+  }
+}
+
