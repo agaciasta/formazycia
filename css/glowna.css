@@ -319,7 +319,8 @@ opacity: 1;
 {
   display: table;
   list-style: none;
-  width: 200px;
+  width: 300px;
+  margin-top:20px;
 }
 .zalety_tablica_mobile_1 li p, .zalety_tablica_mobile_2 li p
 {
@@ -365,11 +366,23 @@ opacity: 1;
 .trening_dom_mobile, .trening_silka_mobile
 {
   width:100%;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.2);
 }
 
 .trening_dom_mobile img, .trening_silka_mobile img
 {
   width:100%;
+}
+
+.trening_dom_mobile
+{
+  border-left: 5px solid rgba(255,132,169,255);
+  border-right: 5px solid rgba(255,132,169,255);
+}
+.trening_silka_mobile
+{
+  border-left: 5px solid rgba(182,132,255,255);
+  border-right: 5px solid rgba(182,132,255,255);
 }
 
 
@@ -414,6 +427,7 @@ opacity: 1;
   .czym_jest_forma
   {
     font-size: 20px;
+    margin-bottom: 30px;
   }
   
 
