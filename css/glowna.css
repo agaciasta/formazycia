@@ -154,7 +154,7 @@ opacity: 1;
   text-align: right;
      padding-right: 20px;
 }
-.zalety_tablica li
+.zalety_tablica li, .zalety_tablica_mobile_1 li, .zalety_tablica_mobile_2
 {
   width: 590px;
   list-style: none;
@@ -380,10 +380,15 @@ opacity: 1;
     display:block;
   }
 
+
+  /*Baner glowny*/
   .baner_glowny
   {
-    width:100%;
+    width: 340px;
     height: 130px;
+    position: relative;
+    right: 0;
+    margin-bottom: -7px;
   }
 
   .baner_glowny a
@@ -398,6 +403,18 @@ opacity: 1;
   .baner_glowny a span
   {
     font-size: 8px;
+  }
+
+
+  /*Tablica*/
+  .czym_jest_forma
+  {
+    font-size: 20px;
+  }
+
+  .zalety_tablica_mobile_1 li, .zalety_tablica_mobile_2 li
+  {
+    width: 150px;
   }
 }
 
