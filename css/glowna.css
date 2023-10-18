@@ -327,6 +327,8 @@ opacity: 1;
   display:table-cell;
   font-size: 11px;
   vertical-align: middle;
+  padding-right: 10px;
+  padding-left:10px;
 }
 
 .zalety_tablica_mobile_1
@@ -348,6 +350,7 @@ opacity: 1;
 .zalety_tablica_mobile_2
 {
   color: rgba(182,132,255,255);
+  text-align: right;
 }
 
 .zalety_tablica_mobile_2 li::after
