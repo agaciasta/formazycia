@@ -444,13 +444,13 @@ opacity: 1;
 
 }
 
-@media(max-width: 900px) and (min-aspect-ratio: 1/1)
+@media (orientation: landscape) and (max-width: 900px)
 {
-  .baner_glowny .for_mobile
+  .baner_glowny.for_mobile
   {
     display: none;
   }
-  .baner_glowny .for_dekstop
+  .baner_glowny.for_dekstop
   {
     display: block;
   }
