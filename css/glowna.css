@@ -293,7 +293,7 @@ opacity: 1;
 
 @media (min-width: 901px) 
 {
-    .for_dekstop
+    .for_desktop
     {
       display: block;
     }
@@ -453,5 +453,12 @@ opacity: 1;
   .baner_glowny.for_desktop
   {
     display: block;
+    width: 620px;
+  }
+  .baner_glowny a
+  {
+    left: 89px;
+    top: 100px;
+    width: 93px;
   }
 }
