@@ -322,6 +322,7 @@ opacity: 1;
   width: 300px;
   margin-top:20px;
   position: relative;
+  left: 50%;
   transform: translateX(-50%);
 }
 .zalety_tablica_mobile_1 li p, .zalety_tablica_mobile_2 li p
@@ -443,7 +444,7 @@ opacity: 1;
 
 }
 
-@media(max-width: 900px ) and (orientation:landspace)
+@media(max-width: 900px ) and (orientation:landscape)
 {
   .baner_glowny .for_mobile
   {
