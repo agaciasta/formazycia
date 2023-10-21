@@ -524,6 +524,9 @@ opacity: 1;
     width: 93px;
   }
 }
+
+
+/*To na ten banerek na dole*/
 @media (max-width: 900px)
 {
   .w-100
