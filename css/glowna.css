@@ -275,6 +275,10 @@ opacity: 1;
   width: 100%; 
   grid-row: 1/2;
 }
+.banerki-silka-dom > a > div
+{
+  height: calc(100% + 3px);
+}
 .banerki-silka-dom > a > div > img
 {
   width: 100%;
