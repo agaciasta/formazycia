@@ -121,6 +121,19 @@ border-radius: 15px;
     justify-content: center;
 }
 
+.nowy_dom_czas_img
+{
+    width: 100%;
+    position: relative;
+    transition: all .5s ease-in-out;
+    pointer-events: auto;
+    float: left;
+    cursor: pointer;
+    border-radius: 15px;
+    border-right: 10px solid rgba(184, 135, 255, 255);
+    border-left: 10px solid rgba(184, 135, 255, 255);
+}
+
 .nowy_dom_czas_item {
     padding: 20px;
     text-align: center;
@@ -131,8 +144,10 @@ border-radius: 15px;
     align-items: center;
     font-size: 18px;
     font-weight: bold;
-    height: 200px; /* Fixed height for all items */
-    width:800px;
+    height: 10vh; /* Fixed height for all items */
+    width:700px;
+    margin-top: 15%;
+    margin-bottom: 20%;
 }
 
 .nowy_dom_czas_item:nth-child(1) {
