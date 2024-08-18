@@ -151,7 +151,7 @@ border-radius: 15px;
     {	
         width: 1100px;
     }
-          .dom_czas_mobile
+    .dom_czas_mobile
     {
         display:none;
     }
@@ -176,14 +176,14 @@ border-radius: 15px;
     {	
         width: 100%;
     }
-    .dom_czas_img
+    .dom_czas_img, .nowy_dom_czas_img
     {
-    float:none;
-    padding: 3px 0;
-      transform: translateX(-50%);
-      left: 50%;
-    display:block;
-    width: 80%;
+        float:none;
+        padding: 3px 0;
+        transform: translateX(-50%);
+        left: 50%;
+        display:block;
+        width: 80%;
     }
   .dom_czas_img:hover
   {
