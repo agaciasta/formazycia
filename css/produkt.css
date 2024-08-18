@@ -132,6 +132,7 @@
       .komorka_czterech_wskaznikow
       {
         min-width: 200px;
+        max-width: 400px;
         margin: 0 auto;
         text-align: center;
         padding-top: 37.95px;
