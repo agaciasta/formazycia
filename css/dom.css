@@ -185,7 +185,7 @@ border-radius: 15px;
         display:block;
         width: 80%;
     }
-  .dom_czas_img:hover
+  .dom_czas_img:hover, .nowy_dom_czas_img:hover
   {
      transform: translateX(-50%) scale(1.02);
   }
