@@ -7,6 +7,8 @@
 {
 display:block;
 margin-top: 40px;
+/*Dodane pod nowe banerki*/
+margin-bottom: 20px;
 }
 .dom_czas_div
 {
@@ -112,10 +114,12 @@ border-radius: 15px;
 
 @media(min-width: 2301px)
 {
+    /*usuniete pod nowe banerki*/
+    /*
     .dom_czas_desktop
     {
       margin-bottom: 450px;
-    }
+    }*/
     .dom_czas_div
     {	
         width: 2200px;
@@ -127,10 +131,12 @@ border-radius: 15px;
 }
 @media(max-width: 2300px)
 {
+    /*usuniete pod nowe banerki*/
+    /*
   .dom_czas_desktop
     {
       margin-bottom: 300px;
-    }
+    }*/
     .dom_czas_div
     {	
         width: 1500px;
@@ -143,10 +149,12 @@ border-radius: 15px;
 }
  @media(max-width: 1600px)
 {
+        /*usuniete pod nowe banerki*/
+    /*
   .dom_czas_desktop
     {
       margin-bottom: 250px;
-    }
+    }*/
     .dom_czas_div
     {	
         width: 1100px;
