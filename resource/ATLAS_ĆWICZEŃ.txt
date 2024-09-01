@@ -50,7 +50,7 @@ W górnej fazie dopnij pośladki, ale nie wykonuj przeprostu w odcinku lędźwio
 7. Kierując kolana na zewnątrz wykonaj przysiad.
 8. Zejdź tak nisko, jak pozwala Ci Twoja mobilność. Zadbaj o to, aby miednica nie podwijała się za mocno (delikatne podwijanie jest akceptowane).
 9. W górnej fazie dopnij pośladki, ale nie wykonuj przeprostu w odcinku lędźwiowym kręgosłupa.
-| PRZYSIAD BUŁGARSKI
+; PRZYSIAD BUŁGARSKI
 Ustaw ławeczkę/skrzynię tak by sięgała wysokości Twojego kolana lub połowy piszczela.
 Jeżeli chcesz bardziej zaangażować do pracy mięśnie czworogłowe uda stań nieco bliżej ławeczki. Jeśli chcesz zaangażować bardziej pośladki stań dalej od ławeczki.
 Stopę możesz zarówno położyć na ławce stroną grzbietową jak i oprzeć na palcach.
@@ -138,7 +138,7 @@ Staraj się wykonywać to ćwiczenie bez podpierania się, w celu poprawy równo
 5. Kolana powinny być delikatnie ugięte przez cały ruch, ale nie uginaj ich mocniej. Cała praca musi zajść w stawie biodrowym.
 6. Zejdź tak nisko, jak pozwala Ci zakres ruchu w Twoich biodrach i powróć do pozycji pionowej, napinając pośladki.
 Dzień dobry to trochę gorsza wersja martwego ciągu rumuńskiego, jeśli więc masz do wyboru te dwa ćwiczenia, zdecydowanie bardziej polecam martwy ciąg rumuński.
-| ZAKROKI
+; ZAKROKI
 1.Stań na szerokość bioder i napnij brzuch.
 2. Rozpocznij ruch wysuwania jednej nogi w tył, do pozycji zakroku.
 3. Głowa powinna stanowić przedłużenie tułowia.
@@ -280,7 +280,7 @@ Napnij brzuch, wyprostuj plecy. Delikatnie pochyl tułów w przód.
 Skupiając się na pracy nogi stojącej na skrzyni rozpocznij ruch podnoszenia się (staraj się nie wybijać z nogi stojącej na ziemi). Kolano kieruj cały czas na zewnątrz.
 Gdy Twoje stopy są na tej samej wysokości, rozpocznij ruch powolnego opuszczania się w dół, ponownie skupiając się na pracy nogi na skrzyni.
 Wysokość skrzyni dopasuj do swoich możliwości. Im większa będzie siła Twoich mięśni, tym wyższy podest możesz zastosować.
-; RAMIONA
+| RAMIONA
 …………………………..
 ; PROSTOWANIE PRZEDRAMION NA WYCIĄGU ZZA GŁOWY
 1.Do wyciągu górnego przymocuj uchwyt “sznur”. Złap sznur stojąc tyłem do wyciągu.
@@ -336,7 +336,7 @@ Prowadząc łokcie wąsko, rozpocznij ruch schodzenia w dół, delikatnie pochyl
 Zejdź tak nisko, aby osiągnąć kąt prosty w łokciu.
 Utrzymując napięty brzuch wykonaj pompkę na poręczach, dążąc do ponownego wyprostowania łokci i przybrania pozycji startowej.
 Gdy schodzisz w dół - delikatnie pochylaj tułów w przód, zaś gdy powracasz do pozycji wyjściowej prostuj sylwetkę.
-; BARKI (MIĘŚNIE NARAMIENNE)
+| BARKI (MIĘŚNIE NARAMIENNE)
 ; FACEPULL
 1.Do wyciągu górnego przymocuj uchwyt “sznur”.
 2. Stań przodem do wyciągu. Złap sznur w obie ręce i zrób dwa kroki w tył.
@@ -381,12 +381,12 @@ W obie dłonie chwyć hantle, umieść je na wysokości swojej obręczy barkowej
 Napnij brzuch i pośladki.
 Rozpocznij ruch wyciskania hantli nad głowę, utrzymując napięty brzuch i pośladki.
 Gdy hantle będą nad głową (nie muszą się połączyć, ale mogą), kontrolując ruch powróć do pozycji startowej. Pamiętaj aby nie opuszczać hantli zbyt nisko.
-| ARNOLDKI
+; ARNOLDKI
 W obie dłonie chwyć hantle, umieść je na wysokości swoich obojczyków. Hantle trzymaj tak, aby palce dłoni były skierowane w Twoją stronę (zrotuj nadgarstki do wewnątrz. Kciuki są skierowane na zewnątrz.). Stań na szerokość bioder.
 Napnij brzuch i pośladki.
 Rozpocznij ruch wyciskanie hantli nad głowę, odkręcając nadgarstki do zewnętrznej strony. Utrzymuj napięty brzuch i pośladki.
 Gdy hantle znajdą się nad głową, trzymane w taki sposób, aby nadgarstek był skierowany na zewnątrz (kciuki są skierowane do wewnątrz), rozpocznij ruch opuszczania, ponownie powracając do pozycji nadgarstków zrotowanych do wewnątrz.
-; PLECY
+| PLECY
 …………………………………………..
 ; NARCIARZ
 1.Do wyciągu górnego przymocuj uchwyt “sztanga łamana”, “sztanga prosta” lub “sznur”.
@@ -483,7 +483,7 @@ Rozpocznij ruch podciągania, chcąc zbliżyć klatkę piersiową do sztangi.
 Kontrolując ruch, powróć do pozycji startowej.
 Na samym początku możesz przybierać pozycję bardziej pionową, a więc nie ustawiać tułowia równolegle do podłoża, zrobisz to ustawiając sztangę nieco wyżej.
 Możesz wybrać podchwyt, wówczas złap sztangę na szerokość barków.
-| WIOSŁOWANIE KOŃCEM SZTANGI
+; WIOSŁOWANIE KOŃCEM SZTANGI
 Jedną stronę sztangi przymocuj, tak aby była stabilna. Może do tego posłużyć specjalny sprzęt trzymający sztangę, gotowa maszyna do tego rodzaju wiosłowań lub po prostu róg pomieszczenia.
 Na drugiej stronie sztangi umieść ciężar oraz uchwyt trójkątny, który pozwoli Ci na stabilne utrzymanie sztangi.
 Ugnij kolana, napnij brzuch, ściągnij łopatki.
@@ -491,7 +491,7 @@ Głowa powinna stanowić przedłużenie tułowia.
 Rozpocznij ruch przyciągania sztangi w okolice Twojego brzucha. Skup się na tym, aby zbliżyć do siebie łopatki.
 Kontrolując ruch, powróć do pozycji początkowej.
 To ćwiczenie najlepiej wykonywać na specjalnie przygotowanej do niego maszynie, być może znajdziesz ją na swojej siłowni. To znacząco ułatwi Ci cały proces.
-; KLATKA PIERSIOWA
+| KLATKA PIERSIOWA
 ……………………………………
 ; POMPKA
 1. Ustaw się w klęku podpartym. Nadgarstek, łokieć i bark powinny być ustawione w jednej linii. Dłonie rozstaw nieco szerzej niż szerokość barków.
@@ -512,7 +512,7 @@ Jeśli nie jesteś w stanie wykonać pełnej pompki, rozpocznij od pompki w podp
 9. Rozpocznij ruch opuszczania sztangi w okolice mostka, prowadząc łokcie pod kątem 45 stopni względem tułowia.
 10. Dotknij sztangą okolic mostka i rozpocznij ruch wyciskania sztangi w górę i delikatnie w tył, aby znalazła się nad Twoją brodą.
 W trakcie wyciskania sztangi możesz mocniej zaangażować do pracy nogi, wciskając je mocno w podłoże i “odpychając się” nimi. W rzeczywistości oczywiście nie możesz oderwać ich od podłoża, ale siła wychodząca z Twoich nóg, przypominająca odbicie, pozwoli Ci podnieść większy ciężar.
-| ROZPIĘTKI Z HANTLAMI
+; ROZPIĘTKI Z HANTLAMI
 1. Hantle złap w obie dłonie i połóż się na ławce.
 2. Umieść hantle nad głową.
 3. Ściągnij łopatki i delikatnie ugnij łokcie.
@@ -551,7 +551,7 @@ Powróć do pozycji wyjściowej, skupiając się na spięciu klatki piersiowej.
 2. Ściągnij łopatki i złap uchwyty maszyny.
 3. Rozpocznij ruch zbliżania do siebie uchwytów, skupiając się na pracy mięśni klatki piersiowej.
 4. Kontrolując ruch powróć do pozycji startowej.
-; BRZUCH
+| BRZUCH
 …………………………….
 ; HOLLOW BODY
 1.Połóż się na macie i przyklej odcinek lędźwiowy do podłoża.
