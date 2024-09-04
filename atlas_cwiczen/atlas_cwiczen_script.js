@@ -112,7 +112,7 @@ function initializeAtlasCwiczen() {
                            const exerciseNameForUrl = exerciseName.replace(/\s+/g, '_');
 
                           // Preparing potential image paths with underscores
-                          	const baseUrl = "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/";
+                          	const baseUrl = "../img/atlas_cwiczen/";
                           	const img1Jpg = `${baseUrl}${encodeURIComponent(exerciseNameForUrl)}_1.jpg`;
 							
                           	loadImage(img1Jpg, exerciseName, linkElement);
@@ -135,7 +135,7 @@ function initializeAtlasCwiczen() {
             }
 
             // Use the provided URL for the text file
-            loadAndGenerateGrid('https://agaciasta.github.io/formazycia/resource/ATLAS_ĆWICZEŃ.txt');
+            loadAndGenerateGrid('../resource/ATLAS_ĆWICZEŃ.txt');
 
             // Implement search functionality
             searchBox.addEventListener('input', function() {
