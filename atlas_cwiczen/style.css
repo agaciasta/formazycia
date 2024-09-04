@@ -1,0 +1,111 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Top menu styling */
+#top-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    position: sticky;
+    top: 40px; /* Stick 40px below the top */
+    z-index: 1000;
+}
+
+#top-menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin: 0 5px;
+}
+
+#top-menu a:hover {
+    background-color: #ddd;
+}
+
+#search-box {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: 20px;
+    autocomplete: off;
+}
+
+/* Section styling */
+.section-container {
+    scroll-margin-top: 140px; /* Ensures section starts below the sticky menu when navigated to */
+    padding-top: 20px;
+    margin-bottom: 40px; /* Space between sections */
+    position: relative; /* Allow positioning for the arrow */
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    user-select: none; /* Prevent text selection */
+}
+
+.section-toggle {
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.section-toggle.collapsed {
+    transform: rotate(-90deg); /* Rotate the arrow when collapsed */
+}
+
+/* Grid container for exercises */
+.atlas-cwiczen-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust grid item size */
+    gap: 20px; /* Increase gap between grid items */
+    margin-top: 10px; /* Space between arrow and grid */
+}
+
+/* Individual grid items */
+.atlas-cwiczen-grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 20px; /* Increase padding */
+    height: auto; /* Allow height to adjust based on content */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Images inside grid items */
+.atlas-cwiczen-grid-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* Space between the image and the title */
+    aspect-ratio: 16/9; /* Maintain 16:9 aspect ratio */
+    object-fit: cover;
+}
+
+/* Captions under images */
+.atlas-cwiczen-grid-item p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center; /* Center text under the image */
+}
