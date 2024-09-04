@@ -14,7 +14,6 @@ body {
     background-color: #f1f1f1;
     border-radius: 8px;
     position: sticky;
-    top: 40px; /* Stick 40px below the top */
     z-index: 1000;
 }
 
@@ -40,12 +39,11 @@ body {
     border-radius: 4px;
     margin-left: auto;
     margin-right: 20px;
-    autocomplete: off;
 }
 
 /* Section styling */
 .section-container {
-    scroll-margin-top: 140px; /* Ensures section starts below the sticky menu when navigated to */
+    scroll-margin-top: 100px; /* Ensures section starts below the sticky menu when navigated to */
     padding-top: 20px;
     margin-bottom: 40px; /* Space between sections */
     position: relative; /* Allow positioning for the arrow */
