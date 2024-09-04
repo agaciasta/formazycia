@@ -1,21 +1,5 @@
-let currentPreviewNumber = null; // Track the current preview number
-
-function initializeAtlasCwiczen(previewNumber) {
-    console.log("Initializing Atlas Cwiczen...");
-
-    if (previewNumber === currentPreviewNumber) {
-        console.log("Same preview number, skipping reinitialization.");
-        return;
-    }
-
-    currentPreviewNumber = previewNumber; // Update the current preview number
-
-    function clearPreviousContent() {
-        const displayElement = document.getElementById('atlas_cwiczen_display');
-        const topMenuLinks = document.getElementById('menu-links');
-        displayElement.innerHTML = '';
-        topMenuLinks.innerHTML = '';
-    }
+function initializeAtlasCwiczen() {
+    console.log("Script loaded and running.");
 
     function tryInitialize() {
         const displayElement = document.getElementById('atlas_cwiczen_display');
@@ -28,7 +12,6 @@ function initializeAtlasCwiczen(previewNumber) {
             // Clear the search box on load to prevent autofill issues
             searchBox.value = '';
 
-            // Function to load only JPG images with exercise name as alt
             async function loadImage(imageUrl, exerciseName, linkElement) {
                 console.log(`Trying to load image from: ${imageUrl}`);
                 try {
@@ -50,28 +33,28 @@ function initializeAtlasCwiczen(previewNumber) {
             }
 
             async function loadAndGenerateGrid(url) {
-                console.log(`Fetching text file from: ${url}`);
+                //console.log(`Fetching text file from: ${url}`);
                 try {
                     const response = await fetch(url);
                     if (!response.ok) {
                         throw new Error(`Failed to fetch the text file: ${response.statusText}`);
                     }
                     const text = await response.text();
-                    console.log("Text file fetched successfully.");
+                    //console.log("Text file fetched successfully.");
                     
                     const lines = text.split('\n');
-                    console.log(`Text file split into ${lines.length} lines.`);
+                    //console.log(`Text file split into ${lines.length} lines.`);
 
                     let currentSection = null;
                     let gridContainer = null;
-                    let basePreviewNumber = 54839; // Start from this number for the first grid item
+                  	let basePreviewNumber = 54839;
 
                     lines.forEach(line => {
                         line = line.trim();
-                        console.log(`Processing line: ${line}`);
+                        //console.log(`Processing line: ${line}`);
 
                         if (line.startsWith('|')) {
-                            console.log("Detected new section.");
+                            //console.log("Detected new section.");
                             const sectionId = line.substring(1).trim().toLowerCase().replace(/\s+/g, '-');
                             currentSection = document.createElement('div');
                             currentSection.className = 'section-container';
@@ -113,14 +96,11 @@ function initializeAtlasCwiczen(previewNumber) {
 
                             displayElement.appendChild(currentSection);
                         } else if (line.startsWith(';') && gridContainer) {
-                            console.log("Detected new grid item.");
+                            //console.log("Detected new grid item.");
                             const gridItem = document.createElement('div');
                             gridItem.className = 'atlas-cwiczen-grid-item';
 
                             const exerciseName = line.substring(1).trim();
-                            const encodedExerciseName = encodeURIComponent(exerciseName);
-
-                            const jpgUrl = `https://agaciasta.github.io/formazycia/img/atlas_cwiczen/${encodedExerciseName} 1.jpg`;
 
                             const previewUrl = `https://skyier.com/home/courses/5615/preview/${basePreviewNumber}`; // Generate the preview URL
                             basePreviewNumber += 1; // Increment for the next grid item
@@ -129,9 +109,14 @@ function initializeAtlasCwiczen(previewNumber) {
                             const linkElement = document.createElement('a');
                             linkElement.href = previewUrl;
 
-                            // Load the image into the link element
-                            loadImage(jpgUrl, exerciseName, linkElement);
+                           const exerciseNameForUrl = exerciseName.replace(/\s+/g, '_');
 
+                          // Preparing potential image paths with underscores
+                          	const baseUrl = "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/";
+                          	const img1Jpg = `${baseUrl}${encodeURIComponent(exerciseNameForUrl)}_1.jpg`;
+							
+                          	loadImage(img1Jpg, exerciseName, linkElement);
+                          
                             // Create and append the caption
                             const caption = document.createElement('p');
                             caption.textContent = exerciseName;
@@ -149,7 +134,7 @@ function initializeAtlasCwiczen(previewNumber) {
                 }
             }
 
-            clearPreviousContent();  // Clear previous content before reinitializing
+            // Use the provided URL for the text file
             loadAndGenerateGrid('https://agaciasta.github.io/formazycia/resource/ATLAS_ĆWICZEŃ.txt');
 
             // Implement search functionality
@@ -174,30 +159,5 @@ function initializeAtlasCwiczen(previewNumber) {
     setTimeout(tryInitialize, 500); // Wait for 500ms and then try to initialize
 }
 
-// Function to detect and handle URL changes
-function handleURLChange() {
-    const previewNumber = window.location.pathname.split('/').pop();
-    initializeAtlasCwiczen(previewNumber);
-}
-
-// Initialize on page load
-document.addEventListener('DOMContentLoaded', handleURLChange);
-
-// Listen for URL changes to reinitialize
-window.addEventListener('popstate', handleURLChange);
-
-// Monitor history pushState and replaceState to catch URL changes
-(function(history) {
-    const pushState = history.pushState;
-    const replaceState = history.replaceState;
-
-    history.pushState = function(state, title, url) {
-        pushState.call(history, state, title, url);
-        handleURLChange(); // Handle the URL change
-    };
-
-    history.replaceState = function(state, title, url) {
-        replaceState.call(history, state, title, url);
-        handleURLChange(); // Handle the URL change
-    };
-})(window.history);
+// Wait for DOMContentLoaded, then initialize the script
+document.addEventListener('DOMContentLoaded', initializeAtlasCwiczen);
