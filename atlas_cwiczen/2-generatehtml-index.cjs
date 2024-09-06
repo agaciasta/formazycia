@@ -55,7 +55,7 @@ fs.readFile("atlas.json", "utf8", (err, data) => {
 
       const previewUrl = `https://skyier.com/home/courses/5615/preview/${basePreviewNumber}`;
       htmlContent += `
-            <a href='https://skyier.com/home/courses/5615/preview/${basePreviewNumber++}'> <div class="atlas-cwiczen-grid-item exercise col-md-4 mb-4" data-name="${exercise.toLowerCase()}">
+            <a href='https://skyier.com/home/courses/5615/preview/${basePreviewNumber++}' target="_parent"> <div class="atlas-cwiczen-grid-item exercise col-md-4 mb-4" data-name="${exercise.toLowerCase()}">
                 <div class="card">
                     <img src="${jpg}" class="card-img-top" alt="${exercise}">
                     <div class="card-body">
