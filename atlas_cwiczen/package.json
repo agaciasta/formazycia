@@ -1,0 +1,9 @@
+{
+  "name": "your-project",
+  "version": "1.0.0",
+  "type": "module",
+  
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}

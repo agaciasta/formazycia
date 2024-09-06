@@ -6,6 +6,7 @@ body {
 
 /* Top menu styling */
 #top-menu {
+    width: 1700px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,7 +32,7 @@ body {
     background-color: #ddd;
 }
 
-#search-box {
+#search {
     width: 300px;
     padding: 10px;
     font-size: 16px;
@@ -73,18 +74,18 @@ body {
 /* Grid container for exercises */
 .atlas-cwiczen-grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust grid item size */
-    gap: 20px; /* Increase gap between grid items */
+    grid-template-columns: repeat(4, 0.1fr);; /* Adjust grid item size */
+    gap: 10px; /* Increase gap between grid items */
     margin-top: 10px; /* Space between arrow and grid */
 }
 
 /* Individual grid items */
 .atlas-cwiczen-grid-item {
     background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid #ddd;
     text-align: center;
     padding: 20px; /* Increase padding */
     height: auto; /* Allow height to adjust based on content */
+    width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
