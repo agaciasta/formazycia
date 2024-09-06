@@ -37,6 +37,7 @@ fs.readFile("atlas.json", "utf8", (err, data) => {
         <div id="exercise-list">
     `;
 
+    let basePreviewNumber = 54839;
   // Add exercises to the HTML content
   for (const category in exercisesData) {
 
@@ -51,8 +52,10 @@ fs.readFile("atlas.json", "utf8", (err, data) => {
     for (const exercise in exercisesData[category]) {
       const details = exercisesData[category][exercise];
       const jpg = details.jpgUrl;
+
+      const previewUrl = `https://skyier.com/home/courses/5615/preview/${basePreviewNumber}`;
       htmlContent += `
-            <div class="atlas-cwiczen-grid-item exercise col-md-4 mb-4" data-name="${exercise.toLowerCase()}">
+            <a href='https://skyier.com/home/courses/5615/preview/${basePreviewNumber++}'> <div class="atlas-cwiczen-grid-item exercise col-md-4 mb-4" data-name="${exercise.toLowerCase()}">
                 <div class="card">
                     <img src="${jpg}" class="card-img-top" alt="${exercise}">
                     <div class="card-body">
@@ -64,6 +67,7 @@ fs.readFile("atlas.json", "utf8", (err, data) => {
                     </div>
                 </div>
             </div>
+            </a>
             `;
     }
 

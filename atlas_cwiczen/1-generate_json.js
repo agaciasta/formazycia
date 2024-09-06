@@ -10,31 +10,31 @@ async function loadDataAndGenerateJSON(url) {
   let currentExercise = "";
   let steps = [];
   let jpgUrl = "";
-  let pngUrl = "";
+  let jpgUrl2 = "";
 
   lines.forEach((line) => {
     if (line.startsWith("|")) {
       if (currentSection) {
         jsonData[currentSection] = jsonData[currentSection] || {};
         if (currentExercise) {
-          jsonData[currentSection][currentExercise] = { steps, jpgUrl, pngUrl };
+          jsonData[currentSection][currentExercise] = { steps, jpgUrl, jpgUrl2 };
         }
       }
       currentSection = line.slice(1).trim();
       currentExercise = "";
       steps = [];
       jpgUrl = "";
-      pngUrl = "";
+      jpgUrl2 = "";
     } else if (line.startsWith(";")) {
       if (currentExercise) {
-        jsonData[currentSection][currentExercise] = { steps, jpgUrl, pngUrl };
+        jsonData[currentSection][currentExercise] = { steps, jpgUrl, jpgUrl2 };
       }
       jsonData[currentSection] = jsonData[currentSection] || {}; // Ensure the section is initialized
       currentExercise = line.slice(1).trim();
 
       const exerciseNameForUrl = currentExercise.replace(/\s+/g, '_');
       jpgUrl = encodeURI(`https://agaciasta.github.io/formazycia/img/atlas_cwiczen/${exerciseNameForUrl}_1.jpg`);
-      pngUrl = encodeURI(`https://agaciasta.github.io/formazycia/img/atlas_cwiczen/${exerciseNameForUrl}_1.png`);
+      jpgUrl2 = encodeURI(`https://agaciasta.github.io/formazycia/img/atlas_cwiczen/${exerciseNameForUrl}_2.jpg`);
       steps = [];
     } else if (line.trim() !== "") {
       steps.push(line.trim());
@@ -42,7 +42,7 @@ async function loadDataAndGenerateJSON(url) {
   });
 
   if (currentSection && currentExercise) {
-    jsonData[currentSection][currentExercise] = { steps, jpgUrl, pngUrl };
+    jsonData[currentSection][currentExercise] = { steps, jpgUrl, jpgUrl2 };
   }
 
   return jsonData;
@@ -138,7 +138,7 @@ async function loadAndGenerateGrid(url) {
         const exerciseNameForUrl = exerciseName.replace(/\s+/g, '_');
 
         const jpgUrl = `https://agaciasta.github.io/formazycia/img/atlas_cwiczen/${exerciseNameForUrl}_1.jpg`;
-        const pngUrl = `https://agaciasta.github.io/formazycia/img/atlas_cwiczen/${exerciseNameForUrl}_1.png`;
+        const jpgUrl2 = `https://agaciasta.github.io/formazycia/img/atlas_cwiczen/${exerciseNameForUrl}_1.png`;
 
         const previewUrl = `https://skyier.com/home/courses/5615/preview/${basePreviewNumber}`; // Generate the preview URL
         basePreviewNumber += 1; // Increment for the next grid item
@@ -148,7 +148,7 @@ async function loadAndGenerateGrid(url) {
         linkElement.href = previewUrl;
 
         // Load the image into the link element
-        loadImage(jpgUrl, pngUrl, linkElement);
+        loadImage(jpgUrl, jpgUrl2, linkElement);
 
         // Create and append the caption
         const caption = document.createElement("p");

@@ -12,24 +12,25 @@ body {
     align-items: center;
     margin-bottom: 20px;
     padding: 10px;
-    background-color: #f1f1f1;
+    background-color: rgba(111,66,193,255);
     border-radius: 8px;
     position: sticky;
     z-index: 1000;
+    top: 0;
 }
 
 #top-menu a {
     text-decoration: none;
-    color: #333;
+    color: white;
     font-size: 16px;
     padding: 10px;
-    border-radius: 4px;
+    border-radius: 5px;
     transition: background-color 0.3s;
     margin: 0 5px;
 }
 
 #top-menu a:hover {
-    background-color: #ddd;
+    background-color: rgba(94,56,164,255);
 }
 
 #search {
@@ -79,6 +80,11 @@ body {
     margin-top: 10px; /* Space between arrow and grid */
 }
 
+.atlas-cwiczen-grid-container a
+{
+    text-decoration: none;
+}
+
 /* Individual grid items */
 .atlas-cwiczen-grid-item {
     background-color: rgba(255, 255, 255, 0.8);
@@ -92,19 +98,42 @@ body {
     align-items: center;
 }
 
+.card
+{
+    border: 2px solid rgba(184,135,255,255);
+    -webkit-box-shadow: 0px -3px 52px -21px rgba(184, 135, 255, 1);
+    -moz-box-shadow: 0px -3px 52px -21px rgba(184, 135, 255, 1);
+    box-shadow: 0px -3px 52px -21px rgba(184, 135, 255, 1);
+    transition: all .5s ease-in-out;
+}
+
+.card:hover
+{
+    transform: translateY(-2%);
+    opacity: 0.9;
+}
+
 /* Images inside grid items */
-.atlas-cwiczen-grid-item img {
+.card-img-top {
     width: 100%;
     height: auto;
-    margin-bottom: 10px; /* Space between the image and the title */
     aspect-ratio: 16/9; /* Maintain 16:9 aspect ratio */
     object-fit: cover;
 }
 
+.card-body
+{
+    min-height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px solid rgba(184,135,255,255);
+}
+
 /* Captions under images */
-.atlas-cwiczen-grid-item p {
+.card-title {
     margin: 0;
-    font-size: 16px;
     line-height: 1.2;
     text-align: center; /* Center text under the image */
+    text-decoration: none;
 }

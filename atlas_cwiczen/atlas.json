@@ -16,7 +16,7 @@
         "12. Możesz dopiąć pośladki w górnej fazie, pamiętaj jednak, aby nie robić przeprostu."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZYSIAD_KLASYCZNY_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZYSIAD_KLASYCZNY_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZYSIAD_KLASYCZNY_2.jpg"
     },
     "BOX SQUAT": {
       "steps": [
@@ -32,7 +32,7 @@
         "10. Możesz dopiąć pośladki w górnej fazie, pamiętaj jednak, aby nie robić przeprostu."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/BOX_SQUAT_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/BOX_SQUAT_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/BOX_SQUAT_2.jpg"
     },
     "GOBLET SQUAT": {
       "steps": [
@@ -44,7 +44,7 @@
         "Wróć do pozycji wyjściowej, napinając pośladki w górnej fazie ruchu."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/GOBLET_SQUAT_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/GOBLET_SQUAT_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/GOBLET_SQUAT_2.jpg"
     },
     "PRZYSIAD SUMO": {
       "steps": [
@@ -58,7 +58,7 @@
         "W górnej fazie dopnij pośladki, ale nie wykonuj przeprostu w odcinku lędźwiowym kręgosłupa."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZYSIAD_SUMO_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZYSIAD_SUMO_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZYSIAD_SUMO_2.jpg"
     },
     "FRONT SQUAT (PRZYSIAD ZE SZTANGĄ Z PRZODU)": {
       "steps": [
@@ -73,7 +73,7 @@
         "9. W górnej fazie dopnij pośladki, ale nie wykonuj przeprostu w odcinku lędźwiowym kręgosłupa."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/FRONT_SQUAT_(PRZYSIAD_ZE_SZTANG%C4%84_Z_PRZODU)_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/FRONT_SQUAT_(PRZYSIAD_ZE_SZTANG%C4%84_Z_PRZODU)_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/FRONT_SQUAT_(PRZYSIAD_ZE_SZTANG%C4%84_Z_PRZODU)_2.jpg"
     },
     "PRZYSIAD BUŁGARSKI": {
       "steps": [
@@ -87,7 +87,7 @@
         "Jeźeli przystąpisz do ćwiczenia z ciężarem, hantle złap w obie ręce, ściągnij i obniż łopatki."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZYSIAD_BU%C5%81GARSKI_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZYSIAD_BU%C5%81GARSKI_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZYSIAD_BU%C5%81GARSKI_2.jpg"
     },
     "WYCISKANIE NA SUWNICY": {
       "steps": [
@@ -100,7 +100,7 @@
         "Głowa może spoczywać na oparciu, jednak preferuję, aby patrzeć przed siebie i zachować spięcie całej przedniej taśmy."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYCISKANIE_NA_SUWNICY_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYCISKANIE_NA_SUWNICY_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYCISKANIE_NA_SUWNICY_2.jpg"
     },
     "WYCISKANIE NA SUWNICY JEDNONÓŻ": {
       "steps": [
@@ -114,7 +114,7 @@
         "W górnej fazie ruchu nie doprowadzaj do przeprostu kolana. Pozostaw je delikatnie ugięte."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYCISKANIE_NA_SUWNICY_JEDNON%C3%93%C5%BB_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYCISKANIE_NA_SUWNICY_JEDNON%C3%93%C5%BB_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYCISKANIE_NA_SUWNICY_JEDNON%C3%93%C5%BB_2.jpg"
     },
     "MARTWY CIĄG SUMO": {
       "steps": [
@@ -130,7 +130,7 @@
         "W tym ćwiczeniu możesz przybrać odpowiednią pozycję jeszcze zanim chwycisz sztangę, a więc najpierw ściągnąć łopatki, napiąć brzuch, wyprostować plecy i dopiero pionowo zejść w kierunku sztangi, lub najpierw złapać sztangę i dopiero później odpowiednio ustawić plecy. Najważniejsze jest jednak, abyś zaczęła ruch dopiero w momencie, kiedy Twoje plecy są proste, a brzuch napięty."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/MARTWY_CI%C4%84G_SUMO_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/MARTWY_CI%C4%84G_SUMO_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/MARTWY_CI%C4%84G_SUMO_2.jpg"
     },
     "MARTWY CIĄG KLASYCZNY": {
       "steps": [
@@ -145,7 +145,7 @@
         "9.Powróć do pozycji startowej, opuszczając sztangę blisko nóg, zachowując spięcie brzucha i proste plecy."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/MARTWY_CI%C4%84G_KLASYCZNY_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/MARTWY_CI%C4%84G_KLASYCZNY_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/MARTWY_CI%C4%84G_KLASYCZNY_2.jpg"
     },
     "MARTWY CIĄG RUMUŃSKI": {
       "steps": [
@@ -163,7 +163,7 @@
         "11. Napnij pośladki w górnej fazie ruchu, ale nie wykonuj przeprostu."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/MARTWY_CI%C4%84G_RUMU%C5%83SKI_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/MARTWY_CI%C4%84G_RUMU%C5%83SKI_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/MARTWY_CI%C4%84G_RUMU%C5%83SKI_2.jpg"
     },
     "MARTWY CIĄG NA PROSTYCH NOGACH": {
       "steps": [
@@ -178,7 +178,7 @@
         "9.Powróć do pozycji startowej, opuszczając sztangę blisko nóg, zachowując spięcie brzucha i proste plecy."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/MARTWY_CI%C4%84G_NA_PROSTYCH_NOGACH_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/MARTWY_CI%C4%84G_NA_PROSTYCH_NOGACH_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/MARTWY_CI%C4%84G_NA_PROSTYCH_NOGACH_2.jpg"
     },
     "MARTWY CIĄG JEDNONÓŻ": {
       "steps": [
@@ -193,7 +193,7 @@
         "Staraj się wykonywać to ćwiczenie bez podpierania się, w celu poprawy równowagi. To Twoje pośladki są odpowiedzialne za utrzymanie równowagi, a więc chwytając się czegoś - odbierasz im pracę."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/MARTWY_CI%C4%84G_JEDNON%C3%93%C5%BB_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/MARTWY_CI%C4%84G_JEDNON%C3%93%C5%BB_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/MARTWY_CI%C4%84G_JEDNON%C3%93%C5%BB_2.jpg"
     },
     "DZIEŃ DOBRY": {
       "steps": [
@@ -206,7 +206,7 @@
         "Dzień dobry to trochę gorsza wersja martwego ciągu rumuńskiego, jeśli więc masz do wyboru te dwa ćwiczenia, zdecydowanie bardziej polecam martwy ciąg rumuński."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/DZIE%C5%83_DOBRY_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/DZIE%C5%83_DOBRY_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/DZIE%C5%83_DOBRY_2.jpg"
     },
     "ZAKROKI": {
       "steps": [
@@ -218,7 +218,7 @@
         "Jeśli wykonujesz to ćwiczenie z ciężarem, pamiętaj aby dodatkowo mocno spiąć łopatki."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ZAKROKI_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ZAKROKI_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ZAKROKI_2.jpg"
     },
     "ZAKROKI Z PODWYŻSZENIA": {
       "steps": [
@@ -230,7 +230,7 @@
         "Jeśli wykonujesz to ćwiczenie z ciężarem, pamiętaj aby dodatkowo mocno spiąć łopatki."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ZAKROKI_Z_PODWY%C5%BBSZENIA_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ZAKROKI_Z_PODWY%C5%BBSZENIA_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ZAKROKI_Z_PODWY%C5%BBSZENIA_2.jpg"
     },
     "WYKROKI CHODZONE": {
       "steps": [
@@ -242,7 +242,7 @@
         "Jeśli wykonujesz to ćwiczenie z ciężarem, pamiętaj aby dodatkowo mocno spiąć łopatki."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYKROKI_CHODZONE_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYKROKI_CHODZONE_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYKROKI_CHODZONE_2.jpg"
     },
     "WYKROKI W MIEJSCU": {
       "steps": [
@@ -254,7 +254,7 @@
         "6. Powtórz ruch drugą nogą."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYKROKI_W_MIEJSCU_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYKROKI_W_MIEJSCU_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYKROKI_W_MIEJSCU_2.jpg"
     },
     "SIDE LYING HIP RAISE": {
       "steps": [
@@ -265,7 +265,7 @@
         "Kontrolując ruch, powróć do pozycji startowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/SIDE_LYING_HIP_RAISE_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/SIDE_LYING_HIP_RAISE_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/SIDE_LYING_HIP_RAISE_2.jpg"
     },
     "PRZYWODZENIE GUMY POWER BAND": {
       "steps": [
@@ -277,7 +277,7 @@
         "Wykonaj ruch przywodzenia nogi, dążąc do tego zbliżenia się Twoich stóp."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZYWODZENIE_GUMY_POWER_BAND_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZYWODZENIE_GUMY_POWER_BAND_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZYWODZENIE_GUMY_POWER_BAND_2.jpg"
     },
     "MONSTERWALK": {
       "steps": [
@@ -288,7 +288,7 @@
         "Drugą nogą wykonaj dokładnie ten sam ruch."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/MONSTERWALK_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/MONSTERWALK_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/MONSTERWALK_2.jpg"
     },
     "ODWODZENIE NOGI W TYŁ NA WYCIĄGU": {
       "steps": [
@@ -300,7 +300,7 @@
         "Powróć do pozycji, kiedy jedna z nóg znajduje się bliżej wyciągu."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ODWODZENIE_NOGI_W_TY%C5%81_NA_WYCI%C4%84GU_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ODWODZENIE_NOGI_W_TY%C5%81_NA_WYCI%C4%84GU_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ODWODZENIE_NOGI_W_TY%C5%81_NA_WYCI%C4%84GU_2.jpg"
     },
     "ODWODZENIE NOGI W BOK NA WYCIĄGU": {
       "steps": [
@@ -311,7 +311,7 @@
         "Powróć do pozycji, kiedy jedna z nóg znajduje się bliżej wyciągu."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ODWODZENIE_NOGI_W_BOK_NA_WYCI%C4%84GU_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ODWODZENIE_NOGI_W_BOK_NA_WYCI%C4%84GU_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ODWODZENIE_NOGI_W_BOK_NA_WYCI%C4%84GU_2.jpg"
     },
     "UNOSZENIE NOGI Z DEFICYTU": {
       "steps": [
@@ -322,7 +322,7 @@
         "Kontrolując ruch, powróć do pozycji czyli momentu, kiedy noga znajduje się znacznie niżej niż ławeczka."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/UNOSZENIE_NOGI_Z_DEFICYTU_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/UNOSZENIE_NOGI_Z_DEFICYTU_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/UNOSZENIE_NOGI_Z_DEFICYTU_2.jpg"
     },
     "UGINANIE UD NA MASZYNIE LEŻĄC": {
       "steps": [
@@ -332,7 +332,7 @@
         "Kontrolując ruch, powróć do pozycji wyprostu kolan."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/UGINANIE_UD_NA_MASZYNIE_LE%C5%BB%C4%84C_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/UGINANIE_UD_NA_MASZYNIE_LE%C5%BB%C4%84C_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/UGINANIE_UD_NA_MASZYNIE_LE%C5%BB%C4%84C_2.jpg"
     },
     "WYPROSTY UD NA MASZYNIE": {
       "steps": [
@@ -342,7 +342,7 @@
         "Kontrolując ruch, powróć do pozycji zgięcia kolan."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYPROSTY_UD_NA_MASZYNIE_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYPROSTY_UD_NA_MASZYNIE_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYPROSTY_UD_NA_MASZYNIE_2.jpg"
     },
     "FROG PUMP": {
       "steps": [
@@ -352,7 +352,7 @@
         "Zepnij pośladki, a następnie powróć do pozycji startowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/FROG_PUMP_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/FROG_PUMP_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/FROG_PUMP_2.jpg"
     },
     "HIP THRUST JEDNONÓŻ": {
       "steps": [
@@ -364,7 +364,7 @@
         "Zepnij pośladek, a następnie kontrolując ruch, trzymając napięty brzuch, powróć do pozycji wyjściowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/HIP_THRUST_JEDNON%C3%93%C5%BB_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/HIP_THRUST_JEDNON%C3%93%C5%BB_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/HIP_THRUST_JEDNON%C3%93%C5%BB_2.jpg"
     },
     "HIP THRUST": {
       "steps": [
@@ -378,7 +378,7 @@
         "Kontrolując ruch, trzymając napięty brzuch, powróć do pozycji wyjściowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/HIP_THRUST_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/HIP_THRUST_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/HIP_THRUST_2.jpg"
     },
     "GLUTE BRIDGE": {
       "steps": [
@@ -391,7 +391,7 @@
         "Gdy wykonasz pełny wyprost biodra, kontrolując ruch, powróć do pozycji wyjściowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/GLUTE_BRIDGE_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/GLUTE_BRIDGE_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/GLUTE_BRIDGE_2.jpg"
     },
     "STRADDLE LIFT": {
       "steps": [
@@ -406,7 +406,7 @@
         "W górnej fazie dopnij pośladki, ale nie wykonuj przeprostu w odcinku lędźwiowym kręgosłupa."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/STRADDLE_LIFT_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/STRADDLE_LIFT_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/STRADDLE_LIFT_2.jpg"
     },
     "CABLE PULLTHROUGH": {
       "steps": [
@@ -420,7 +420,7 @@
         "Mocno zepnij pośladki w górnej fazie ruchu."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/CABLE_PULLTHROUGH_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/CABLE_PULLTHROUGH_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/CABLE_PULLTHROUGH_2.jpg"
     },
     "PRZYWODZENIE KOPENHASKIE": {
       "steps": [
@@ -431,7 +431,7 @@
         "Kontrolując ruch, powróć do pozycji wyjściowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZYWODZENIE_KOPENHASKIE_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZYWODZENIE_KOPENHASKIE_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZYWODZENIE_KOPENHASKIE_2.jpg"
     },
     "WSTĘPOWANIE NA SKRZYNIĘ BOKIEM": {
       "steps": [
@@ -442,7 +442,7 @@
         "Wysokość skrzyni dopasuj do swoich możliwości. Im większa będzie siła Twoich mięśni, tym wyższy podest możesz zastosować."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WST%C4%98POWANIE_NA_SKRZYNI%C4%98_BOKIEM_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WST%C4%98POWANIE_NA_SKRZYNI%C4%98_BOKIEM_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WST%C4%98POWANIE_NA_SKRZYNI%C4%98_BOKIEM_2.jpg"
     },
     "WSTĘPOWANIE NA SKRZYNIĘ PRZODEM": {
       "steps": [
@@ -453,7 +453,7 @@
         "Wysokość skrzyni dopasuj do swoich możliwości. Im większa będzie siła Twoich mięśni, tym wyższy podest możesz zastosować."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WST%C4%98POWANIE_NA_SKRZYNI%C4%98_PRZODEM_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WST%C4%98POWANIE_NA_SKRZYNI%C4%98_PRZODEM_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WST%C4%98POWANIE_NA_SKRZYNI%C4%98_PRZODEM_2.jpg"
     }
   },
   "RAMIONA": {
@@ -467,7 +467,7 @@
         "6. Łokcie prowadź blisko ciała przez cały ruch."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PROSTOWANIE_PRZEDRAMION_NA_WYCI%C4%84GU_ZZA_G%C5%81OWY_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PROSTOWANIE_PRZEDRAMION_NA_WYCI%C4%84GU_ZZA_G%C5%81OWY_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PROSTOWANIE_PRZEDRAMION_NA_WYCI%C4%84GU_ZZA_G%C5%81OWY_2.jpg"
     },
     "PROSTOWANIE PRZEDRAMION NA WYCIĄGU": {
       "steps": [
@@ -478,7 +478,7 @@
         "5. Łokcie prowadź blisko ciała przez cały ruch."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PROSTOWANIE_PRZEDRAMION_NA_WYCI%C4%84GU_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PROSTOWANIE_PRZEDRAMION_NA_WYCI%C4%84GU_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PROSTOWANIE_PRZEDRAMION_NA_WYCI%C4%84GU_2.jpg"
     },
     "WYCISKANIE HANTLA ZZA GŁOWY": {
       "steps": [
@@ -488,7 +488,7 @@
         "4. Łokcie prowadź blisko ciała przez cały ruch"
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYCISKANIE_HANTLA_ZZA_G%C5%81OWY_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYCISKANIE_HANTLA_ZZA_G%C5%81OWY_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYCISKANIE_HANTLA_ZZA_G%C5%81OWY_2.jpg"
     },
     "UGINANIE PRZEDRAMION CHWYTEM MŁOTKOWYM": {
       "steps": [
@@ -497,7 +497,7 @@
         "3. Wykonaj ruch uginania przedramion, tak aby hantle znalazły się w okolicy Twoich barków."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/UGINANIE_PRZEDRAMION_CHWYTEM_M%C5%81OTKOWYM_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/UGINANIE_PRZEDRAMION_CHWYTEM_M%C5%81OTKOWYM_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/UGINANIE_PRZEDRAMION_CHWYTEM_M%C5%81OTKOWYM_2.jpg"
     },
     "UGINANIE PRZEDRAMION NA WYCIĄGU": {
       "steps": [
@@ -507,7 +507,7 @@
         "4. Wykonaj ruch uginania przedramion, tak aby uchwyt znalazł się w okolicach Twoich barków (najlepiej tuż nad nimi)."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/UGINANIE_PRZEDRAMION_NA_WYCI%C4%84GU_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/UGINANIE_PRZEDRAMION_NA_WYCI%C4%84GU_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/UGINANIE_PRZEDRAMION_NA_WYCI%C4%84GU_2.jpg"
     },
     "UGINANIE PRZEDRAMION Z SUPINACJĄ": {
       "steps": [
@@ -517,7 +517,7 @@
         "4. Kontrolując ruch, powróć do pozycji startowej i wykonaj to samo drugą ręką."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/UGINANIE_PRZEDRAMION_Z_SUPINACJ%C4%84_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/UGINANIE_PRZEDRAMION_Z_SUPINACJ%C4%84_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/UGINANIE_PRZEDRAMION_Z_SUPINACJ%C4%84_2.jpg"
     },
     "UGINANIE PRZEDRAMION ZE SZTANGĄ": {
       "steps": [
@@ -527,7 +527,7 @@
         "Kontrolując ruch, powróć do pozycji wyjściowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/UGINANIE_PRZEDRAMION_ZE_SZTANG%C4%84_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/UGINANIE_PRZEDRAMION_ZE_SZTANG%C4%84_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/UGINANIE_PRZEDRAMION_ZE_SZTANG%C4%84_2.jpg"
     },
     "WYCISKANIE SZTANGI WĄSKO": {
       "steps": [
@@ -542,7 +542,7 @@
         "Gdy sztanga dotknie okolic mostka, rozpocznij ruch wyciskania jej z powrotem nad głowę."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYCISKANIE_SZTANGI_W%C4%84SKO_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYCISKANIE_SZTANGI_W%C4%84SKO_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYCISKANIE_SZTANGI_W%C4%84SKO_2.jpg"
     },
     "DIPY (POMPKI NA PORĘCZACH)": {
       "steps": [
@@ -554,7 +554,7 @@
         "Gdy schodzisz w dół - delikatnie pochylaj tułów w przód, zaś gdy powracasz do pozycji wyjściowej prostuj sylwetkę."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/DIPY_(POMPKI_NA_POR%C4%98CZACH)_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/DIPY_(POMPKI_NA_POR%C4%98CZACH)_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/DIPY_(POMPKI_NA_POR%C4%98CZACH)_2.jpg"
     }
   },
   "BARKI (MIĘŚNIE NARAMIENNE)": {
@@ -567,7 +567,7 @@
         "5. Zakończ ruch kiedy sznur znajduje się mniej więcej na wysokości Twoich uszu."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/FACEPULL_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/FACEPULL_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/FACEPULL_2.jpg"
     },
     "WZNOSY BOKIEM": {
       "steps": [
@@ -577,7 +577,7 @@
         "5. Zakończ ruch kiedy hantle są na wysokości Twojej obręczy barkowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WZNOSY_BOKIEM_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WZNOSY_BOKIEM_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WZNOSY_BOKIEM_2.jpg"
     },
     "ODWODZENIE RAMION NA MASZYNIE (ODWROTNY BUTTERFLY)": {
       "steps": [
@@ -587,7 +587,7 @@
         "4. Kontrolując ruch, powróć do pozycji startowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ODWODZENIE_RAMION_NA_MASZYNIE_(ODWROTNY_BUTTERFLY)_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ODWODZENIE_RAMION_NA_MASZYNIE_(ODWROTNY_BUTTERFLY)_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ODWODZENIE_RAMION_NA_MASZYNIE_(ODWROTNY_BUTTERFLY)_2.jpg"
     },
     "Y-RAISE": {
       "steps": [
@@ -598,7 +598,7 @@
         "Przytrzymaj pozycję przez 1-2 sekundy i kontrolując ruch, powróć do pozycji startowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/Y-RAISE_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/Y-RAISE_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/Y-RAISE_2.jpg"
     },
     "T-RAISE": {
       "steps": [
@@ -609,7 +609,7 @@
         "Przytrzymaj pozycję przez 1-2 sekundy i kontrolując ruch, powróć do pozycji startowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/T-RAISE_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/T-RAISE_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/T-RAISE_2.jpg"
     },
     "OHP": {
       "steps": [
@@ -625,7 +625,7 @@
         "Kontrolując ruch, rozpocznij opuszczanie sztangi ponownie cofając głowę, gdy sztanga będzie na jej wysokości."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/OHP_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/OHP_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/OHP_2.jpg"
     },
     "WYCISKANIE HANTLI NAD GŁOWĘ": {
       "steps": [
@@ -635,7 +635,7 @@
         "Gdy hantle będą nad głową (nie muszą się połączyć, ale mogą), kontrolując ruch powróć do pozycji startowej. Pamiętaj aby nie opuszczać hantli zbyt nisko."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYCISKANIE_HANTLI_NAD_G%C5%81OW%C4%98_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYCISKANIE_HANTLI_NAD_G%C5%81OW%C4%98_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYCISKANIE_HANTLI_NAD_G%C5%81OW%C4%98_2.jpg"
     },
     "ARNOLDKI": {
       "steps": [
@@ -645,7 +645,7 @@
         "Gdy hantle znajdą się nad głową, trzymane w taki sposób, aby nadgarstek był skierowany na zewnątrz (kciuki są skierowane do wewnątrz), rozpocznij ruch opuszczania, ponownie powracając do pozycji nadgarstków zrotowanych do wewnątrz."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ARNOLDKI_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ARNOLDKI_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ARNOLDKI_2.jpg"
     }
   },
   "PLECY": {
@@ -661,7 +661,7 @@
         "Pamiętaj, aby nie prostować łokci w górnej fazie ćwiczenia. Powinny one być delikatnie ugięte, kiedy kończysz ruch, a uchwyt znajduje się w okolicach Twoich bioder."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/NARCIARZ_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/NARCIARZ_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/NARCIARZ_2.jpg"
     },
     "WCIĄGANIE NA WYCIĄGU": {
       "steps": [
@@ -674,7 +674,7 @@
         "Powróć do pozycji początkowej, wypuszczając ramiona w stronę wyciągu, przywracając startowe ustawienie nadgarstków."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WCI%C4%84GANIE_NA_WYCI%C4%84GU_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WCI%C4%84GANIE_NA_WYCI%C4%84GU_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WCI%C4%84GANIE_NA_WYCI%C4%84GU_2.jpg"
     },
     "PRZYCIĄGANIE WYCIĄGU DOLNEGO DO BRZUCHA": {
       "steps": [
@@ -685,7 +685,7 @@
         "5. Powróć do pozycji początkowej, kontrolując ruch."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZYCI%C4%84GANIE_WYCI%C4%84GU_DOLNEGO_DO_BRZUCHA_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZYCI%C4%84GANIE_WYCI%C4%84GU_DOLNEGO_DO_BRZUCHA_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZYCI%C4%84GANIE_WYCI%C4%84GU_DOLNEGO_DO_BRZUCHA_2.jpg"
     },
     "PRZYCIĄGANIE DRĄŻKA WYCIĄGU GÓRNEGO DO KLATKI NACHWYTEM": {
       "steps": [
@@ -696,7 +696,7 @@
         "Powróć do pozycji początkowej, kontrolując ruch."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZYCI%C4%84GANIE_DR%C4%84%C5%BBKA_WYCI%C4%84GU_G%C3%93RNEGO_DO_KLATKI_NACHWYTEM_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZYCI%C4%84GANIE_DR%C4%84%C5%BBKA_WYCI%C4%84GU_G%C3%93RNEGO_DO_KLATKI_NACHWYTEM_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZYCI%C4%84GANIE_DR%C4%84%C5%BBKA_WYCI%C4%84GU_G%C3%93RNEGO_DO_KLATKI_NACHWYTEM_2.jpg"
     },
     "PENDLAY ROW": {
       "steps": [
@@ -707,7 +707,7 @@
         "Opuść sztangę dynamicznie, ale jednocześnie starając się delikatnie kontrolować ruch opadania."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PENDLAY_ROW_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PENDLAY_ROW_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PENDLAY_ROW_2.jpg"
     },
     "WIOSŁOWANIE SZTANGĄ": {
       "steps": [
@@ -720,7 +720,7 @@
         "7. Opuść sztangę do pozycji początkowej, kontrolując ruch."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WIOS%C5%81OWANIE_SZTANG%C4%84_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WIOS%C5%81OWANIE_SZTANG%C4%84_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WIOS%C5%81OWANIE_SZTANG%C4%84_2.jpg"
     },
     "PULLOVER": {
       "steps": [
@@ -730,7 +730,7 @@
         "Kontrolując ruch, powróć do pozycji startowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PULLOVER_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PULLOVER_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PULLOVER_2.jpg"
     },
     "HIGH ROW": {
       "steps": [
@@ -740,7 +740,7 @@
         "Kontrolując ruch, powróć do pozycji startowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/HIGH_ROW_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/HIGH_ROW_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/HIGH_ROW_2.jpg"
     },
     "SEAL ROW": {
       "steps": [
@@ -750,7 +750,7 @@
         "Kontrolując ruch, opuść sztangę."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/SEAL_ROW_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/SEAL_ROW_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/SEAL_ROW_2.jpg"
     },
     "WIOSŁOWANIE HANTLEM": {
       "steps": [
@@ -763,7 +763,7 @@
         "Kontrolując ruch, powróć do pozycji startowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WIOS%C5%81OWANIE_HANTLEM_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WIOS%C5%81OWANIE_HANTLEM_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WIOS%C5%81OWANIE_HANTLEM_2.jpg"
     },
     "PODCIĄGANIE NA DRĄŻKU NACHWYTEM": {
       "steps": [
@@ -775,7 +775,7 @@
         "Możesz rozpocząć to ćwiczenie schodząc z ławeczki i zwisając na drążku lub ustawić takie podwyższenie, aby rozpocząć ruch ze stania, a nie ze zwisu, jednak pamiętaj by wykorzystać cały zakres ruchu, a więc stanąć tak, aby Twoje ramiona były całkowicie wyprostowane, a mięśnie pleców rozciągnięte."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PODCI%C4%84GANIE_NA_DR%C4%84%C5%BBKU_NACHWYTEM_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PODCI%C4%84GANIE_NA_DR%C4%84%C5%BBKU_NACHWYTEM_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PODCI%C4%84GANIE_NA_DR%C4%84%C5%BBKU_NACHWYTEM_2.jpg"
     },
     "PODCIĄGANIE NA DRĄŻKU PODCHWYTEM": {
       "steps": [
@@ -787,7 +787,7 @@
         "Możesz rozpocząć to ćwiczenie schodząc z ławeczki i zwisając na drążku lub ustawić takie podwyższenie, aby rozpocząć ruch ze stania, a nie ze zwisu, jednak pamiętaj by wykorzystać cały zakres ruchu, a więc stanąć tak, aby Twoje ramiona były całkowicie wyprostowane, a mięśnie pleców rozciągnięte."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PODCI%C4%84GANIE_NA_DR%C4%84%C5%BBKU_PODCHWYTEM_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PODCI%C4%84GANIE_NA_DR%C4%84%C5%BBKU_PODCHWYTEM_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PODCI%C4%84GANIE_NA_DR%C4%84%C5%BBKU_PODCHWYTEM_2.jpg"
     },
     "NEGATYWY (PODCIĄGANIE NEGATYWNE)": {
       "steps": [
@@ -799,7 +799,7 @@
         "Z każdym treningiem staraj się opuszczać coraz wolniej, a tym samym coraz bardziej kontrolować ruch, siłą swoich mięśni. Nie przejmuj się jeśli na początku Twój negatyw będzie trwał sekundę."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/NEGATYWY_(PODCI%C4%84GANIE_NEGATYWNE)_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/NEGATYWY_(PODCI%C4%84GANIE_NEGATYWNE)_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/NEGATYWY_(PODCI%C4%84GANIE_NEGATYWNE)_2.jpg"
     },
     "PODCIĄGANIE AUSTRALIJSKIE": {
       "steps": [
@@ -812,7 +812,7 @@
         "Możesz wybrać podchwyt, wówczas złap sztangę na szerokość barków."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PODCI%C4%84GANIE_AUSTRALIJSKIE_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PODCI%C4%84GANIE_AUSTRALIJSKIE_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PODCI%C4%84GANIE_AUSTRALIJSKIE_2.jpg"
     },
     "WIOSŁOWANIE KOŃCEM SZTANGI": {
       "steps": [
@@ -825,7 +825,7 @@
         "To ćwiczenie najlepiej wykonywać na specjalnie przygotowanej do niego maszynie, być może znajdziesz ją na swojej siłowni. To znacząco ułatwi Ci cały proces."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WIOS%C5%81OWANIE_KO%C5%83CEM_SZTANGI_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WIOS%C5%81OWANIE_KO%C5%83CEM_SZTANGI_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WIOS%C5%81OWANIE_KO%C5%83CEM_SZTANGI_2.jpg"
     }
   },
   "KLATKA PIERSIOWA": {
@@ -839,7 +839,7 @@
         "Jeśli nie jesteś w stanie wykonać pełnej pompki, rozpocznij od pompki w podporze lub nawet podporze na podwyższeniu ustawiając dłonie np. na stepach."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/POMPKA_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/POMPKA_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/POMPKA_2.jpg"
     },
     "WYCISKANIE SZTANGI NA ŁAWCE POZIOMEJ": {
       "steps": [
@@ -856,7 +856,7 @@
         "W trakcie wyciskania sztangi możesz mocniej zaangażować do pracy nogi, wciskając je mocno w podłoże i “odpychając się” nimi. W rzeczywistości oczywiście nie możesz oderwać ich od podłoża, ale siła wychodząca z Twoich nóg, przypominająca odbicie, pozwoli Ci podnieść większy ciężar."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYCISKANIE_SZTANGI_NA_%C5%81AWCE_POZIOMEJ_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYCISKANIE_SZTANGI_NA_%C5%81AWCE_POZIOMEJ_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYCISKANIE_SZTANGI_NA_%C5%81AWCE_POZIOMEJ_2.jpg"
     },
     "ROZPIĘTKI Z HANTLAMI": {
       "steps": [
@@ -869,7 +869,7 @@
         "Nie musisz za wszelką cenę dążyć do tego, aby dłonie się ze sobą zetknęły. Maksymalne spięcie mięśni może zajść jeszcze zanim połączysz ze sobą hantle."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ROZPI%C4%98TKI_Z_HANTLAMI_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ROZPI%C4%98TKI_Z_HANTLAMI_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ROZPI%C4%98TKI_Z_HANTLAMI_2.jpg"
     },
     "ROZPIĘTKI NA BRAMIE": {
       "steps": [
@@ -881,7 +881,7 @@
         "Nie musisz doprowadzić do tego, aby dłonie się zetknęły. Maksymalne napięcie mięśni klatki piersiowej może zajść jeszcze zanim dłonie całkowicie się do siebie zbliżą."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ROZPI%C4%98TKI_NA_BRAMIE_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ROZPI%C4%98TKI_NA_BRAMIE_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ROZPI%C4%98TKI_NA_BRAMIE_2.jpg"
     },
     "WYCISKANIE HANTLI NA ŁAWCE SKOŚNEJ": {
       "steps": [
@@ -893,7 +893,7 @@
         "6.Opuść ciężar w okolice obręczy barkowej, prowadząc łokcie pod kątem 45 stopni względem tułowia."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYCISKANIE_HANTLI_NA_%C5%81AWCE_SKO%C5%9ANEJ_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYCISKANIE_HANTLI_NA_%C5%81AWCE_SKO%C5%9ANEJ_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYCISKANIE_HANTLI_NA_%C5%81AWCE_SKO%C5%9ANEJ_2.jpg"
     },
     "PRZENOSZENIE HANTLA ZZA GŁOWY": {
       "steps": [
@@ -905,7 +905,7 @@
         "Powróć do pozycji wyjściowej, skupiając się na spięciu klatki piersiowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZENOSZENIE_HANTLA_ZZA_G%C5%81OWY_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZENOSZENIE_HANTLA_ZZA_G%C5%81OWY_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZENOSZENIE_HANTLA_ZZA_G%C5%81OWY_2.jpg"
     },
     "WYCISKANIE NA MASZYNIE": {
       "steps": [
@@ -915,7 +915,7 @@
         "4. Kontrolując ruch powróć do pozycji startowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYCISKANIE_NA_MASZYNIE_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYCISKANIE_NA_MASZYNIE_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYCISKANIE_NA_MASZYNIE_2.jpg"
     },
     "ROZPIĘTKI NA MASZYNIE": {
       "steps": [
@@ -925,7 +925,7 @@
         "4. Kontrolując ruch powróć do pozycji startowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ROZPI%C4%98TKI_NA_MASZYNIE_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ROZPI%C4%98TKI_NA_MASZYNIE_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ROZPI%C4%98TKI_NA_MASZYNIE_2.jpg"
     }
   },
   "BRZUCH": {
@@ -938,7 +938,7 @@
         "5. Gdy osiągniesz pozycję końcową (dla każdego będzie ona różna), upewnij się, że Twój odcinek lędźwiowy nie oderwał się od podłoża i pozostań w pozycji tak długo, jak dasz radę."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/HOLLOW_BODY_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/HOLLOW_BODY_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/HOLLOW_BODY_2.jpg"
     },
     "ANTY ROTACJA NA WYCIĄGU": {
       "steps": [
@@ -949,7 +949,7 @@
         "Kontrolując ruch, powróć do pozycji startowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ANTY_ROTACJA_NA_WYCI%C4%84GU_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ANTY_ROTACJA_NA_WYCI%C4%84GU_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ANTY_ROTACJA_NA_WYCI%C4%84GU_2.jpg"
     },
     "ALLAHY": {
       "steps": [
@@ -962,7 +962,7 @@
         "Pamiętaj, aby w tym ćwiczeniu Twoje biodra były nieruchomo. Skłon ma zachodzić wyłącznie dzięki pracy mięśni brzucha, a nie cofaniu bioder."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ALLAHY_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ALLAHY_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ALLAHY_2.jpg"
     },
     "WZNOSY NÓG DO ŚWIECY": {
       "steps": [
@@ -973,7 +973,7 @@
         "Kontrolując ruch, odłóż pośladki na ławkę i ponownie rozpocznij opuszczanie nóg."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WZNOSY_N%C3%93G_DO_%C5%9AWIECY_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WZNOSY_N%C3%93G_DO_%C5%9AWIECY_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WZNOSY_N%C3%93G_DO_%C5%9AWIECY_2.jpg"
     },
     "PLANK (DESKA)": {
       "steps": [
@@ -986,7 +986,7 @@
         "Polecam regularnie nagrywać się podczas tego ćwiczenia, ponieważ bardzo łatwo można wychwycić ewentualne błędy i poprawić słabe punkty."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PLANK_(DESKA)_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PLANK_(DESKA)_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PLANK_(DESKA)_2.jpg"
     },
     "SPIĘCIA BRZUCHA NA WYDŁUŻONEJ DŹWIGNI": {
       "steps": [
@@ -997,7 +997,7 @@
         "Z czasem możesz łapać w dłonie coraz większy ciężar. Dodatkowym utrudnieniem (dla osób zaawansowanych) będzie uniesienie nóg nad ziemię - najpierw ugiętych, a po kilku tygodniach wyprostowanych."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/SPI%C4%98CIA_BRZUCHA_NA_WYD%C5%81U%C5%BBONEJ_D%C5%B9WIGNI_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/SPI%C4%98CIA_BRZUCHA_NA_WYD%C5%81U%C5%BBONEJ_D%C5%B9WIGNI_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/SPI%C4%98CIA_BRZUCHA_NA_WYD%C5%81U%C5%BBONEJ_D%C5%B9WIGNI_2.jpg"
     },
     "SPIĘCIA BRZUCHA Z UNOSZENIEM NÓG NAPRZEMIENNIE": {
       "steps": [
@@ -1008,7 +1008,7 @@
         "Powtórz to samo na drugą nogę."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/SPI%C4%98CIA_BRZUCHA_Z_UNOSZENIEM_N%C3%93G_NAPRZEMIENNIE_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/SPI%C4%98CIA_BRZUCHA_Z_UNOSZENIEM_N%C3%93G_NAPRZEMIENNIE_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/SPI%C4%98CIA_BRZUCHA_Z_UNOSZENIEM_N%C3%93G_NAPRZEMIENNIE_2.jpg"
     },
     "SPIĘCIA BRZUCHA Z DOTYKANIEM KOSTEK": {
       "steps": [
@@ -1017,7 +1017,7 @@
         "Wykonuj naprzemienne, boczne spięcia brzucha, starając się dotknąć swoich kostek - raz lewej, lewą dłonią, raz prawej, prawą dłonią. Nie odkładaj odcinka piersiowego kręgosłupa na podłogę. Utrzymuj stałe napięcie brzucha."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/SPI%C4%98CIA_BRZUCHA_Z_DOTYKANIEM_KOSTEK_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/SPI%C4%98CIA_BRZUCHA_Z_DOTYKANIEM_KOSTEK_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/SPI%C4%98CIA_BRZUCHA_Z_DOTYKANIEM_KOSTEK_2.jpg"
     },
     "KLASYCZNE SPIĘCIA BRZUCHA (BRZUSZKI)": {
       "steps": [
@@ -1026,7 +1026,7 @@
         "Gdy poczujesz maksymalne spięcie brzucha, przytrzymaj pozycję przez 2-3 sekundy i powróć do leżenia."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/KLASYCZNE_SPI%C4%98CIA_BRZUCHA_(BRZUSZKI)_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/KLASYCZNE_SPI%C4%98CIA_BRZUCHA_(BRZUSZKI)_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/KLASYCZNE_SPI%C4%98CIA_BRZUCHA_(BRZUSZKI)_2.jpg"
     },
     "DEAD BUG": {
       "steps": [
@@ -1037,7 +1037,7 @@
         "Utrzymując spięty brzuch, wróć do pozycji startowej i powtórz to samo drugą nogą i drugą ręką."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/DEAD_BUG_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/DEAD_BUG_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/DEAD_BUG_2.jpg"
     }
   },
   "ŁYDKI": {
@@ -1050,7 +1050,7 @@
         "Kontrolując ruch, powróć do pozycji wyjściowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WSPI%C4%98CIA_NA_PALCE_Z_DEFICYTU_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WSPI%C4%98CIA_NA_PALCE_Z_DEFICYTU_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WSPI%C4%98CIA_NA_PALCE_Z_DEFICYTU_2.jpg"
     },
     "WSPIĘCIA NA PALCE NA MASZYNIE SMITHA": {
       "steps": [
@@ -1061,7 +1061,7 @@
         "Powróć do pozycji deficytu, a więc kiedy Twoja pięta jest poniżej podwyższenia."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WSPI%C4%98CIA_NA_PALCE_NA_MASZYNIE_SMITHA_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WSPI%C4%98CIA_NA_PALCE_NA_MASZYNIE_SMITHA_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WSPI%C4%98CIA_NA_PALCE_NA_MASZYNIE_SMITHA_2.jpg"
     },
     "WZNOSY NÓG W ZWISIE NA DRĄŻKU": {
       "steps": [
@@ -1071,7 +1071,7 @@
         "Możesz unosić nogi zgięte w kolanach - wersja prostsza, lub wyprostowane - wersja trudniejsza."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WZNOSY_N%C3%93G_W_ZWISIE_NA_DR%C4%84%C5%BBKU_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WZNOSY_N%C3%93G_W_ZWISIE_NA_DR%C4%84%C5%BBKU_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WZNOSY_N%C3%93G_W_ZWISIE_NA_DR%C4%84%C5%BBKU_2.jpg"
     },
     "WZNOSY NÓG NA BOKI W ZWISIE NA DRĄŻKU": {
       "steps": [
@@ -1080,7 +1080,7 @@
         "Kontrolując ruch, powróć do zwisu i powtórz całość na drugą stronę."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WZNOSY_N%C3%93G_NA_BOKI_W_ZWISIE_NA_DR%C4%84%C5%BBKU_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WZNOSY_N%C3%93G_NA_BOKI_W_ZWISIE_NA_DR%C4%84%C5%BBKU_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WZNOSY_N%C3%93G_NA_BOKI_W_ZWISIE_NA_DR%C4%84%C5%BBKU_2.jpg"
     },
     "AB ROLLER": {
       "steps": [
@@ -1090,7 +1090,7 @@
         "Utrzymująć maksymalne napięcie powróć do pozycji wyjściowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/AB_ROLLER_1.jpg",
-      "pngUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/AB_ROLLER_1.png"
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/AB_ROLLER_2.jpg"
     }
   }
 }
