@@ -17,6 +17,8 @@ body {
     position: sticky;
     z-index: 1000;
     top: 0;
+    left:50%;
+    transform: translateX(-50%);
 }
 
 #top-menu a {
@@ -75,9 +77,10 @@ body {
 /* Grid container for exercises */
 .atlas-cwiczen-grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 0.1fr);; /* Adjust grid item size */
+    grid-template-columns: repeat(auto-fit, minmax(400px, 0fr)); /* Adjust grid item size */
     gap: 10px; /* Increase gap between grid items */
     margin-top: 10px; /* Space between arrow and grid */
+
 }
 
 .atlas-cwiczen-grid-container a
@@ -100,7 +103,7 @@ body {
 
 .card
 {
-    border: 2px solid rgba(184,135,255,255);
+
     -webkit-box-shadow: 0px -3px 52px -21px rgba(184, 135, 255, 1);
     -moz-box-shadow: 0px -3px 52px -21px rgba(184, 135, 255, 1);
     box-shadow: 0px -3px 52px -21px rgba(184, 135, 255, 1);
@@ -127,13 +130,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 3px solid rgba(184,135,255,255);
+    border: 2px solid rgba(184,135,255,255);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: rgb(185,136,255);
+    background: linear-gradient(0deg, rgba(185,136,255,0) 0%, rgba(185,136,255,0.17970938375350143) 94%, rgba(185,136,255,0.227328431372549) 98%);
 }
 
 /* Captions under images */
 .card-title {
+    font-family: "Red Hat Display", sans-serif;
     margin: 0;
     line-height: 1.2;
     text-align: center; /* Center text under the image */
     text-decoration: none;
+    color: rgba(111,66,193,255);
 }
