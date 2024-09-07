@@ -34,7 +34,7 @@ fs.readFile("atlas.json", "utf8", (err, data) => {
           <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
           <link href="style.css" rel="stylesheet">
       </head>
-      <body><div id="exercise-content-atlas-cwiczen"`;
+      <body><div id="exercise-content-atlas-cwiczen">`;
       htmlContent += `
                     <h1>${exercise}</h1>
                     <div class="image-container">
