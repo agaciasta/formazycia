@@ -139,7 +139,7 @@ body {
 
 /* Captions under images */
 .card-title {
-    font-family: "Red Hat Display", sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
     margin: 0;
     line-height: 1.2;
     text-align: center; /* Center text under the image */

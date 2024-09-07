@@ -20,7 +20,7 @@ fs.readFile("atlas.json", "utf8", (err, data) => {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
         <link href="style.css" rel="stylesheet">
     </head>
-    <body class=" my-5">
+    <body>
         <div id="top-menu">
             <div id="menu-links">`
             
@@ -31,7 +31,7 @@ fs.readFile("atlas.json", "utf8", (err, data) => {
         htmlContent += `<a href="#${sectionId}">${category}</a>`;
     }
             
-    htmlContent+= `</div> <!-- Links for different sections will be generated dynamically -->
+    htmlContent+= `</div>
             <input type="text" id="search" placeholder="Search exercises..." autocomplete="off" autofill="off" autocorrect="off" spellcheck="false">
         </div>
         <div id="exercise-list">
