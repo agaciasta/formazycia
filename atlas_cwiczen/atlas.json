@@ -2,7 +2,7 @@
   "NOGI I POŚLADKI": {
     "PRZYSIAD KLASYCZNY": {
       "steps": [
-        "1.Stojaki ustaw na takiej wysokości, abyś swobodnie mogła wejść pod sztangą i ułożyć ją na górnej części swoich pleców.",
+        "1. Stojaki ustaw na takiej wysokości, abyś swobodnie mogła wejść pod sztangą i ułożyć ją na górnej części swoich pleców.",
         "2. Złap sztangę nieco szerzej niż szerokość Twoich barków.",
         "3. Zepnij brzuch oraz pośladki. Wynieś sztangę ze stojaków robiąc 2 kroki w tył.",
         "4. Stań na szerokość bioder. Palce skieruj przed siebie lub delikatnie na zewnątrz.",
@@ -20,7 +20,7 @@
     },
     "BOX SQUAT": {
       "steps": [
-        "1.Stojaki ustaw na takiej wysokości, abyś swobodnie mogła wejść pod sztangą i ułożyć ją na górnej części swoich pleców.",
+        "1. Stojaki ustaw na takiej wysokości, abyś swobodnie mogła wejść pod sztangą i ułożyć ją na górnej części swoich pleców.",
         "2. Za sobą ustaw ławeczkę lub skrzynię. Wysokość dopasuj do swojego wzrostu i mobilności.",
         "3. Złap sztangę nieco szerzej niż szerokość Twoich barków.",
         "4. Zepnij brzuch oraz pośladki. Wynieś sztangę ze stojaków robiąc 2 drobne kroki w tył.",
@@ -36,33 +36,33 @@
     },
     "GOBLET SQUAT": {
       "steps": [
-        "W obie dłonie złap hantel/kettlebell.",
-        "Stań na szerokość bioder, palce skieruj przed siebie lub delikatnie na zewnątrz.",
-        "Napnij brzuch i ściągnij łopatki.",
-        "Rozpocznij ruch schodzenia w dół, kierując kolana na zewnątrz.",
-        "Zejdź tak nisko, jak pozwala Ci Twoja mobilność. Zadbaj o to, aby miednica nie podwijała się za mocno (delikatne podwijanie jest akceptowane).",
-        "Wróć do pozycji wyjściowej, napinając pośladki w górnej fazie ruchu."
+        "1. W obie dłonie złap hantel/kettlebell.",
+        "2. Stań na szerokość bioder, palce skieruj przed siebie lub delikatnie na zewnątrz.",
+        "3. Napnij brzuch i ściągnij łopatki.",
+        "4. Rozpocznij ruch schodzenia w dół, kierując kolana na zewnątrz.",
+        "5. Zejdź tak nisko, jak pozwala Ci Twoja mobilność. Zadbaj o to, aby miednica nie podwijała się za mocno (delikatne podwijanie jest akceptowane).",
+        "6. Wróć do pozycji wyjściowej, napinając pośladki w górnej fazie ruchu."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/GOBLET_SQUAT_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/GOBLET_SQUAT_2.jpg"
     },
     "PRZYSIAD SUMO": {
       "steps": [
-        "Stań na podwyższeniach. Mogą to być stepy lub szerokie krążki.",
-        "Ustaw stopy dużo szerzej niż szerokość Twoich bioder, a palce skieruj mocno na zewnątrz (do pozycji sumo)",
-        "Ściągnij łopatki do siebie i obniż ich pozycje. Zepnij brzuch oraz pośladki.",
-        "Głowa powinna stanowić przedłużenie tułowia.",
-        "Rozpocznij ruch schodzenia w dół zaczynając od delikatnego wypchnięcia bioder.",
-        "Kolana kieruj na zewnątrz przez cały ruch.",
-        "Zejdź tak nisko, jak pozwala Ci Twoja mobilność. Zadbaj o to, aby miednica nie podwijała się za mocno (delikatne podwijanie jest akceptowane).",
-        "W górnej fazie dopnij pośladki, ale nie wykonuj przeprostu w odcinku lędźwiowym kręgosłupa."
+        "1. Stań na podwyższeniach. Mogą to być stepy lub szerokie krążki.",
+        "2. Ustaw stopy dużo szerzej niż szerokość Twoich bioder, a palce skieruj mocno na zewnątrz (do pozycji sumo)",
+        "3. Ściągnij łopatki do siebie i obniż ich pozycje. Zepnij brzuch oraz pośladki.",
+        "4. Głowa powinna stanowić przedłużenie tułowia.",
+        "5. Rozpocznij ruch schodzenia w dół zaczynając od delikatnego wypchnięcia bioder.",
+        "6. Kolana kieruj na zewnątrz przez cały ruch.",
+        "7. Zejdź tak nisko, jak pozwala Ci Twoja mobilność. Zadbaj o to, aby miednica nie podwijała się za mocno (delikatne podwijanie jest akceptowane).",
+        "8. W górnej fazie dopnij pośladki, ale nie wykonuj przeprostu w odcinku lędźwiowym kręgosłupa."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZYSIAD_SUMO_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZYSIAD_SUMO_2.jpg"
     },
     "FRONT SQUAT (PRZYSIAD ZE SZTANGĄ Z PRZODU)": {
       "steps": [
-        "1.Stojaki ustaw na takiej wysokości, abyś swobodnie mogła wejść pod sztangą i ułożyć ją na swoich barkach.",
+        "1. Stojaki ustaw na takiej wysokości, abyś swobodnie mogła wejść pod sztangą i ułożyć ją na swoich barkach.",
         "2. Zepnij pośladki i brzuch, a następnie wynieś sztangę ze stojaków i zrób dwa nieduże kroki w tył.",
         "3. Stań na szerokość bioder. Palce skieruj przed siebie lub delikatnie na zewnątrz.",
         "4. Utrzymuj łokcie wysoko, aby sztanga nie zsuwała się z barków.",
@@ -77,26 +77,26 @@
     },
     "PRZYSIAD BUŁGARSKI": {
       "steps": [
-        "Ustaw ławeczkę/skrzynię tak by sięgała wysokości Twojego kolana lub połowy piszczela.",
-        "Jeżeli chcesz bardziej zaangażować do pracy mięśnie czworogłowe uda stań nieco bliżej ławeczki. Jeśli chcesz zaangażować bardziej pośladki stań dalej od ławeczki.",
-        "Stopę możesz zarówno położyć na ławce stroną grzbietową jak i oprzeć na palcach.",
-        "Jeżeli chcesz mocniej zaangażować do pracy pośladek - pochyl się delikatnie w przód.",
-        "Rozpocznij ruch schodzenia w dół, kierując kolano na zewnątrz.",
-        "Zejdź tak nisko, jak pozwala Ci Twoja mobilność.",
-        "W górnej fazie zepnij pośladek.",
-        "Jeźeli przystąpisz do ćwiczenia z ciężarem, hantle złap w obie ręce, ściągnij i obniż łopatki."
+        "1. Ustaw ławeczkę/skrzynię tak by sięgała wysokości Twojego kolana lub połowy piszczela.",
+        "2. Jeżeli chcesz bardziej zaangażować do pracy mięśnie czworogłowe uda stań nieco bliżej ławeczki. Jeśli chcesz zaangażować bardziej pośladki stań dalej od ławeczki.",
+        "3. Stopę możesz zarówno położyć na ławce stroną grzbietową jak i oprzeć na palcach.",
+        "4. Jeżeli chcesz mocniej zaangażować do pracy pośladek - pochyl się delikatnie w przód.",
+        "5. Rozpocznij ruch schodzenia w dół, kierując kolano na zewnątrz.",
+        "6. Zejdź tak nisko, jak pozwala Ci Twoja mobilność.",
+        "7. W górnej fazie zepnij pośladek.",
+        "8. Jeźeli przystąpisz do ćwiczenia z ciężarem, hantle złap w obie ręce, ściągnij i obniż łopatki."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZYSIAD_BU%C5%81GARSKI_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZYSIAD_BU%C5%81GARSKI_2.jpg"
     },
     "WYCISKANIE NA SUWNICY": {
       "steps": [
-        "Stopy ustaw na platformie do wyciskania, mniej więcej na szerokość Twoich bioder. Palce skieruj przed siebie lub minimalnie na zewnątrz.",
-        "Ułóż się tak, aby plecy w odcinku lędźwiowym przylegały do oparcia.",
-        "Weź głęboki wdech i zepnij brzuch.",
-        "Odbezpiecz suwnicę i rozpocznij ruch uginania kolan, kierując je na zewnątrz.",
-        "Zejdź tak nisko, jak pozwala Ci Twoja mobilność. Zadbaj o to, aby miednica nie podwijała się za mocno (delikatne podwijanie jest akceptowane).",
-        "W górnej fazie ruchu nie doprowadzaj do przeprostu kolan. Pozostaw je delikatnie ugięte.",
+        "1. Stopy ustaw na platformie do wyciskania, mniej więcej na szerokość Twoich bioder. Palce skieruj przed siebie lub minimalnie na zewnątrz.",
+        "2. Ułóż się tak, aby plecy w odcinku lędźwiowym przylegały do oparcia.",
+        "3. Weź głęboki wdech i zepnij brzuch.",
+        "4. Odbezpiecz suwnicę i rozpocznij ruch uginania kolan, kierując je na zewnątrz.",
+        "5. Zejdź tak nisko, jak pozwala Ci Twoja mobilność. Zadbaj o to, aby miednica nie podwijała się za mocno (delikatne podwijanie jest akceptowane).",
+        "6. W górnej fazie ruchu nie doprowadzaj do przeprostu kolan. Pozostaw je delikatnie ugięte.",
         "Głowa może spoczywać na oparciu, jednak preferuję, aby patrzeć przed siebie i zachować spięcie całej przedniej taśmy."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYCISKANIE_NA_SUWNICY_1.jpg",
@@ -104,21 +104,21 @@
     },
     "WYCISKANIE NA SUWNICY JEDNONÓŻ": {
       "steps": [
-        "Stopy ustaw na platformie do wyciskania. Oderwij jedną ze stóp, a drugą przesuń delikatnie ku środkowi platformy.",
-        "Palce skieruj przed siebie lub minimalnie na zewnątrz.",
-        "Drugą nogę wyprostuj lub przełóż nieco na bok, aby nie przeszkadzała Ci w trakcie ruchu.",
-        "Ułóż się tak, aby plecy w odcinku lędźwiowym przylegały do oparcia.",
-        "Weź głęboki wdech i zepnij brzuch.",
-        "Odbezpiecz suwnicę i rozpocznij ruch uginania kolan, kierując je na zewnątrz.",
-        "Zejdź tak nisko, jak pozwala Ci Twoja mobilność. Zadbaj o to, aby miednica nie podwijała się za mocno (delikatne podwijanie jest akceptowane).",
-        "W górnej fazie ruchu nie doprowadzaj do przeprostu kolana. Pozostaw je delikatnie ugięte."
+        "1. Stopy ustaw na platformie do wyciskania. Oderwij jedną ze stóp, a drugą przesuń delikatnie ku środkowi platformy.",
+        "2. Palce skieruj przed siebie lub minimalnie na zewnątrz.",
+        "3. Drugą nogę wyprostuj lub przełóż nieco na bok, aby nie przeszkadzała Ci w trakcie ruchu.",
+        "4. Ułóż się tak, aby plecy w odcinku lędźwiowym przylegały do oparcia.",
+        "5. Weź głęboki wdech i zepnij brzuch.",
+        "6. Odbezpiecz suwnicę i rozpocznij ruch uginania kolan, kierując je na zewnątrz.",
+        "7. Zejdź tak nisko, jak pozwala Ci Twoja mobilność. Zadbaj o to, aby miednica nie podwijała się za mocno (delikatne podwijanie jest akceptowane).",
+        "8. W górnej fazie ruchu nie doprowadzaj do przeprostu kolana. Pozostaw je delikatnie ugięte."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYCISKANIE_NA_SUWNICY_JEDNON%C3%93%C5%BB_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYCISKANIE_NA_SUWNICY_JEDNON%C3%93%C5%BB_2.jpg"
     },
     "MARTWY CIĄG SUMO": {
       "steps": [
-        "1.Ustaw sztangę tak, aby znajdowała się mniej więcej na wysokości połowy Twoich piszczeli (załóż na sztangę krążki o dużej średnicy lub wykorzystaj stepy, na których położysz sztangę).",
+        "1. Ustaw sztangę tak, aby znajdowała się mniej więcej na wysokości połowy Twoich piszczeli (załóż na sztangę krążki o dużej średnicy lub wykorzystaj stepy, na których położysz sztangę).",
         "2. Stopy ustaw znacznie szerzej niż szerokość bioder, a palce skieruj mocno na zewnątrz (pozycja sumo).",
         "3. Złap sztangę nachwytem (od góry) na szerokość swoich barków.",
         "4. Wykonaj rotację w stawie ramiennym (skieruj zgięcie łokciowe przed siebie). Wyobraź sobie, że chcesz złamać sztangę.",
@@ -134,7 +134,7 @@
     },
     "MARTWY CIĄG KLASYCZNY": {
       "steps": [
-        "1.Ustaw sztangę tak, aby znajdowała się mniej więcej na wysokości połowy Twoich piszczeli (załóż na sztangę krążki o dużej średnicy lub wykorzystaj stepy, na których położysz sztangę).",
+        "1. Ustaw sztangę tak, aby znajdowała się mniej więcej na wysokości połowy Twoich piszczeli (załóż na sztangę krążki o dużej średnicy lub wykorzystaj stepy, na których położysz sztangę).",
         "2. Stopy ustaw na szerokość swoich bioder, a palce skieruj przed siebie.",
         "3. Złap sztangę nachwytem (od góry) nieco szerzej niż szerokość barków (tak aby nie przeszkadzały Ci Twoje nogi).",
         "4. Wykonaj rotację w stawie ramiennym (skieruj zgięcie łokciowe przed siebie). Wyobraź sobie, że chcesz złamać sztangę.",
@@ -142,47 +142,47 @@
         "6. Głowa powinna stanowić przedłużenie tułowia.",
         "7. Wykonaj ruch ciągnięcia sztangi w górę, prowadząc ją bardzo blisko swoich nóg. Kolana nie mogą zapadać się do środka. Pamiętaj o napiętym brzuchu przez cały ruch.",
         "8. Napnij pośladki w górnej fazie ruchu, ale nie wykonuj przeprostu.",
-        "9.Powróć do pozycji startowej, opuszczając sztangę blisko nóg, zachowując spięcie brzucha i proste plecy."
+        "9. Powróć do pozycji startowej, opuszczając sztangę blisko nóg, zachowując spięcie brzucha i proste plecy."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/MARTWY_CI%C4%84G_KLASYCZNY_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/MARTWY_CI%C4%84G_KLASYCZNY_2.jpg"
     },
     "MARTWY CIĄG RUMUŃSKI": {
       "steps": [
-        "1.Ustaw sztangę na stojakach na takiej wysokości, abyś swobodnie mogła ją z nich ściągnąć (a więc mniej więcej na równi z Twoimi dłońmi opuszczonymi wzdłuż tułowia).",
+        "1. Ustaw sztangę na stojakach na takiej wysokości, abyś swobodnie mogła ją z nich ściągnąć (a więc mniej więcej na równi z Twoimi dłońmi opuszczonymi wzdłuż tułowia).",
         "2. Złap sztangę nachwytem (od góry) mniej więcej na szerokość Twoich barków.",
         "3. Ściągnij łopatki, zepnij brzuch i pociągnij sztangę “na siebie”, aby swobodnie zdjąć ją ze stojaków.",
-        "3. Wykonaj 2 małe kroki w tył.",
-        "4. Stopy ustaw na szerokość bioder lub delikatnie węziej, a palce skieruj przed siebie.",
-        "5. Ponownie skup się na spięciu brzucha, ściągnięciu łopatek, prostych plecach i napiętych pośladkach.",
-        "6. Pozostań na delikatnie ugiętych kolanach (nie mogą być całkowicie wyprostowane).",
-        "7. Głowa powinna stanowić przedłużenie tułowia.",
-        "8.Rozpocznij ruch wysuwania bioder maksymalnie w tył, sztangę prowadząc bardzo blisko nóg. Nie zmieniaj pozycji kolan (nie mogą się mocniej uginać).",
-        "9. Zakończ ruch w momencie, kiedy Twoje biodra są maksymalnie wypchnięte w tył. Nie odkładaj sztangi na ziemię, ani na stojaki. Nie staraj się zejść jak najniżej.",
-        "10. Powróć do pozycji pionowej, prowadząc sztangę po nogach, wykonując wyprost w stawie biodrowym.",
-        "11. Napnij pośladki w górnej fazie ruchu, ale nie wykonuj przeprostu."
+        "4. Wykonaj 2 małe kroki w tył.",
+        "5. Stopy ustaw na szerokość bioder lub delikatnie węziej, a palce skieruj przed siebie.",
+        "6. Ponownie skup się na spięciu brzucha, ściągnięciu łopatek, prostych plecach i napiętych pośladkach.",
+        "7. Pozostań na delikatnie ugiętych kolanach (nie mogą być całkowicie wyprostowane).",
+        "8. Głowa powinna stanowić przedłużenie tułowia.",
+        "9. Rozpocznij ruch wysuwania bioder maksymalnie w tył, sztangę prowadząc bardzo blisko nóg. Nie zmieniaj pozycji kolan (nie mogą się mocniej uginać).",
+        "10. Zakończ ruch w momencie, kiedy Twoje biodra są maksymalnie wypchnięte w tył. Nie odkładaj sztangi na ziemię, ani na stojaki. Nie staraj się zejść jak najniżej.",
+        "11. Powróć do pozycji pionowej, prowadząc sztangę po nogach, wykonując wyprost w stawie biodrowym.",
+        "12. Napnij pośladki w górnej fazie ruchu, ale nie wykonuj przeprostu."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/MARTWY_CI%C4%84G_RUMU%C5%83SKI_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/MARTWY_CI%C4%84G_RUMU%C5%83SKI_2.jpg"
     },
     "MARTWY CIĄG NA PROSTYCH NOGACH": {
       "steps": [
-        "1.Ustaw sztangę tak, aby znajdowała się mniej więcej na wysokości połowy Twoich piszczeli (załóż na sztangę krążki o dużej średnicy lub wykorzystaj stepy, na których położysz sztangę).",
+        "1. Ustaw sztangę tak, aby znajdowała się mniej więcej na wysokości połowy Twoich piszczeli (załóż na sztangę krążki o dużej średnicy lub wykorzystaj stepy, na których położysz sztangę).",
         "2. Stopy ustaw na szerokość swoich bioder, a palce skieruj przed siebie.",
         "3. Złap sztangę nachwytem (od góry) nieco szerzej niż szerokość barków (tak aby nie przeszkadzały Ci Twoje nogi).",
         "4. Wykonaj rotację w stawie ramiennym (skieruj zgięcie łokciowe przed siebie). Wyobraź sobie, że chcesz złamać sztangę.",
         "5. Zepnij brzuch, ściągnij łopatki i bardzo delikatnie ugnij kolana (muszą one pozostać “sztywne”, a więc nie możesz ich bardziej uginać). Biodra pozostają wysoko.",
         "6. Głowa powinna stanowić przedłużenie tułowia.",
-        "7.Wykonaj ruch ciągnięcia sztangi w górę, prowadząc ją bardzo blisko swoich nóg. Kolana pozostają w niezmienionej pozycji. Pamiętaj o napiętym brzuchu przez cały ruch.",
+        "7. Wykonaj ruch ciągnięcia sztangi w górę, prowadząc ją bardzo blisko swoich nóg. Kolana pozostają w niezmienionej pozycji. Pamiętaj o napiętym brzuchu przez cały ruch.",
         "8. Napnij pośladki w górnej fazie ruchu, ale nie wykonuj przeprostu.",
-        "9.Powróć do pozycji startowej, opuszczając sztangę blisko nóg, zachowując spięcie brzucha i proste plecy."
+        "9. Powróć do pozycji startowej, opuszczając sztangę blisko nóg, zachowując spięcie brzucha i proste plecy."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/MARTWY_CI%C4%84G_NA_PROSTYCH_NOGACH_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/MARTWY_CI%C4%84G_NA_PROSTYCH_NOGACH_2.jpg"
     },
     "MARTWY CIĄG JEDNONÓŻ": {
       "steps": [
-        "1.Złap hantel w ręce przeciwległej do nogi, na której będziesz stać.",
+        "1. Złap hantel w ręce przeciwległej do nogi, na której będziesz stać.",
         "2. Ściągnij łopatki i napnij brzuch.",
         "3. Ugnij delikatnie kolano nogi, na której będziesz stać. Nie może ono być całkowicie wyprostowane. Pamiętaj jednak, aby pozostało “sztywne”, a więc nie uginaj go mocniej, schodząc w dół.",
         "4. Oderwij delikatnie jedną z nóg od ziemi i rozpocznij ruch wysuwania bioder w tył.",
@@ -197,7 +197,7 @@
     },
     "DZIEŃ DOBRY": {
       "steps": [
-        "1.Ustaw sztangę na stojakach na takiej wysokości, abyś swobodnie mogła pod nią wejść.",
+        "1. Ustaw sztangę na stojakach na takiej wysokości, abyś swobodnie mogła pod nią wejść.",
         "2. Sztangę ustaw na plecach, między łopatkami a karkiem.",
         "3. Zepnij brzuch i pośladki, a następnie wynieść sztangę ze stojaków.",
         "4. Ponownie mocno zepnij brzuch i rozpocznij ruch wysuwania bioder w tył.",
@@ -210,7 +210,7 @@
     },
     "ZAKROKI": {
       "steps": [
-        "1.Stań na szerokość bioder i napnij brzuch.",
+        "1. Stań na szerokość bioder i napnij brzuch.",
         "2. Rozpocznij ruch wysuwania jednej nogi w tył, do pozycji zakroku.",
         "3. Głowa powinna stanowić przedłużenie tułowia.",
         "4. Obniż kolano do ziemi, ale nie uderzaj nim o podłoże.",
@@ -234,7 +234,7 @@
     },
     "WYKROKI CHODZONE": {
       "steps": [
-        "1.Stań na szerokość bioder i napnij brzuch.",
+        "1. Stań na szerokość bioder i napnij brzuch.",
         "2. Rozpocznij ruch wysuwania jednej nogi w przód, do pozycji wykroku. Kolano kieruj na zewnątrz.",
         "3. Głowa powinna stanowić przedłużenie tułowia.",
         "4. Obniż kolano drugiej nogi do ziemi, ale nie uderzaj nim o podłoże.",
@@ -246,7 +246,7 @@
     },
     "WYKROKI W MIEJSCU": {
       "steps": [
-        "1.Stań na szerokość bioder i napnij brzuch.",
+        "1. Stań na szerokość bioder i napnij brzuch.",
         "2. Rozpocznij ruch wysuwania jednej nogi w przód, do pozycji wykroku. Kolano kieruj na zewnątrz.",
         "3. Głowa powinna stanowić przedłużenie tułowia.",
         "4. Obniż kolano drugiej nogi do ziemi, ale nie uderzaj nim o podłoże.",
@@ -258,187 +258,187 @@
     },
     "SIDE LYING HIP RAISE": {
       "steps": [
-        "Połóż się na boku, podpierając się na jednym łokciu i podkulając nogi blisko bioder.",
-        "Ściągnij łopatki i napnij brzuch.",
-        "Wykonaj ruch unoszenia tułowia w górę, skupiając się na pracy nogi leżącej na ziemi.",
-        "W górnej fazie ruch dodatkowo wykonaj ruch odwiedzenia drugiej nogi i wypchnięcia bioder w tył.",
-        "Kontrolując ruch, powróć do pozycji startowej."
+        "1. Połóż się na boku, podpierając się na jednym łokciu i podkulając nogi blisko bioder.",
+        "2. Ściągnij łopatki i napnij brzuch.",
+        "3. Wykonaj ruch unoszenia tułowia w górę, skupiając się na pracy nogi leżącej na ziemi.",
+        "4. W górnej fazie ruch dodatkowo wykonaj ruch odwiedzenia drugiej nogi i wypchnięcia bioder w tył.",
+        "5. Kontrolując ruch, powróć do pozycji startowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/SIDE_LYING_HIP_RAISE_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/SIDE_LYING_HIP_RAISE_2.jpg"
     },
     "PRZYWODZENIE GUMY POWER BAND": {
       "steps": [
-        "Gumę zaczep o wyciąg lub inny nieruchomy element.",
-        "Załóż gumę na jedną z kostek.",
-        "Stań na podwyższeniu w takiej odległości od wyciągu aby guma była napięta.",
-        "Delikatnie pochyl tułów i ugnij kolano nogi, która będzie stała na podwyższeniu.",
-        "Drugą nowę odwiedź do boku, w kierunku wyciągu (pozwól gumie, aby pociągnęła Twoją nogę).",
-        "Wykonaj ruch przywodzenia nogi, dążąc do tego zbliżenia się Twoich stóp."
+        "1. Gumę zaczep o wyciąg lub inny nieruchomy element.",
+        "2. Załóż gumę na jedną z kostek.",
+        "3. Stań na podwyższeniu w takiej odległości od wyciągu aby guma była napięta.",
+        "4. Delikatnie pochyl tułów i ugnij kolano nogi, która będzie stała na podwyższeniu.",
+        "5. Drugą nowę odwiedź do boku, w kierunku wyciągu (pozwól gumie, aby pociągnęła Twoją nogę).",
+        "6. Wykonaj ruch przywodzenia nogi, dążąc do tego zbliżenia się Twoich stóp."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZYWODZENIE_GUMY_POWER_BAND_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZYWODZENIE_GUMY_POWER_BAND_2.jpg"
     },
     "MONSTERWALK": {
       "steps": [
-        "Gumę mini band załóż nad kostkami, na obu nogach.",
-        "Stopy rozstaw na szerokość bioder.",
-        "Delikatnie pochyl się w przód.",
-        "Rozpocznij ruch odwodzenia jednej z nóg do boku i delikatnie w przód, rozszerzając gumę.",
-        "Drugą nogą wykonaj dokładnie ten sam ruch."
+        "1. Gumę mini band załóż nad kostkami, na obu nogach.",
+        "2. Stopy rozstaw na szerokość bioder.",
+        "3. Delikatnie pochyl się w przód.",
+        "4. Rozpocznij ruch odwodzenia jednej z nóg do boku i delikatnie w przód, rozszerzając gumę.",
+        "5. Drugą nogą wykonaj dokładnie ten sam ruch."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/MONSTERWALK_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/MONSTERWALK_2.jpg"
     },
     "ODWODZENIE NOGI W TYŁ NA WYCIĄGU": {
       "steps": [
-        "Na kostkę załóż specjalną opaskę, którą następnie założysz jako uchwyt wyciągu dolnego. Ustaw się przodem do wyciągu.",
-        "Oddal się od wyciągu na odległość Twoich ramion (tak abyś mogła się podpierać).",
-        "Delikatnie pochyl tułów i napnij brzuch.",
-        "Przenieś ciężar ciała na jedną z nóg, a drugą przybliż do wyciągu.",
-        "Wykonaj ruch odwodzenia jednej z nóg w tył (tej, którą przybliżyłaś do wyciągu), mocno napinając pośladki.",
-        "Powróć do pozycji, kiedy jedna z nóg znajduje się bliżej wyciągu."
+        "1. Na kostkę załóż specjalną opaskę, którą następnie założysz jako uchwyt wyciągu dolnego. Ustaw się przodem do wyciągu.",
+        "2. Oddal się od wyciągu na odległość Twoich ramion (tak abyś mogła się podpierać).",
+        "3. Delikatnie pochyl tułów i napnij brzuch.",
+        "4. Przenieś ciężar ciała na jedną z nóg, a drugą przybliż do wyciągu.",
+        "5. Wykonaj ruch odwodzenia jednej z nóg w tył (tej, którą przybliżyłaś do wyciągu), mocno napinając pośladki.",
+        "6. Powróć do pozycji, kiedy jedna z nóg znajduje się bliżej wyciągu."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ODWODZENIE_NOGI_W_TY%C5%81_NA_WYCI%C4%84GU_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ODWODZENIE_NOGI_W_TY%C5%81_NA_WYCI%C4%84GU_2.jpg"
     },
     "ODWODZENIE NOGI W BOK NA WYCIĄGU": {
       "steps": [
-        "Na kostkę załóż specjalną opaskę, którą następnie założysz jako uchwyt wyciągu dolnego. Ustaw się bokiem do wyciągu. Opaska powinna znajdować się na nodze, która stoi dalej od wyciągu.",
-        "Oddal się od wyciągu na odległość Twojego ramienia (tak abyś mogła się podpierać) i delikatnie w tył (abyś nie stała na linii wyciągu).",
-        "Przybliż nogę z opaską bliżej wyciągu.",
-        "Wykonaj ruch odwodzenia nogi w bok i delikatnie w tył.",
-        "Powróć do pozycji, kiedy jedna z nóg znajduje się bliżej wyciągu."
+        "1. Na kostkę załóż specjalną opaskę, którą następnie założysz jako uchwyt wyciągu dolnego. Ustaw się bokiem do wyciągu. Opaska powinna znajdować się na nodze, która stoi dalej od wyciągu.",
+        "2. Oddal się od wyciągu na odległość Twojego ramienia (tak abyś mogła się podpierać) i delikatnie w tył (abyś nie stała na linii wyciągu).",
+        "3. Przybliż nogę z opaską bliżej wyciągu.",
+        "4. Wykonaj ruch odwodzenia nogi w bok i delikatnie w tył.",
+        "5. Powróć do pozycji, kiedy jedna z nóg znajduje się bliżej wyciągu."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ODWODZENIE_NOGI_W_BOK_NA_WYCI%C4%84GU_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ODWODZENIE_NOGI_W_BOK_NA_WYCI%C4%84GU_2.jpg"
     },
     "UNOSZENIE NOGI Z DEFICYTU": {
       "steps": [
-        "Połóż się bokiem na ławce, dosuwając pośladki blisko krawędzi.",
-        "Nogę, która znajduje się po zewnętrznej stronie opuść za nogę, która spoczywa na ławeczce.",
-        "Napnij stopę, zacierając palce w górę.",
-        "Rozpocznij ruch unoszenie nogi, aby maksymalnie napiąć mięsień pośladkowy średni.",
-        "Kontrolując ruch, powróć do pozycji czyli momentu, kiedy noga znajduje się znacznie niżej niż ławeczka."
+        "1. Połóż się bokiem na ławce, dosuwając pośladki blisko krawędzi.",
+        "2. Nogę, która znajduje się po zewnętrznej stronie opuść za nogę, która spoczywa na ławeczce.",
+        "3. Napnij stopę, zacierając palce w górę.",
+        "4. Rozpocznij ruch unoszenie nogi, aby maksymalnie napiąć mięsień pośladkowy średni.",
+        "5. Kontrolując ruch, powróć do pozycji czyli momentu, kiedy noga znajduje się znacznie niżej niż ławeczka."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/UNOSZENIE_NOGI_Z_DEFICYTU_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/UNOSZENIE_NOGI_Z_DEFICYTU_2.jpg"
     },
     "UGINANIE UD NA MASZYNIE LEŻĄC": {
       "steps": [
-        "Dostosuj ustawienia maszyny do Twoich rozmiarów.",
-        "Połóż się na brzuchu, stopy umieść pod wałkiem.",
-        "Zepnij brzuch i wykonaj uginanie ud, przenosząc wałek w kierunku pośladków.",
-        "Kontrolując ruch, powróć do pozycji wyprostu kolan."
+        "1. Dostosuj ustawienia maszyny do Twoich rozmiarów.",
+        "2. Połóż się na brzuchu, stopy umieść pod wałkiem.",
+        "3. Zepnij brzuch i wykonaj uginanie ud, przenosząc wałek w kierunku pośladków.",
+        "4. Kontrolując ruch, powróć do pozycji wyprostu kolan."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/UGINANIE_UD_NA_MASZYNIE_LE%C5%BB%C4%84C_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/UGINANIE_UD_NA_MASZYNIE_LE%C5%BB%C4%84C_2.jpg"
     },
     "WYPROSTY UD NA MASZYNIE": {
       "steps": [
-        "Dostosuj ustawienia maszyny do Twoich rozmiarów.",
-        "Usiądź na siedzisku, stopy umieść pod wałkiem.",
-        "Wykonaj wyprost ud, przenosząc wałek w górę.",
-        "Kontrolując ruch, powróć do pozycji zgięcia kolan."
+        "1. Dostosuj ustawienia maszyny do Twoich rozmiarów.",
+        "2. Usiądź na siedzisku, stopy umieść pod wałkiem.",
+        "3. Wykonaj wyprost ud, przenosząc wałek w górę.",
+        "4. Kontrolując ruch, powróć do pozycji zgięcia kolan."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYPROSTY_UD_NA_MASZYNIE_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYPROSTY_UD_NA_MASZYNIE_2.jpg"
     },
     "FROG PUMP": {
       "steps": [
-        "Oprzyj się o ławeczkę, tak aby łopatki swobodnie na niej spoczywały.",
-        "Stopy połącz ze sobą od strony podeszwowej. Kolana rozszerz.",
-        "Napnij brzuch i wykonaj wyprost bioder, wypychając się mocno w górę.",
-        "Zepnij pośladki, a następnie powróć do pozycji startowej."
+        "1. Oprzyj się o ławeczkę, tak aby łopatki swobodnie na niej spoczywały.",
+        "2. Stopy połącz ze sobą od strony podeszwowej. Kolana rozszerz.",
+        "3. Napnij brzuch i wykonaj wyprost bioder, wypychając się mocno w górę.",
+        "4. Zepnij pośladki, a następnie powróć do pozycji startowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/FROG_PUMP_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/FROG_PUMP_2.jpg"
     },
     "HIP THRUST JEDNONÓŻ": {
       "steps": [
-        "Oprzyj się o ławeczkę, tak aby łopatki swobodnie na niej spoczywały.",
-        "Stopy oddal od oparcia tak, aby przy wyproście biodra między łydką, a udem utworzył się kąt prosty.",
-        "Jedną stopę zbliż delikatnie do środka.",
-        "Głowy nie odchylaj, patrz przed siebie.",
-        "Napnij mocno brzuch i wykonaj wyprost biodra, opierając się na jednej nodze (tej bliżej środka), drugą zaś ugiętą trzymaj w górze.",
-        "Zepnij pośladek, a następnie kontrolując ruch, trzymając napięty brzuch, powróć do pozycji wyjściowej."
+        "1. Oprzyj się o ławeczkę, tak aby łopatki swobodnie na niej spoczywały.",
+        "2. Stopy oddal od oparcia tak, aby przy wyproście biodra między łydką, a udem utworzył się kąt prosty.",
+        "3. Jedną stopę zbliż delikatnie do środka.",
+        "4. Głowy nie odchylaj, patrz przed siebie.",
+        "5. Napnij mocno brzuch i wykonaj wyprost biodra, opierając się na jednej nodze (tej bliżej środka), drugą zaś ugiętą trzymaj w górze.",
+        "6. Zepnij pośladek, a następnie kontrolując ruch, trzymając napięty brzuch, powróć do pozycji wyjściowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/HIP_THRUST_JEDNON%C3%93%C5%BB_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/HIP_THRUST_JEDNON%C3%93%C5%BB_2.jpg"
     },
     "HIP THRUST": {
       "steps": [
-        "Oprzyj się o ławeczkę, tak aby łopatki swobodnie na niej spoczywały.",
-        "Wsuń sztangę (zabezpieczoną gąbką) na swoje biodra. Ugnij kolana.",
-        "Stopy oddal od oparcia tak, aby przy wyproście biodra między łydką, a udem utworzył się kąt prosty.",
-        "Palce skieruj przed siebie, a stopy rozstaw na szerokość bioder.",
-        "Głowy nie odchylaj, patrz przed siebie.",
-        "Mocno napnij brzuch, podwijając miednicę.",
-        "Wykonaj wyprost biodra, wypychając sztangę w górę, do momentu aż Twoje biodra zrównają się z tułowiem. Napnij pośladki.",
-        "Kontrolując ruch, trzymając napięty brzuch, powróć do pozycji wyjściowej."
+        "1. Oprzyj się o ławeczkę, tak aby łopatki swobodnie na niej spoczywały.",
+        "2. Wsuń sztangę (zabezpieczoną gąbką) na swoje biodra. Ugnij kolana.",
+        "3. Stopy oddal od oparcia tak, aby przy wyproście biodra między łydką, a udem utworzył się kąt prosty.",
+        "4. Palce skieruj przed siebie, a stopy rozstaw na szerokość bioder.",
+        "5. Głowy nie odchylaj, patrz przed siebie.",
+        "6. Mocno napnij brzuch, podwijając miednicę.",
+        "7. Wykonaj wyprost biodra, wypychając sztangę w górę, do momentu aż Twoje biodra zrównają się z tułowiem. Napnij pośladki.",
+        "8. Kontrolując ruch, trzymając napięty brzuch, powróć do pozycji wyjściowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/HIP_THRUST_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/HIP_THRUST_2.jpg"
     },
     "GLUTE BRIDGE": {
       "steps": [
-        "Usiądź na ziemi, na macie treningowej.",
-        "Wsuń sztangę (zabezpieczoną gąbką) na swoje biodra. Ugnij kolana.",
-        "Połóż tułów i głowę na matę.",
-        "Palce skieruj przed siebie, a stopy rozstaw na szerokość bioder.",
-        "Sztangę trzymaj nachwytem, szerzej niż szerokość Twojej obręczy barkowej.",
-        "Napnij brzuch i wykonaj ruch wypychania bioder w górę, kierując sztangę ku górze. Napnij pośladki.",
-        "Gdy wykonasz pełny wyprost biodra, kontrolując ruch, powróć do pozycji wyjściowej."
+        "1. Usiądź na ziemi, na macie treningowej.",
+        "2. Wsuń sztangę (zabezpieczoną gąbką) na swoje biodra. Ugnij kolana.",
+        "3. Połóż tułów i głowę na matę.",
+        "4. Palce skieruj przed siebie, a stopy rozstaw na szerokość bioder.",
+        "5. Sztangę trzymaj nachwytem, szerzej niż szerokość Twojej obręczy barkowej.",
+        "6. Napnij brzuch i wykonaj ruch wypychania bioder w górę, kierując sztangę ku górze. Napnij pośladki.",
+        "7. Gdy wykonasz pełny wyprost biodra, kontrolując ruch, powróć do pozycji wyjściowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/GLUTE_BRIDGE_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/GLUTE_BRIDGE_2.jpg"
     },
     "STRADDLE LIFT": {
       "steps": [
-        "Stań na podwyższeniach. Mogą to być stepy lub szerokie krążki.",
-        "Ustaw stopy dużo szerzej niż szerokość Twoich bioder, a palce skieruj na zewnątrz.",
-        "Ściągnij łopatki do siebie i obniż ich pozycje. Zepnij brzuch oraz pośladki.",
-        "Głowa powinna stanowić przedłużenie tułowia.",
-        "Rozpocznij ruch schodzenia w dół zaczynając od maksymalnego wypchnięcia bioder w tył. Kolana w początkowej fazie ruchu nie powinny się mocniej uginać.",
-        "Gdy osiągniesz maksymalne wypchnięcie bioder w tył, dodaj pracę kolan, uginając je i schodząc niżej.",
-        "Kolana kieruj na zewnątrz przez cały ruch.",
-        "Zejdź tak nisko, jak pozwala Ci Twoja mobilność. Zadbaj o to, aby miednica nie podwijała się za mocno (delikatne podwijanie jest akceptowane).",
-        "W górnej fazie dopnij pośladki, ale nie wykonuj przeprostu w odcinku lędźwiowym kręgosłupa."
+        "1. Stań na podwyższeniach. Mogą to być stepy lub szerokie krążki.",
+        "2. Ustaw stopy dużo szerzej niż szerokość Twoich bioder, a palce skieruj na zewnątrz.",
+        "3. Ściągnij łopatki do siebie i obniż ich pozycje. Zepnij brzuch oraz pośladki.",
+        "4. Głowa powinna stanowić przedłużenie tułowia.",
+        "5. Rozpocznij ruch schodzenia w dół zaczynając od maksymalnego wypchnięcia bioder w tył. Kolana w początkowej fazie ruchu nie powinny się mocniej uginać.",
+        "6. Gdy osiągniesz maksymalne wypchnięcie bioder w tył, dodaj pracę kolan, uginając je i schodząc niżej.",
+        "7. Kolana kieruj na zewnątrz przez cały ruch.",
+        "8. Zejdź tak nisko, jak pozwala Ci Twoja mobilność. Zadbaj o to, aby miednica nie podwijała się za mocno (delikatne podwijanie jest akceptowane).",
+        "9. W górnej fazie dopnij pośladki, ale nie wykonuj przeprostu w odcinku lędźwiowym kręgosłupa."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/STRADDLE_LIFT_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/STRADDLE_LIFT_2.jpg"
     },
     "CABLE PULLTHROUGH": {
       "steps": [
-        "Do wyciągu dolnego przymocuj uchwyt “sznur”.",
-        "Stań tyłem do wyciągu, sznur złap w obie ręce, między swoimi nogami i zrób kilka drobnych kroków w przód (tak aby przez cały ruch czuć napięcie).",
-        "Stań na szerokość bioder lub trochę szerzej. Palce możesz skierować delikatnie na zewnątrz.",
-        "Uchwyt trzymaj wysoko między nogami.",
-        "Napnij brzuch. Wyprostuj plecy. Kolana delikatnie ugnij, ale nie zginaj ich mocniej w trakcie wykonywania ćwiczenia.",
-        "Rozpocznij ruch wypychania bioder mocno w tył (pozwól aby wyciąg ciągnął Cię w swoją stronę).",
-        "Gdy osiągniesz pozycję maksymalnego wypchnięcia bioder, rozpocznij ruch powracania do pozycji startowej.",
-        "Mocno zepnij pośladki w górnej fazie ruchu."
+        "1. Do wyciągu dolnego przymocuj uchwyt “sznur”.",
+        "2. Stań tyłem do wyciągu, sznur złap w obie ręce, między swoimi nogami i zrób kilka drobnych kroków w przód (tak aby przez cały ruch czuć napięcie).",
+        "3. Stań na szerokość bioder lub trochę szerzej. Palce możesz skierować delikatnie na zewnątrz.",
+        "4. Uchwyt trzymaj wysoko między nogami.",
+        "5. Napnij brzuch. Wyprostuj plecy. Kolana delikatnie ugnij, ale nie zginaj ich mocniej w trakcie wykonywania ćwiczenia.",
+        "6. Rozpocznij ruch wypychania bioder mocno w tył (pozwól aby wyciąg ciągnął Cię w swoją stronę).",
+        "7. Gdy osiągniesz pozycję maksymalnego wypchnięcia bioder, rozpocznij ruch powracania do pozycji startowej.",
+        "8. Mocno zepnij pośladki w górnej fazie ruchu."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/CABLE_PULLTHROUGH_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/CABLE_PULLTHROUGH_2.jpg"
     },
     "PRZYWODZENIE KOPENHASKIE": {
       "steps": [
-        "Znajdź dość niską ławeczkę i ustaw się prostopadle do niej, będąc na boku, opierając się o podłoże przedramieniem. Łokieć powinien być pod barkiem (w jednej linii).",
-        "Jedną nogę (po zewnętrznej stronie) połóż na ławeczce, drugą pozostaw na podłodze.",
-        "Napnij mocno brzuch i pośladki.",
-        "Rozpocznij ruch przywodzenia, tak jakbyś chciała zbliżyć obie nogi do siebie i unieść tułów.",
-        "Kontrolując ruch, powróć do pozycji wyjściowej."
+        "1. Znajdź dość niską ławeczkę i ustaw się prostopadle do niej, będąc na boku, opierając się o podłoże przedramieniem. Łokieć powinien być pod barkiem (w jednej linii).",
+        "2. Jedną nogę (po zewnętrznej stronie) połóż na ławeczce, drugą pozostaw na podłodze.",
+        "3. Napnij mocno brzuch i pośladki.",
+        "4. Rozpocznij ruch przywodzenia, tak jakbyś chciała zbliżyć obie nogi do siebie i unieść tułów.",
+        "5. Kontrolując ruch, powróć do pozycji wyjściowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZYWODZENIE_KOPENHASKIE_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZYWODZENIE_KOPENHASKIE_2.jpg"
     },
     "WSTĘPOWANIE NA SKRZYNIĘ BOKIEM": {
       "steps": [
-        "Ustaw się bokiem do skrzyni. Jedną nogę (tę bliżej skrzyni) postaw blisko jej krawędzi. Palce skieruj przed siebie.",
-        "Napnij brzuch, wyprostuj plecy. Delikatnie pochyl tułów w przód.",
-        "Skupiając się na pracy nogi stojącej na skrzyni rozpocznij ruch podnoszenia się (staraj się nie wybijać z nogi stojącej na ziemi). Kolano kieruj cały czas na zewnątrz.",
-        "Gdy Twoje stopy są na tej samej wysokości, rozpocznij ruch powolnego opuszczania się w dół, ponownie skupiając się na pracy nogi na skrzyni.",
+        "1. Ustaw się bokiem do skrzyni. Jedną nogę (tę bliżej skrzyni) postaw blisko jej krawędzi. Palce skieruj przed siebie.",
+        "2. Napnij brzuch, wyprostuj plecy. Delikatnie pochyl tułów w przód.",
+        "3. Skupiając się na pracy nogi stojącej na skrzyni rozpocznij ruch podnoszenia się (staraj się nie wybijać z nogi stojącej na ziemi). Kolano kieruj cały czas na zewnątrz.",
+        "4. Gdy Twoje stopy są na tej samej wysokości, rozpocznij ruch powolnego opuszczania się w dół, ponownie skupiając się na pracy nogi na skrzyni.",
         "Wysokość skrzyni dopasuj do swoich możliwości. Im większa będzie siła Twoich mięśni, tym wyższy podest możesz zastosować."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WST%C4%98POWANIE_NA_SKRZYNI%C4%98_BOKIEM_1.jpg",
@@ -446,10 +446,10 @@
     },
     "WSTĘPOWANIE NA SKRZYNIĘ PRZODEM": {
       "steps": [
-        "Ustaw się przodem do skrzyni. Jedną nogę postaw blisko jej krawędzi. Palce skieruj przed siebie.",
-        "Napnij brzuch, wyprostuj plecy. Delikatnie pochyl tułów w przód.",
-        "Skupiając się na pracy nogi stojącej na skrzyni rozpocznij ruch podnoszenia się (staraj się nie wybijać z nogi stojącej na ziemi). Kolano kieruj cały czas na zewnątrz.",
-        "Gdy Twoje stopy są na tej samej wysokości, rozpocznij ruch powolnego opuszczania się w dół, ponownie skupiając się na pracy nogi na skrzyni.",
+        "1. Ustaw się przodem do skrzyni. Jedną nogę postaw blisko jej krawędzi. Palce skieruj przed siebie.",
+        "2. Napnij brzuch, wyprostuj plecy. Delikatnie pochyl tułów w przód.",
+        "3. Skupiając się na pracy nogi stojącej na skrzyni rozpocznij ruch podnoszenia się (staraj się nie wybijać z nogi stojącej na ziemi). Kolano kieruj cały czas na zewnątrz.",
+        "4. Gdy Twoje stopy są na tej samej wysokości, rozpocznij ruch powolnego opuszczania się w dół, ponownie skupiając się na pracy nogi na skrzyni.",
         "Wysokość skrzyni dopasuj do swoich możliwości. Im większa będzie siła Twoich mięśni, tym wyższy podest możesz zastosować."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WST%C4%98POWANIE_NA_SKRZYNI%C4%98_PRZODEM_1.jpg",
@@ -521,36 +521,36 @@
     },
     "UGINANIE PRZEDRAMION ZE SZTANGĄ": {
       "steps": [
-        "Chwyć sztangę podchwytem.",
-        "Stań na szerokość bioder i zepnij brzuch.",
-        "Wykonaj ruch unoszenia ramion w przód, a następnie uginania przedramion, tak aby maksymalnie napiąć biceps i aby dłonie zbliżyły się w okolice Twojej obręczy barkowej.",
-        "Kontrolując ruch, powróć do pozycji wyjściowej."
+        "1. Chwyć sztangę podchwytem.",
+        "2. Stań na szerokość bioder i zepnij brzuch.",
+        "3. Wykonaj ruch unoszenia ramion w przód, a następnie uginania przedramion, tak aby maksymalnie napiąć biceps i aby dłonie zbliżyły się w okolice Twojej obręczy barkowej.",
+        "4. Kontrolując ruch, powróć do pozycji wyjściowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/UGINANIE_PRZEDRAMION_ZE_SZTANG%C4%84_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/UGINANIE_PRZEDRAMION_ZE_SZTANG%C4%84_2.jpg"
     },
     "WYCISKANIE SZTANGI WĄSKO": {
       "steps": [
-        "Połóż się na ławce poziomej.",
-        "Złap sztangę na szerokość swoich barków lub nieco węziej.",
-        "Zrób delikatny mostek (oderwij odcinek lędźwiowy od ławeczki).",
-        "Mocno zepnij łopatki i ułóż je stabilnie na ławce.",
-        "Stopy rozstaw po bokach ławeczki i mocno wbij je w podłoże.",
-        "Wyciągnij sztangę ze stojaków i przenieś nad swoją głowę.",
-        "Wykonaj rotację ramienia (ruch, jakbyś chciała złamać sztangę na pół).",
-        "Rozpocznij ruch opuszczania sztangi, kierując łokcie jak najbliżej ciała.",
-        "Gdy sztanga dotknie okolic mostka, rozpocznij ruch wyciskania jej z powrotem nad głowę."
+        "1. Połóż się na ławce poziomej.",
+        "2. Złap sztangę na szerokość swoich barków lub nieco węziej.",
+        "3. Zrób delikatny mostek (oderwij odcinek lędźwiowy od ławeczki).",
+        "4. Mocno zepnij łopatki i ułóż je stabilnie na ławce.",
+        "5. Stopy rozstaw po bokach ławeczki i mocno wbij je w podłoże.",
+        "6. Wyciągnij sztangę ze stojaków i przenieś nad swoją głowę.",
+        "7. Wykonaj rotację ramienia (ruch, jakbyś chciała złamać sztangę na pół).",
+        "8. Rozpocznij ruch opuszczania sztangi, kierując łokcie jak najbliżej ciała.",
+        "9. Gdy sztanga dotknie okolic mostka, rozpocznij ruch wyciskania jej z powrotem nad głowę."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYCISKANIE_SZTANGI_W%C4%84SKO_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYCISKANIE_SZTANGI_W%C4%84SKO_2.jpg"
     },
     "DIPY (POMPKI NA PORĘCZACH)": {
       "steps": [
-        "Ustaw się na poręczach do dipów, trzymając uchwyty od góry. Łokcie trzymaj wyprostowane.",
-        "Napnij mocno brzuch i oderwij stopy od podnóżek, wyprostuj nogi w kolanach.",
-        "Prowadząc łokcie wąsko, rozpocznij ruch schodzenia w dół, delikatnie pochylając się w przód.",
-        "Zejdź tak nisko, aby osiągnąć kąt prosty w łokciu.",
-        "Utrzymując napięty brzuch wykonaj pompkę na poręczach, dążąc do ponownego wyprostowania łokci i przybrania pozycji startowej.",
+        "1. Ustaw się na poręczach do dipów, trzymając uchwyty od góry. Łokcie trzymaj wyprostowane.",
+        "2. Napnij mocno brzuch i oderwij stopy od podnóżek, wyprostuj nogi w kolanach.",
+        "3. Prowadząc łokcie wąsko, rozpocznij ruch schodzenia w dół, delikatnie pochylając się w przód.",
+        "4. Zejdź tak nisko, aby osiągnąć kąt prosty w łokciu.",
+        "5. Utrzymując napięty brzuch wykonaj pompkę na poręczach, dążąc do ponownego wyprostowania łokci i przybrania pozycji startowej.",
         "Gdy schodzisz w dół - delikatnie pochylaj tułów w przód, zaś gdy powracasz do pozycji wyjściowej prostuj sylwetkę."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/DIPY_(POMPKI_NA_POR%C4%98CZACH)_1.jpg",
@@ -591,58 +591,58 @@
     },
     "Y-RAISE": {
       "steps": [
-        "W obie dłonie chwyć nieduży ciężar.",
-        "Pochyl tułów mocno w przód. Ramiona powinny swobodnie zwisać w dół.",
-        "Napnij brzuch. Ściągnij łopatki. Delikatnie ugnij łokcie.",
-        "Wykonaj ruch unoszenia ramiona w przód, tak aby Twoje ręce i tułów przypominały kształt literki “Y”.",
-        "Przytrzymaj pozycję przez 1-2 sekundy i kontrolując ruch, powróć do pozycji startowej."
+        "1. W obie dłonie chwyć nieduży ciężar.",
+        "2. Pochyl tułów mocno w przód. Ramiona powinny swobodnie zwisać w dół.",
+        "3. Napnij brzuch. Ściągnij łopatki. Delikatnie ugnij łokcie.",
+        "4. Wykonaj ruch unoszenia ramiona w przód, tak aby Twoje ręce i tułów przypominały kształt literki “Y”.",
+        "5. Przytrzymaj pozycję przez 1-2 sekundy i kontrolując ruch, powróć do pozycji startowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/Y-RAISE_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/Y-RAISE_2.jpg"
     },
     "T-RAISE": {
       "steps": [
-        "W obie dłonie chwyć nieduży ciężar.",
-        "Pochyl tułów mocno w przód. Ramiona powinny swobodnie zwisać w dół.",
-        "Napnij brzuch. Ściągnij łopatki. Delikatnie ugnij łokcie.",
-        "Wykonaj ruch unoszenia ramiona na boki, tak aby Twoje ręce i tułów przypominały kształt literki “T”.",
-        "Przytrzymaj pozycję przez 1-2 sekundy i kontrolując ruch, powróć do pozycji startowej."
+        "1. W obie dłonie chwyć nieduży ciężar.",
+        "2. Pochyl tułów mocno w przód. Ramiona powinny swobodnie zwisać w dół.",
+        "3. Napnij brzuch. Ściągnij łopatki. Delikatnie ugnij łokcie.",
+        "4. Wykonaj ruch unoszenia ramiona na boki, tak aby Twoje ręce i tułów przypominały kształt literki “T”.",
+        "5. Przytrzymaj pozycję przez 1-2 sekundy i kontrolując ruch, powróć do pozycji startowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/T-RAISE_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/T-RAISE_2.jpg"
     },
     "OHP": {
       "steps": [
-        "Ustaw stojaki na takiej wysokości, aby swobodnie ściągnąć z nich sztangę (mniej więcej wysokość barków).",
-        "Wynieś sztangę ze stojaków i zrób dwa, drobne kroki w tył, trzymając sztangę z przodu, pod obojczykami.",
-        "Stopy rozstaw na szerokość bioder i mocno wbij w podłoże.",
-        "Napnij pośladki i brzuch.",
-        "Łokcie powinny znajdować się pod sztangą lub delikatnie przed nią.",
-        "Rozpocznij ruch wyciskania sztangi w górę, rozpoczynając od delikatnego wypchnięcia bioder w przód.",
-        "Łokcie prowadź blisko ciała.",
-        "Gdy sztanga zbliża się do wysokości głowy, cofnij głowę w tył, a gdy sztanga znajdzie się nad głową, przywróć początkową pozycję głowy.",
-        "Wyprostuj łokcie, trzymając sztangę nad głową.",
-        "Kontrolując ruch, rozpocznij opuszczanie sztangi ponownie cofając głowę, gdy sztanga będzie na jej wysokości."
+        "1. Ustaw stojaki na takiej wysokości, aby swobodnie ściągnąć z nich sztangę (mniej więcej wysokość barków).",
+        "2. Wynieś sztangę ze stojaków i zrób dwa, drobne kroki w tył, trzymając sztangę z przodu, pod obojczykami.",
+        "3. Stopy rozstaw na szerokość bioder i mocno wbij w podłoże.",
+        "4. Napnij pośladki i brzuch.",
+        "5. Łokcie powinny znajdować się pod sztangą lub delikatnie przed nią.",
+        "6. Rozpocznij ruch wyciskania sztangi w górę, rozpoczynając od delikatnego wypchnięcia bioder w przód.",
+        "7. Łokcie prowadź blisko ciała.",
+        "8. Gdy sztanga zbliża się do wysokości głowy, cofnij głowę w tył, a gdy sztanga znajdzie się nad głową, przywróć początkową pozycję głowy.",
+        "9. Wyprostuj łokcie, trzymając sztangę nad głową.",
+        "10. Kontrolując ruch, rozpocznij opuszczanie sztangi ponownie cofając głowę, gdy sztanga będzie na jej wysokości."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/OHP_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/OHP_2.jpg"
     },
     "WYCISKANIE HANTLI NAD GŁOWĘ": {
       "steps": [
-        "W obie dłonie chwyć hantle, umieść je na wysokości swojej obręczy barkowej (możesz delikatnie oprzeć je o swoje barki), stań na szerokość bioder.",
-        "Napnij brzuch i pośladki.",
-        "Rozpocznij ruch wyciskania hantli nad głowę, utrzymując napięty brzuch i pośladki.",
-        "Gdy hantle będą nad głową (nie muszą się połączyć, ale mogą), kontrolując ruch powróć do pozycji startowej. Pamiętaj aby nie opuszczać hantli zbyt nisko."
+        "1. W obie dłonie chwyć hantle, umieść je na wysokości swojej obręczy barkowej (możesz delikatnie oprzeć je o swoje barki), stań na szerokość bioder.",
+        "2. Napnij brzuch i pośladki.",
+        "3. Rozpocznij ruch wyciskania hantli nad głowę, utrzymując napięty brzuch i pośladki.",
+        "4. Gdy hantle będą nad głową (nie muszą się połączyć, ale mogą), kontrolując ruch powróć do pozycji startowej. Pamiętaj aby nie opuszczać hantli zbyt nisko."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYCISKANIE_HANTLI_NAD_G%C5%81OW%C4%98_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WYCISKANIE_HANTLI_NAD_G%C5%81OW%C4%98_2.jpg"
     },
     "ARNOLDKI": {
       "steps": [
-        "W obie dłonie chwyć hantle, umieść je na wysokości swoich obojczyków. Hantle trzymaj tak, aby palce dłoni były skierowane w Twoją stronę (zrotuj nadgarstki do wewnątrz. Kciuki są skierowane na zewnątrz.). Stań na szerokość bioder.",
-        "Napnij brzuch i pośladki.",
-        "Rozpocznij ruch wyciskanie hantli nad głowę, odkręcając nadgarstki do zewnętrznej strony. Utrzymuj napięty brzuch i pośladki.",
-        "Gdy hantle znajdą się nad głową, trzymane w taki sposób, aby nadgarstek był skierowany na zewnątrz (kciuki są skierowane do wewnątrz), rozpocznij ruch opuszczania, ponownie powracając do pozycji nadgarstków zrotowanych do wewnątrz."
+        "1. W obie dłonie chwyć hantle, umieść je na wysokości swoich obojczyków. Hantle trzymaj tak, aby palce dłoni były skierowane w Twoją stronę (zrotuj nadgarstki do wewnątrz. Kciuki są skierowane na zewnątrz.). Stań na szerokość bioder.",
+        "2. Napnij brzuch i pośladki.",
+        "3. Rozpocznij ruch wyciskanie hantli nad głowę, odkręcając nadgarstki do zewnętrznej strony. Utrzymuj napięty brzuch i pośladki.",
+        "4. Gdy hantle znajdą się nad głową, trzymane w taki sposób, aby nadgarstek był skierowany na zewnątrz (kciuki są skierowane do wewnątrz), rozpocznij ruch opuszczania, ponownie powracając do pozycji nadgarstków zrotowanych do wewnątrz."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ARNOLDKI_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ARNOLDKI_2.jpg"
@@ -665,20 +665,20 @@
     },
     "WCIĄGANIE NA WYCIĄGU": {
       "steps": [
-        "Po obu stronach bramy przymocuj pojedyncze, metalowe uchwyty.",
-        "Złap jeden uchwyt, przyciągnij go bliżej ciała i sięgnij po drugi uchwyt.",
-        "Ustaw się po środku bramy i usiądź pośladkami na piętach lub pozostań na kolanach.",
-        "Wyciągnij ramiona mocno na boki (pozwól, aby ciężar Cię pociągnął).",
-        "Ściągnij łopatki.",
-        "Rozpocznij ruch przyciągania uchwytów, zbliżając łokcie w okolice brzucha i delikatnie rotując nadgarstki (zobacz nagranie instruktażowe).",
-        "Powróć do pozycji początkowej, wypuszczając ramiona w stronę wyciągu, przywracając startowe ustawienie nadgarstków."
+        "1. Po obu stronach bramy przymocuj pojedyncze, metalowe uchwyty.",
+        "2. Złap jeden uchwyt, przyciągnij go bliżej ciała i sięgnij po drugi uchwyt.",
+        "3. Ustaw się po środku bramy i usiądź pośladkami na piętach lub pozostań na kolanach.",
+        "4. Wyciągnij ramiona mocno na boki (pozwól, aby ciężar Cię pociągnął).",
+        "5. Ściągnij łopatki.",
+        "6. Rozpocznij ruch przyciągania uchwytów, zbliżając łokcie w okolice brzucha i delikatnie rotując nadgarstki (zobacz nagranie instruktażowe).",
+        "7. Powróć do pozycji początkowej, wypuszczając ramiona w stronę wyciągu, przywracając startowe ustawienie nadgarstków."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WCI%C4%84GANIE_NA_WYCI%C4%84GU_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WCI%C4%84GANIE_NA_WYCI%C4%84GU_2.jpg"
     },
     "PRZYCIĄGANIE WYCIĄGU DOLNEGO DO BRZUCHA": {
       "steps": [
-        "1.Do wyciągu przymocuj uchwyt trójątkny lub inny, który pozwoli Ci swobodnie trzymać ciężar.",
+        "1. Do wyciągu przymocuj uchwyt trójątkny lub inny, który pozwoli Ci swobodnie trzymać ciężar.",
         "2. Złap uchwyt i usiądź na ławeczce w takiej odległości od wyciągu, aby Twoje mięśnie pleców były rozciągnięte.",
         "3. Ściągnij łopatki do siebie i obniż ich pozycję.",
         "4. Rozpocznij ruch przyciągania uchwytu do brzucha, łokcie prowadząc blisko ciała.",
@@ -689,22 +689,22 @@
     },
     "PRZYCIĄGANIE DRĄŻKA WYCIĄGU GÓRNEGO DO KLATKI NACHWYTEM": {
       "steps": [
-        "Do wyciągu górnego przymocuj uchwyt prosty lub inny, który pozwoli Ci swobodnie trzymać ciężar.",
-        "Złap uchwyt na szerokość 1.5 szerokości Twoich ramion i usiądź na ławeczce, rozciągając mięśnie pleców.",
-        "Ściągnij łopatki i obniż ich pozycję.",
-        "Rozpocznij ruch przyciągania uchwytu do klatki piersiowej, starając się jak najdłużej prowadzić przedramiona prostopadle do podłoża.",
-        "Powróć do pozycji początkowej, kontrolując ruch."
+        "1. Do wyciągu górnego przymocuj uchwyt prosty lub inny, który pozwoli Ci swobodnie trzymać ciężar.",
+        "2. Złap uchwyt na szerokość 1.5 szerokości Twoich ramion i usiądź na ławeczce, rozciągając mięśnie pleców.",
+        "3. Ściągnij łopatki i obniż ich pozycję.",
+        "4. Rozpocznij ruch przyciągania uchwytu do klatki piersiowej, starając się jak najdłużej prowadzić przedramiona prostopadle do podłoża.",
+        "5. Powróć do pozycji początkowej, kontrolując ruch."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZYCI%C4%84GANIE_DR%C4%84%C5%BBKA_WYCI%C4%84GU_G%C3%93RNEGO_DO_KLATKI_NACHWYTEM_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZYCI%C4%84GANIE_DR%C4%84%C5%BBKA_WYCI%C4%84GU_G%C3%93RNEGO_DO_KLATKI_NACHWYTEM_2.jpg"
     },
     "PENDLAY ROW": {
       "steps": [
-        "Na sztangę załóż wysokie krążki lub podłóż pod nią stepy, aby sztanga sięgała wysokości pod kolanem.",
-        "Chwyć sztangę nachwytem, troszkę szerzej niż szerokość barków.",
-        "Napnij mocno brzuch, ściągnij łopatki. Głowa powinna stanowić przedłużenie tułowia.",
-        "Wykonaj ruch przyciągania sztangi w okolice swojego brzucha, prowadząc łokcie w miarę blisko ciała.",
-        "Opuść sztangę dynamicznie, ale jednocześnie starając się delikatnie kontrolować ruch opadania."
+        "1. Na sztangę załóż wysokie krążki lub podłóż pod nią stepy, aby sztanga sięgała wysokości pod kolanem.",
+        "2. Chwyć sztangę nachwytem, troszkę szerzej niż szerokość barków.",
+        "3. Napnij mocno brzuch, ściągnij łopatki. Głowa powinna stanowić przedłużenie tułowia.",
+        "4. Wykonaj ruch przyciągania sztangi w okolice swojego brzucha, prowadząc łokcie w miarę blisko ciała.",
+        "5. Opuść sztangę dynamicznie, ale jednocześnie starając się delikatnie kontrolować ruch opadania."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PENDLAY_ROW_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PENDLAY_ROW_2.jpg"
@@ -724,54 +724,54 @@
     },
     "PULLOVER": {
       "steps": [
-        "Dostosuj ustawienia maszyny do swoich rozmiarów.",
-        "Usiądź wygodnie, napnij brzuch i złap górne uchwyty maszyny. Ściągnij łopatki do siebie.",
-        "Trzymając napięty brzuch, rozpocznij ruch przenoszenia uchwytu przed siebie, w okolice bioder.",
-        "Kontrolując ruch, powróć do pozycji startowej."
+        "1. Dostosuj ustawienia maszyny do swoich rozmiarów.",
+        "2. Usiądź wygodnie, napnij brzuch i złap górne uchwyty maszyny. Ściągnij łopatki do siebie.",
+        "3. Trzymając napięty brzuch, rozpocznij ruch przenoszenia uchwytu przed siebie, w okolice bioder.",
+        "4. Kontrolując ruch, powróć do pozycji startowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PULLOVER_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PULLOVER_2.jpg"
     },
     "HIGH ROW": {
       "steps": [
-        "Dostosuj ustawienia maszyny do swoich rozmiarów.",
-        "Usiądź wygodnie, napnij brzuch i złap górne uchwyty maszyny. Ściągnij łopatki do siebie.",
-        "Rozpocznij ruch przyciągania uchwytów do siebie, tak aby znalazły się w okolicach Twoich żeber.",
-        "Kontrolując ruch, powróć do pozycji startowej."
+        "1. Dostosuj ustawienia maszyny do swoich rozmiarów.",
+        "2. Usiądź wygodnie, napnij brzuch i złap górne uchwyty maszyny. Ściągnij łopatki do siebie.",
+        "3. Rozpocznij ruch przyciągania uchwytów do siebie, tak aby znalazły się w okolicach Twoich żeber.",
+        "4. Kontrolując ruch, powróć do pozycji startowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/HIGH_ROW_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/HIGH_ROW_2.jpg"
     },
     "SEAL ROW": {
       "steps": [
-        "Połóż się na ławce, na brzuchu.",
-        "Wysuń sztangę ze stojaków. Możesz trzymać ją zarówno podchwytem jak i nachwytem.",
-        "Ściągnij łopatki i rozpocznij ruch przyciągania sztangi do ławki.",
-        "Kontrolując ruch, opuść sztangę."
+        "1. Połóż się na ławce, na brzuchu.",
+        "2. Wysuń sztangę ze stojaków. Możesz trzymać ją zarówno podchwytem jak i nachwytem.",
+        "3. Ściągnij łopatki i rozpocznij ruch przyciągania sztangi do ławki.",
+        "4. Kontrolując ruch, opuść sztangę."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/SEAL_ROW_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/SEAL_ROW_2.jpg"
     },
     "WIOSŁOWANIE HANTLEM": {
       "steps": [
-        "Oprzyj się jedną ręką o ławeczkę, w drugą chwyć hantel.",
-        "Opuść hantel w dół, tak aby Twoje ramię swobodnie zwisało, a mięśnie pleców były rozciągnięte.",
-        "Napnij brzuch, ściągnij łopatki (szczególnie tę po stronie hantla).",
-        "Głowa powinna stanowić przedłużenie tułowia.",
-        "Rozpocznij ruch przyciągania hantla w okolice brzucha, prowadząc łokieć blisko ciała.",
-        "Zakończ ruch gdy łokieć jest tuż nad linią Twojego tułowia, a mięśnie pleców są maksymalnie napięte.",
-        "Kontrolując ruch, powróć do pozycji startowej."
+        "1. Oprzyj się jedną ręką o ławeczkę, w drugą chwyć hantel.",
+        "2. Opuść hantel w dół, tak aby Twoje ramię swobodnie zwisało, a mięśnie pleców były rozciągnięte.",
+        "3. Napnij brzuch, ściągnij łopatki (szczególnie tę po stronie hantla).",
+        "4. Głowa powinna stanowić przedłużenie tułowia.",
+        "5. Rozpocznij ruch przyciągania hantla w okolice brzucha, prowadząc łokieć blisko ciała.",
+        "6. Zakończ ruch gdy łokieć jest tuż nad linią Twojego tułowia, a mięśnie pleców są maksymalnie napięte.",
+        "7. Kontrolując ruch, powróć do pozycji startowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WIOS%C5%81OWANIE_HANTLEM_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WIOS%C5%81OWANIE_HANTLEM_2.jpg"
     },
     "PODCIĄGANIE NA DRĄŻKU NACHWYTEM": {
       "steps": [
-        "Złap drążek nachwytem nieco szerzej niż szerokość swoich barków.",
-        "Ściągnij łopatki, napnij brzuch i pośladki.",
-        "Rozpocznij ruch podciągania, uginając łokcie, trzymając wyprostowane nogi proste, lub delikatnie przed sobą (w celu lepszej kontroli spięcia brzucha).",
-        "Zakończ podciąganie, gdy Twoje mięśnie będą już maksymalnie napięte (zazwyczaj będzie to moment, kiedy głowa znajdzie się nad drążkiem).",
-        "Kontrolując ruch, powróć do pełnego wyprostu łokci i powtórz ćwiczenie od początku.",
+        "1. Złap drążek nachwytem nieco szerzej niż szerokość swoich barków.",
+        "2. Ściągnij łopatki, napnij brzuch i pośladki.",
+        "3. Rozpocznij ruch podciągania, uginając łokcie, trzymając wyprostowane nogi proste, lub delikatnie przed sobą (w celu lepszej kontroli spięcia brzucha).",
+        "4. Zakończ podciąganie, gdy Twoje mięśnie będą już maksymalnie napięte (zazwyczaj będzie to moment, kiedy głowa znajdzie się nad drążkiem).",
+        "5. Kontrolując ruch, powróć do pełnego wyprostu łokci i powtórz ćwiczenie od początku.",
         "Możesz rozpocząć to ćwiczenie schodząc z ławeczki i zwisając na drążku lub ustawić takie podwyższenie, aby rozpocząć ruch ze stania, a nie ze zwisu, jednak pamiętaj by wykorzystać cały zakres ruchu, a więc stanąć tak, aby Twoje ramiona były całkowicie wyprostowane, a mięśnie pleców rozciągnięte."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PODCI%C4%84GANIE_NA_DR%C4%84%C5%BBKU_NACHWYTEM_1.jpg",
@@ -779,11 +779,11 @@
     },
     "PODCIĄGANIE NA DRĄŻKU PODCHWYTEM": {
       "steps": [
-        "Złap drążek podchwytem na szerokość swoich barków.",
-        "Ściągnij łopatki, napnij brzuch i pośladki.",
-        "Rozpocznij ruch podciągania, uginając łokcie, trzymając wyprostowane nogi proste, lub delikatnie przed sobą (w celu lepszej kontroli spięcia brzucha).",
-        "Zakończ podciąganie, gdy Twoje mięśnie będą już maksymalnie napięte (zazwyczaj będzie to moment, kiedy głowa znajdzie się nad drążkiem).",
-        "Kontrolując ruch, powróć do pełnego wyprostu łokci i powtórz ćwiczenie od początku.",
+        "1. Złap drążek podchwytem na szerokość swoich barków.",
+        "2. Ściągnij łopatki, napnij brzuch i pośladki.",
+        "3. Rozpocznij ruch podciągania, uginając łokcie, trzymając wyprostowane nogi proste, lub delikatnie przed sobą (w celu lepszej kontroli spięcia brzucha).",
+        "4. Zakończ podciąganie, gdy Twoje mięśnie będą już maksymalnie napięte (zazwyczaj będzie to moment, kiedy głowa znajdzie się nad drążkiem).",
+        "5. Kontrolując ruch, powróć do pełnego wyprostu łokci i powtórz ćwiczenie od początku.",
         "Możesz rozpocząć to ćwiczenie schodząc z ławeczki i zwisając na drążku lub ustawić takie podwyższenie, aby rozpocząć ruch ze stania, a nie ze zwisu, jednak pamiętaj by wykorzystać cały zakres ruchu, a więc stanąć tak, aby Twoje ramiona były całkowicie wyprostowane, a mięśnie pleców rozciągnięte."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PODCI%C4%84GANIE_NA_DR%C4%84%C5%BBKU_PODCHWYTEM_1.jpg",
@@ -791,10 +791,10 @@
     },
     "NEGATYWY (PODCIĄGANIE NEGATYWNE)": {
       "steps": [
-        "Podskocz do drążka tak, aby Twoja głowa znalazła się nad drążkiem. Wybierz metodę chwytu w zależności od preferencji (podchwyt na szerokość barków prawdopodobnie będzie dla Ciebie łatwiejszy).",
-        "Ustabilizuj ciało, napinając brzuch i pośladki, abyś nie bujała się na drążku.",
-        "Rozpocznij ruch powolnego opuszczania się, aby dojść do pozycji zwisu na drążku z wyprostowanymi łokciami.",
-        "Odstaw nogi i ponownie podskocz do drążka.",
+        "1. Podskocz do drążka tak, aby Twoja głowa znalazła się nad drążkiem. Wybierz metodę chwytu w zależności od preferencji (podchwyt na szerokość barków prawdopodobnie będzie dla Ciebie łatwiejszy).",
+        "2. Ustabilizuj ciało, napinając brzuch i pośladki, abyś nie bujała się na drążku.",
+        "3. Rozpocznij ruch powolnego opuszczania się, aby dojść do pozycji zwisu na drążku z wyprostowanymi łokciami.",
+        "4. Odstaw nogi i ponownie podskocz do drążka.",
         "Możesz zarówno podskakiwać do drążka jak i ustawić krzesło/skrzynię tak wysoko, abyś nie musiała podskakiwać, a mogła po prostu zejść z podwyższenia. Celem jest to, aby Twoja głowa była nad drążkiem.",
         "Z każdym treningiem staraj się opuszczać coraz wolniej, a tym samym coraz bardziej kontrolować ruch, siłą swoich mięśni. Nie przejmuj się jeśli na początku Twój negatyw będzie trwał sekundę."
       ],
@@ -803,11 +803,11 @@
     },
     "PODCIĄGANIE AUSTRALIJSKIE": {
       "steps": [
-        "Ustaw sztangę (najlepiej na maszynie smitha) tak nisko, aby przy wyproście rąk, móc stabilnie podpierać się nogami, utrzymując prosty tułów.",
-        "Przyjmij pozycję, w której stopy będą spoczywać  stabilnie na podłodze (lub podwyższeniu), dłonie będą trzymały sztangę nachwytem nieco szerzej niż szerokość obręczy barkowej, a tułów będzie ustawiony równolegle do podłoża.",
-        "Napnij brzuch, pośladki i ściągnij łopatki.",
-        "Rozpocznij ruch podciągania, chcąc zbliżyć klatkę piersiową do sztangi.",
-        "Kontrolując ruch, powróć do pozycji startowej.",
+        "1. Ustaw sztangę (najlepiej na maszynie smitha) tak nisko, aby przy wyproście rąk, móc stabilnie podpierać się nogami, utrzymując prosty tułów.",
+        "2. Przyjmij pozycję, w której stopy będą spoczywać  stabilnie na podłodze (lub podwyższeniu), dłonie będą trzymały sztangę nachwytem nieco szerzej niż szerokość obręczy barkowej, a tułów będzie ustawiony równolegle do podłoża.",
+        "3. Napnij brzuch, pośladki i ściągnij łopatki.",
+        "4. Rozpocznij ruch podciągania, chcąc zbliżyć klatkę piersiową do sztangi.",
+        "5. Kontrolując ruch, powróć do pozycji startowej.",
         "Na samym początku możesz przybierać pozycję bardziej pionową, a więc nie ustawiać tułowia równolegle do podłoża, zrobisz to ustawiając sztangę nieco wyżej.",
         "Możesz wybrać podchwyt, wówczas złap sztangę na szerokość barków."
       ],
@@ -816,12 +816,12 @@
     },
     "WIOSŁOWANIE KOŃCEM SZTANGI": {
       "steps": [
-        "Jedną stronę sztangi przymocuj, tak aby była stabilna. Może do tego posłużyć specjalny sprzęt trzymający sztangę, gotowa maszyna do tego rodzaju wiosłowań lub po prostu róg pomieszczenia.",
-        "Na drugiej stronie sztangi umieść ciężar oraz uchwyt trójkątny, który pozwoli Ci na stabilne utrzymanie sztangi.",
-        "Ugnij kolana, napnij brzuch, ściągnij łopatki.",
-        "Głowa powinna stanowić przedłużenie tułowia.",
-        "Rozpocznij ruch przyciągania sztangi w okolice Twojego brzucha. Skup się na tym, aby zbliżyć do siebie łopatki.",
-        "Kontrolując ruch, powróć do pozycji początkowej.",
+        "1. Jedną stronę sztangi przymocuj, tak aby była stabilna. Może do tego posłużyć specjalny sprzęt trzymający sztangę, gotowa maszyna do tego rodzaju wiosłowań lub po prostu róg pomieszczenia.",
+        "2. Na drugiej stronie sztangi umieść ciężar oraz uchwyt trójkątny, który pozwoli Ci na stabilne utrzymanie sztangi.",
+        "3. Ugnij kolana, napnij brzuch, ściągnij łopatki.",
+        "4. Głowa powinna stanowić przedłużenie tułowia.",
+        "5. Rozpocznij ruch przyciągania sztangi w okolice Twojego brzucha. Skup się na tym, aby zbliżyć do siebie łopatki.",
+        "6. Kontrolując ruch, powróć do pozycji początkowej.",
         "To ćwiczenie najlepiej wykonywać na specjalnie przygotowanej do niego maszynie, być może znajdziesz ją na swojej siłowni. To znacząco ułatwi Ci cały proces."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WIOS%C5%81OWANIE_KO%C5%83CEM_SZTANGI_1.jpg",
@@ -873,11 +873,11 @@
     },
     "ROZPIĘTKI NA BRAMIE": {
       "steps": [
-        "Po obu stronach bramy przymocuj pojedyncze, metalowe uchwyty. Ustaw je mniej więcej na wysokości obręczy barkowej.",
-        "Złap jeden uchwyt, przyciągnij go bliżej ciała i sięgnij po drugi uchwyt.",
-        "Stań na środku bramy, ściągnij łopatki do siebie i otwórz klatkę piersiową. Łokcie powinny być delikatnie ugięte.",
-        "Wykonaj ruch przyciągania uchwytów, tak aby doprowadzić je przed siebie.",
-        "Powróć do pozycji początkowej, pozwalając ciężarowi ponownie rozciągnąć klatkę piersiową. Pamiętaj, aby łokcie były wciąż delikatnie ugięte.",
+        "1. Po obu stronach bramy przymocuj pojedyncze, metalowe uchwyty. Ustaw je mniej więcej na wysokości obręczy barkowej.",
+        "2. Złap jeden uchwyt, przyciągnij go bliżej ciała i sięgnij po drugi uchwyt.",
+        "3. Stań na środku bramy, ściągnij łopatki do siebie i otwórz klatkę piersiową. Łokcie powinny być delikatnie ugięte.",
+        "4. Wykonaj ruch przyciągania uchwytów, tak aby doprowadzić je przed siebie.",
+        "5. Powróć do pozycji początkowej, pozwalając ciężarowi ponownie rozciągnąć klatkę piersiową. Pamiętaj, aby łokcie były wciąż delikatnie ugięte.",
         "Nie musisz doprowadzić do tego, aby dłonie się zetknęły. Maksymalne napięcie mięśni klatki piersiowej może zajść jeszcze zanim dłonie całkowicie się do siebie zbliżą."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ROZPI%C4%98TKI_NA_BRAMIE_1.jpg",
@@ -897,12 +897,12 @@
     },
     "PRZENOSZENIE HANTLA ZZA GŁOWY": {
       "steps": [
-        "W dłonie złap hantel.",
-        "Ustaw się prostopadle do ławeczki, opierając o nią łopatki.",
-        "Unieść biodra, napnij pośladki i brzuch, a hantel podnieś nad głowę.",
-        "Rozpocznij ruch przenoszenia hantla zza głowę.",
-        "Zjedź tak nisko jak pozwala Ci Twoja mobilność.",
-        "Powróć do pozycji wyjściowej, skupiając się na spięciu klatki piersiowej."
+        "1. W dłonie złap hantel.",
+        "2. Ustaw się prostopadle do ławeczki, opierając o nią łopatki.",
+        "3. Unieść biodra, napnij pośladki i brzuch, a hantel podnieś nad głowę.",
+        "4. Rozpocznij ruch przenoszenia hantla zza głowę.",
+        "5. Zjedź tak nisko jak pozwala Ci Twoja mobilność.",
+        "6. Powróć do pozycji wyjściowej, skupiając się na spięciu klatki piersiowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZENOSZENIE_HANTLA_ZZA_G%C5%81OWY_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PRZENOSZENIE_HANTLA_ZZA_G%C5%81OWY_2.jpg"
@@ -919,7 +919,7 @@
     },
     "ROZPIĘTKI NA MASZYNIE": {
       "steps": [
-        "1.Dostosuj ustawienie maszyny do swojej budowy.",
+        "1. Dostosuj ustawienie maszyny do swojej budowy.",
         "2. Ściągnij łopatki i złap uchwyty maszyny.",
         "3. Rozpocznij ruch zbliżania do siebie uchwytów, skupiając się na pracy mięśni klatki piersiowej.",
         "4. Kontrolując ruch powróć do pozycji startowej."
@@ -931,7 +931,7 @@
   "BRZUCH": {
     "HOLLOW BODY": {
       "steps": [
-        "1.Połóż się na macie i przyklej odcinek lędźwiowy do podłoża.",
+        "1. Połóż się na macie i przyklej odcinek lędźwiowy do podłoża.",
         "2. Unieś w górę wyprostowane nogi.",
         "3. Oderwij od podłoża plecy w odcinku piersiowym, a wyprostowane ręce umieść nad głową.",
         "4. Zepnij mocno brzuch i rozpocznij ruch jednoczesnego opuszczania nóg (do podłoża) i rąk (za głowę).",
@@ -942,23 +942,23 @@
     },
     "ANTY ROTACJA NA WYCIĄGU": {
       "steps": [
-        "Do wyciągu przymocuj metalowy uchwyt, który swobodnie złapiesz obiema rękami. Powinien znajdować się mniej więcej na wysokości Twojej obręczy barkowej.",
-        "Stań bokiem do wyciągu i złap uchwyt.",
-        "Mocno zepnij mięśnie brzucha i ustabilizuj całą sylwetkę.",
-        "Wykonaj ruch przeniesienia wyprostowanych rąk przed siebie.",
-        "Kontrolując ruch, powróć do pozycji startowej."
+        "1. Do wyciągu przymocuj metalowy uchwyt, który swobodnie złapiesz obiema rękami. Powinien znajdować się mniej więcej na wysokości Twojej obręczy barkowej.",
+        "2. Stań bokiem do wyciągu i złap uchwyt.",
+        "3. Mocno zepnij mięśnie brzucha i ustabilizuj całą sylwetkę.",
+        "4. Wykonaj ruch przeniesienia wyprostowanych rąk przed siebie.",
+        "5. Kontrolując ruch, powróć do pozycji startowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ANTY_ROTACJA_NA_WYCI%C4%84GU_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ANTY_ROTACJA_NA_WYCI%C4%84GU_2.jpg"
     },
     "ALLAHY": {
       "steps": [
-        "Do wyciągu na bramie przymocuj uchwyt “sznur”.",
-        "Złap uchwyt, przyciągnij go delikatnie i uklęknij.",
-        "Schowaj głowę między swoje dłonie, trzymające sznur.",
-        "Pozwól, aby wyciąg delikatnie Cię pociągnął w górę, rozciągając mięśnie brzucha.",
-        "Zepnij brzuch i wykonaj skłon, jakbyś chciała łokciami dotknąć swoich kolan. Przytrzymaj spięcie.",
-        "Kontrolując ruch, powróć do pozycji startowej, delikatnie rozciągając mięśnie brzucha.",
+        "1. Do wyciągu na bramie przymocuj uchwyt “sznur”.",
+        "2. Złap uchwyt, przyciągnij go delikatnie i uklęknij.",
+        "3. Schowaj głowę między swoje dłonie, trzymające sznur.",
+        "4. Pozwól, aby wyciąg delikatnie Cię pociągnął w górę, rozciągając mięśnie brzucha.",
+        "5. Zepnij brzuch i wykonaj skłon, jakbyś chciała łokciami dotknąć swoich kolan. Przytrzymaj spięcie.",
+        "6. Kontrolując ruch, powróć do pozycji startowej, delikatnie rozciągając mięśnie brzucha.",
         "Pamiętaj, aby w tym ćwiczeniu Twoje biodra były nieruchomo. Skłon ma zachodzić wyłącznie dzięki pracy mięśni brzucha, a nie cofaniu bioder."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/ALLAHY_1.jpg",
@@ -966,23 +966,23 @@
     },
     "WZNOSY NÓG DO ŚWIECY": {
       "steps": [
-        "Połóż się na ławce. Złap ją za swoją głową.",
-        "Przyklej odcinek lędźwiowy kręgosłupa do ławki i unieś nogi w górę.",
-        "Trzymając mocno napięty brzuch rozpocznij ruch powolnego opuszczania wyprostowanych nóg w dół.",
-        "Unieś nogi, aby znalazły się nad Twoimi biodrami, a następnie wybij się do świecy, odrywając pośladki od ławki.",
-        "Kontrolując ruch, odłóż pośladki na ławkę i ponownie rozpocznij opuszczanie nóg."
+        "1. Połóż się na ławce. Złap ją za swoją głową.",
+        "2. Przyklej odcinek lędźwiowy kręgosłupa do ławki i unieś nogi w górę.",
+        "3. Trzymając mocno napięty brzuch rozpocznij ruch powolnego opuszczania wyprostowanych nóg w dół.",
+        "4. Unieś nogi, aby znalazły się nad Twoimi biodrami, a następnie wybij się do świecy, odrywając pośladki od ławki.",
+        "5. Kontrolując ruch, odłóż pośladki na ławkę i ponownie rozpocznij opuszczanie nóg."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WZNOSY_N%C3%93G_DO_%C5%9AWIECY_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WZNOSY_N%C3%93G_DO_%C5%9AWIECY_2.jpg"
     },
     "PLANK (DESKA)": {
       "steps": [
-        "Zejdź na podłogę, podpierając się na kolanach i na przedramionach.",
-        "Łokcie ustaw na szerokość obręczy barkowej, tak by były pod barkami (pionowo). Palce dłoni skieruj przed siebie.",
-        "Kolana ustaw pod biodrami lub troszkę dalej.",
-        "Napnij brzuch, ściągnij łopatki. Głowa powinna stanowić przedłużenie tułowia.",
-        "Oderwij kolana od podłoża, wyprostuj je i popraw pozycję stóp, tak aby były rozstawione na szerokość bioder.",
-        "Utrzymuj pozycję deski tak długo, jak dasz radę.",
+        "1. Zejdź na podłogę, podpierając się na kolanach i na przedramionach.",
+        "2. Łokcie ustaw na szerokość obręczy barkowej, tak by były pod barkami (pionowo). Palce dłoni skieruj przed siebie.",
+        "3. Kolana ustaw pod biodrami lub troszkę dalej.",
+        "4. Napnij brzuch, ściągnij łopatki. Głowa powinna stanowić przedłużenie tułowia.",
+        "5. Oderwij kolana od podłoża, wyprostuj je i popraw pozycję stóp, tak aby były rozstawione na szerokość bioder.",
+        "6. Utrzymuj pozycję deski tak długo, jak dasz radę.",
         "Polecam regularnie nagrywać się podczas tego ćwiczenia, ponieważ bardzo łatwo można wychwycić ewentualne błędy i poprawić słabe punkty."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/PLANK_(DESKA)_1.jpg",
@@ -990,10 +990,10 @@
     },
     "SPIĘCIA BRZUCHA NA WYDŁUŻONEJ DŹWIGNI": {
       "steps": [
-        "Połóż się na plecach, na macie treningowej. Ręce umieść za głową, a w dłonie złap ciężarek. Łokcie powinny być delikatnie ugięte.",
-        "Kolana pozostaw ugięte.",
-        "Napnij mocno brzuch i trzymając ciężar cały czas za głową, oderwij od podłoża odcinek piersiowy kręgosłupa. Nie przenoś hantla nad głowę.",
-        "Gdy poczujesz maksymalne spięcie brzucha, przytrzymaj pozycję przez 2-3 sekundy i powróć do leżenia.",
+        "1. Połóż się na plecach, na macie treningowej. Ręce umieść za głową, a w dłonie złap ciężarek. Łokcie powinny być delikatnie ugięte.",
+        "2. Kolana pozostaw ugięte.",
+        "3. Napnij mocno brzuch i trzymając ciężar cały czas za głową, oderwij od podłoża odcinek piersiowy kręgosłupa. Nie przenoś hantla nad głowę.",
+        "4. Gdy poczujesz maksymalne spięcie brzucha, przytrzymaj pozycję przez 2-3 sekundy i powróć do leżenia.",
         "Z czasem możesz łapać w dłonie coraz większy ciężar. Dodatkowym utrudnieniem (dla osób zaawansowanych) będzie uniesienie nóg nad ziemię - najpierw ugiętych, a po kilku tygodniach wyprostowanych."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/SPI%C4%98CIA_BRZUCHA_NA_WYD%C5%81U%C5%BBONEJ_D%C5%B9WIGNI_1.jpg",
@@ -1001,73 +1001,49 @@
     },
     "SPIĘCIA BRZUCHA Z UNOSZENIEM NÓG NAPRZEMIENNIE": {
       "steps": [
-        "Połóż się na plecach, na macie treningowej. Ręce umieść za głową, a w dłonie złap ciężarek. Łokcie powinny być delikatnie ugięte.",
-        "Kolana wyprostuj.",
-        "Napnij mocno brzuch i wykonaj jednoczesne uniesienie jednej z nóg oraz oderwanie od ziemi odcinka piersiowego kręgosłupa, przenosząc hantel nad głowę, w stronę uniesionej  nogi.",
-        "Gdy poczujesz maksymalne spięcie brzucha, przytrzymaj pozycję przez 2-3 sekundy i powróć do leżenia.",
-        "Powtórz to samo na drugą nogę."
+        "1. Połóż się na plecach, na macie treningowej. Ręce umieść za głową, a w dłonie złap ciężarek. Łokcie powinny być delikatnie ugięte.",
+        "2. Kolana wyprostuj.",
+        "3. Napnij mocno brzuch i wykonaj jednoczesne uniesienie jednej z nóg oraz oderwanie od ziemi odcinka piersiowego kręgosłupa, przenosząc hantel nad głowę, w stronę uniesionej  nogi.",
+        "4. Gdy poczujesz maksymalne spięcie brzucha, przytrzymaj pozycję przez 2-3 sekundy i powróć do leżenia.",
+        "5. Powtórz to samo na drugą nogę."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/SPI%C4%98CIA_BRZUCHA_Z_UNOSZENIEM_N%C3%93G_NAPRZEMIENNIE_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/SPI%C4%98CIA_BRZUCHA_Z_UNOSZENIEM_N%C3%93G_NAPRZEMIENNIE_2.jpg"
     },
     "SPIĘCIA BRZUCHA Z DOTYKANIEM KOSTEK": {
       "steps": [
-        "Połóż się na macie. Ugnij kolana, a stopy rozstaw troszkę szerzej niż szerokość bioder. Ręce trzymaj wzdłuż ciała.",
-        "Napnij mocno brzuch i oderwij łopatki oraz głowę od podłoża.",
-        "Wykonuj naprzemienne, boczne spięcia brzucha, starając się dotknąć swoich kostek - raz lewej, lewą dłonią, raz prawej, prawą dłonią. Nie odkładaj odcinka piersiowego kręgosłupa na podłogę. Utrzymuj stałe napięcie brzucha."
+        "1. Połóż się na macie. Ugnij kolana, a stopy rozstaw troszkę szerzej niż szerokość bioder. Ręce trzymaj wzdłuż ciała.",
+        "2. Napnij mocno brzuch i oderwij łopatki oraz głowę od podłoża.",
+        "3. Wykonuj naprzemienne, boczne spięcia brzucha, starając się dotknąć swoich kostek - raz lewej, lewą dłonią, raz prawej, prawą dłonią. Nie odkładaj odcinka piersiowego kręgosłupa na podłogę. Utrzymuj stałe napięcie brzucha."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/SPI%C4%98CIA_BRZUCHA_Z_DOTYKANIEM_KOSTEK_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/SPI%C4%98CIA_BRZUCHA_Z_DOTYKANIEM_KOSTEK_2.jpg"
     },
     "KLASYCZNE SPIĘCIA BRZUCHA (BRZUSZKI)": {
       "steps": [
-        "Połóż się na macie. Ugnij kolana, a dłonie umieść za głową. Możesz zapleść je w “koszyk” i objąć nimi głowę, pamiętaj jednak aby jej nie szarpać.",
-        "Napnij mocno brzuch i oderwij łopatki oraz głowę od podłoża.",
-        "Gdy poczujesz maksymalne spięcie brzucha, przytrzymaj pozycję przez 2-3 sekundy i powróć do leżenia."
+        "1. Połóż się na macie. Ugnij kolana, a dłonie umieść za głową. Możesz zapleść je w “koszyk” i objąć nimi głowę, pamiętaj jednak aby jej nie szarpać.",
+        "2. Napnij mocno brzuch i oderwij łopatki oraz głowę od podłoża.",
+        "3. Gdy poczujesz maksymalne spięcie brzucha, przytrzymaj pozycję przez 2-3 sekundy i powróć do leżenia."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/KLASYCZNE_SPI%C4%98CIA_BRZUCHA_(BRZUSZKI)_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/KLASYCZNE_SPI%C4%98CIA_BRZUCHA_(BRZUSZKI)_2.jpg"
     },
     "DEAD BUG": {
       "steps": [
-        "Połóż się na plecach, na macie treningowej. Ręce unieś nad głowę (aby nadgarstek, łokieć i bark tworzyły prostą linię).",
-        "Ugięte kolana unieść nad matę, aby w kolanie pojawił się mniej więcej kąt 90 stopni.",
-        "Oderwij od podłoża głowę oraz górną część pleców, osiągając duże napięcie brzucha.",
-        "Wykonaj jednoczesny ruch wyprostu lewej nogi i obniżenia jej pozycji oraz przeniesienia prawej, wyprostowanej ręki za głowę.",
-        "Utrzymując spięty brzuch, wróć do pozycji startowej i powtórz to samo drugą nogą i drugą ręką."
+        "1. Połóż się na plecach, na macie treningowej. Ręce unieś nad głowę (aby nadgarstek, łokieć i bark tworzyły prostą linię).",
+        "2. Ugięte kolana unieść nad matę, aby w kolanie pojawił się mniej więcej kąt 90 stopni.",
+        "3. Oderwij od podłoża głowę oraz górną część pleców, osiągając duże napięcie brzucha.",
+        "4. Wykonaj jednoczesny ruch wyprostu lewej nogi i obniżenia jej pozycji oraz przeniesienia prawej, wyprostowanej ręki za głowę.",
+        "5. Utrzymując spięty brzuch, wróć do pozycji startowej i powtórz to samo drugą nogą i drugą ręką."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/DEAD_BUG_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/DEAD_BUG_2.jpg"
-    }
-  },
-  "ŁYDKI": {
-    "WSPIĘCIA NA PALCE Z DEFICYTU": {
-      "steps": [
-        "Stań na podwyższeniu (np. na stepie lub krążkach ciężarowych).",
-        "Opuść pięty poza podwyższenie (opieraj się wyłącznie na palcach).",
-        "Wykonaj ruch wspięcia na palce, maksymalnie napinając mięśnie brzuchaty łydki.",
-        "Przytrzymaj pozycję przez 2 sekundy.",
-        "Kontrolując ruch, powróć do pozycji wyjściowej."
-      ],
-      "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WSPI%C4%98CIA_NA_PALCE_Z_DEFICYTU_1.jpg",
-      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WSPI%C4%98CIA_NA_PALCE_Z_DEFICYTU_2.jpg"
-    },
-    "WSPIĘCIA NA PALCE NA MASZYNIE SMITHA": {
-      "steps": [
-        "Ustaw się na maszynie smitha tak, aby sztanga spoczywała w górnej części Twoich pleców.",
-        "Stań na podwyższeniu (np. na stepie lub krążkach ciężarowych), opierając się wyłącznie na palcach.",
-        "Odblokuj ograniczniki maszyny i wykonaj delikatne zejście w dół (opuszczając pięty poza podwyższenie), mocno rozciągając łydki.",
-        "Wykonaj wspięcia na palce.",
-        "Powróć do pozycji deficytu, a więc kiedy Twoja pięta jest poniżej podwyższenia."
-      ],
-      "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WSPI%C4%98CIA_NA_PALCE_NA_MASZYNIE_SMITHA_1.jpg",
-      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WSPI%C4%98CIA_NA_PALCE_NA_MASZYNIE_SMITHA_2.jpg"
     },
     "WZNOSY NÓG W ZWISIE NA DRĄŻKU": {
       "steps": [
-        "Złap drążek nachwytem, wyprostuj łokcie i kolana. Ściągnij łopatki.",
-        "Zepnij brzuch i wykonaj ruch unoszenia nóg jak najwyżej, podwijając miednicę w końcowej fazie ruchu.",
-        "Kontrolując ruch, powróć do zwisu i powtórz całość.",
+        "1. Złap drążek nachwytem, wyprostuj łokcie i kolana. Ściągnij łopatki.",
+        "2. Zepnij brzuch i wykonaj ruch unoszenia nóg jak najwyżej, podwijając miednicę w końcowej fazie ruchu.",
+        "3. Kontrolując ruch, powróć do zwisu i powtórz całość.",
         "Możesz unosić nogi zgięte w kolanach - wersja prostsza, lub wyprostowane - wersja trudniejsza."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WZNOSY_N%C3%93G_W_ZWISIE_NA_DR%C4%84%C5%BBKU_1.jpg",
@@ -1075,22 +1051,46 @@
     },
     "WZNOSY NÓG NA BOKI W ZWISIE NA DRĄŻKU": {
       "steps": [
-        "Złap drążek nachwytem, wyprostuj łokcie, ugnij kolana. Ściągnij łopatki.",
-        "Zepnij brzuch i wykonaj ruch unoszenia nóg jak najwyżej, podwijając miednicę i rotując ją mocno w jedną ze stron (patrz zdjęcie wyżej).",
-        "Kontrolując ruch, powróć do zwisu i powtórz całość na drugą stronę."
+        "1. Złap drążek nachwytem, wyprostuj łokcie, ugnij kolana. Ściągnij łopatki.",
+        "2. Zepnij brzuch i wykonaj ruch unoszenia nóg jak najwyżej, podwijając miednicę i rotując ją mocno w jedną ze stron (patrz zdjęcie wyżej).",
+        "3. Kontrolując ruch, powróć do zwisu i powtórz całość na drugą stronę."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WZNOSY_N%C3%93G_NA_BOKI_W_ZWISIE_NA_DR%C4%84%C5%BBKU_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WZNOSY_N%C3%93G_NA_BOKI_W_ZWISIE_NA_DR%C4%84%C5%BBKU_2.jpg"
     },
     "AB ROLLER": {
       "steps": [
-        "Złap w dłonie specjalne kółko (ab wheel) lub sztangę (z założonymi krążkami, które z łatwością będą się przesuwać), kolana pozostaw na macie.",
-        "Weź głęboki wdech i napnij brzuch oraz pośladki. Ściągnij łopatki.",
-        "Rozpocznij ruch wysuwania kółka/sztangi w przód, pochylając tułów, tak aby znalazł się w pozycji niemal równoległej do podłoża.",
-        "Utrzymująć maksymalne napięcie powróć do pozycji wyjściowej."
+        "1. Złap w dłonie specjalne kółko (ab wheel) lub sztangę (z założonymi krążkami, które z łatwością będą się przesuwać), kolana pozostaw na macie.",
+        "2. Weź głęboki wdech i napnij brzuch oraz pośladki. Ściągnij łopatki.",
+        "3. Rozpocznij ruch wysuwania kółka/sztangi w przód, pochylając tułów, tak aby znalazł się w pozycji niemal równoległej do podłoża.",
+        "4. Utrzymująć maksymalne napięcie powróć do pozycji wyjściowej."
       ],
       "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/AB_ROLLER_1.jpg",
       "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/AB_ROLLER_2.jpg"
+    }
+  },
+  "ŁYDKI": {
+    "WSPIĘCIA NA PALCE Z DEFICYTU": {
+      "steps": [
+        "1. Stań na podwyższeniu (np. na stepie lub krążkach ciężarowych).",
+        "2. Opuść pięty poza podwyższenie (opieraj się wyłącznie na palcach).",
+        "3. Wykonaj ruch wspięcia na palce, maksymalnie napinając mięśnie brzuchaty łydki.",
+        "4. Przytrzymaj pozycję przez 2 sekundy.",
+        "5. Kontrolując ruch, powróć do pozycji wyjściowej."
+      ],
+      "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WSPI%C4%98CIA_NA_PALCE_Z_DEFICYTU_1.jpg",
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WSPI%C4%98CIA_NA_PALCE_Z_DEFICYTU_2.jpg"
+    },
+    "WSPIĘCIA NA PALCE NA MASZYNIE SMITHA": {
+      "steps": [
+        "1. Ustaw się na maszynie smitha tak, aby sztanga spoczywała w górnej części Twoich pleców.",
+        "2. Stań na podwyższeniu (np. na stepie lub krążkach ciężarowych), opierając się wyłącznie na palcach.",
+        "3. Odblokuj ograniczniki maszyny i wykonaj delikatne zejście w dół (opuszczając pięty poza podwyższenie), mocno rozciągając łydki.",
+        "4. Wykonaj wspięcia na palce.",
+        "5. Powróć do pozycji deficytu, a więc kiedy Twoja pięta jest poniżej podwyższenia."
+      ],
+      "jpgUrl": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WSPI%C4%98CIA_NA_PALCE_NA_MASZYNIE_SMITHA_1.jpg",
+      "jpgUrl2": "https://agaciasta.github.io/formazycia/img/atlas_cwiczen/WSPI%C4%98CIA_NA_PALCE_NA_MASZYNIE_SMITHA_2.jpg"
     }
   }
 }
