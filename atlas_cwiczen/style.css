@@ -8,7 +8,7 @@ body {
 
 /* Top menu styling */
 #top-menu {
-    width: 1700px;
+    width: 1600px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,7 +20,6 @@ body {
     z-index: 1000;
     top: 0;
     left:50%;
-    transform: translateX(-50%);
 }
 
 #top-menu a {
@@ -189,3 +188,28 @@ body {
 }
 
 /*END OF SINGLE AC EXERCISE STYLE*/
+
+
+/*RESPONSIVE*/
+
+@media(max-width: 1599px)
+{
+    #top-menu {
+        width: 1200px;
+    }
+
+}
+
+@media(max-width: 1199px)
+{
+    #top-menu {
+        width: 800px;
+    }
+
+    #top-menu a
+    {
+        font-size: 10px;
+        padding: 5px;
+    }
+    
+}
