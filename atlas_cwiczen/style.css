@@ -19,7 +19,7 @@ body {
     position: sticky;
     z-index: 1000;
     top: 0;
-    left:50%;
+    left:0;
 }
 
 #top-menu a {
@@ -192,24 +192,24 @@ body {
 
 /*RESPONSIVE*/
 
+@media(min-width:2400px)
+{
+    #top-menu{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
 @media(max-width: 1599px)
 {
     #top-menu {
         width: 1200px;
     }
-
-}
-
-@media(max-width: 1199px)
-{
-    #top-menu {
-        width: 800px;
-    }
-
     #top-menu a
     {
-        font-size: 10px;
+        font-size: 14px;
         padding: 5px;
     }
-    
+
 }
+
