@@ -1,8 +1,10 @@
 /* General styles */
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
 }
+
+
+/* Menu AC STYLE */
 
 /* Top menu styling */
 #top-menu {
@@ -146,3 +148,44 @@ body {
     text-decoration: none;
     color: rgba(111,66,193,255);
 }
+
+
+/*END OF MENU AC STYLE */
+
+/*SINGLE AC EXERCISE STYLE */
+
+#exercise-content-atlas-cwiczen {
+    max-width: 800px;
+    margin: 0 auto; /* Center the content horizontally */
+    text-align: center; /* Center the text */
+    padding: 20px;
+}
+
+#exercise-content-atlas-cwiczen h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between the images */
+    margin-bottom: 20px;
+}
+
+/* Style for images */
+.image-container img {
+    max-width: 100%; /* Responsive image scaling */
+    height: auto;
+    flex: 1; /* Allow images to take equal space */
+    max-width: 300px; /* Optional: Limit image width */
+}
+
+#exercise-content-atlas-cwiczen p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: left;
+    white-space: pre-line; /* Preserve line breaks */
+}
+
+/*END OF SINGLE AC EXERCISE STYLE*/
