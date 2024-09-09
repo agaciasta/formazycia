@@ -8,28 +8,23 @@ body {
 
 /* Top menu styling */
 #top-menu {
-    width: 1600px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-    padding: 10px;
+
+
     background-color: rgba(111,66,193,255);
     border-radius: 8px;
     position: sticky;
     z-index: 1000;
-    top: 0;
-    left:0;
+
 }
 
 #top-menu a {
     text-decoration: none;
     color: white;
     font-size: 16px;
-    padding: 10px;
+
     border-radius: 5px;
     transition: background-color 0.3s;
-    margin: 0 5px;
+    margin: 5 5px;
 }
 
 #top-menu a:hover {
@@ -188,28 +183,3 @@ body {
 }
 
 /*END OF SINGLE AC EXERCISE STYLE*/
-
-
-/*RESPONSIVE*/
-
-@media(min-width:2400px)
-{
-    #top-menu{
-        left: 50%;
-        transform: translateX(-50%);
-    }
-}
-
-@media(max-width: 1599px)
-{
-    #top-menu {
-        width: 1200px;
-    }
-    #top-menu a
-    {
-        font-size: 14px;
-        padding: 5px;
-    }
-
-}
-
