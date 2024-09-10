@@ -31,7 +31,7 @@ body {
     background-color: rgba(94,56,164,255);
 }
 
-#search {
+.search {
     width: 300px;
     padding: 10px;
     font-size: 16px;
@@ -183,3 +183,26 @@ body {
 }
 
 /*END OF SINGLE AC EXERCISE STYLE*/
+
+@media (max-width: 1300px)
+{
+    #top-menu a
+    {
+        font-size: 11.5px;
+    }
+}
+
+@media (max-width: 992px) {
+    #search-sm {
+      width: 100%;
+
+    }
+  }
+
+  @media (min-width: 992px) {
+
+    #search-lg {
+      width: 250px;
+    }
+  }
+  

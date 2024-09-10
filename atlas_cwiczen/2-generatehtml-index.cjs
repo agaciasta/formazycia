@@ -22,13 +22,20 @@ fs.readFile("atlas.json", "utf8", (err, data) => {
         <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
     </head>
     <body>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary" id="top-menu">
-          <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-          </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0"> `
+              <nav class="position-sticky top-0 navbar navbar-expand-lg bg-body-tertiary" id="top-menu">
+            <div class="container-fluid">
+              <div class="d-flex w-100 justify-content-between row">
+                
+                <div class="d-lg-none d-flex align-items-right col">
+                  <input type="text" class="form-control search" id="search-sm" placeholder="Search exercises..." autocomplete="off" autofill="off" autocorrect="off" spellcheck="false">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div>
+          
+                <div class="d-flex col-11 col-lg-12 align-items-center">
+                  <div class="collapse navbar-collapse flex-grow-1" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">`
             
     for (category in exercisesData)
     {
@@ -41,12 +48,17 @@ fs.readFile("atlas.json", "utf8", (err, data) => {
     }
             
     htmlContent+= `
-    </ul>
-
-            <input type="text" class="me-2" id="search" placeholder="Search exercises..." autocomplete="off" autofill="off" autocorrect="off" spellcheck="false">
+                    </ul>
+                  </div>
+          
+                  <div class="d-none d-lg-block  end-0">
+                    <input type="text" class="form-control search" id="search-lg" placeholder="Search exercises..." autocomplete="off" autofill="off" autocorrect="off" spellcheck="false">
+                  </div>
+                </div>
+          
+              </div>
             </div>
-            </nav>
-        <div id="exercise-list">
+          </nav>
     `;
 
 
@@ -96,19 +108,29 @@ fs.readFile("atlas.json", "utf8", (err, data) => {
   htmlContent += `
         </div>
         <script>
-            document.getElementById('search').addEventListener('input', function() {
-                var searchValue = this.value.toLowerCase();
-                var exercises = document.querySelectorAll('.exercise');
-                exercises.forEach(function(exercise) {
-                    var exerciseName = exercise.getAttribute('data-name');
-                    if (exerciseName.includes(searchValue)) {
-                        exercise.style.display = 'block';
-                    } else {
-                        exercise.style.display = 'none';
-                    }
-                });
-            });
+        var searchSm = document.getElementById('search-sm');
+        var searchLg = document.getElementById('search-lg');
 
+        function syncSearchInputs(event) {
+            var searchValue = event.target.value;
+            searchSm.value = searchValue;
+            searchLg.value = searchValue;
+
+
+            var searchLower = searchValue.toLowerCase();
+            var exercises = document.querySelectorAll('.exercise');
+            exercises.forEach(function(exercise) {
+                var exerciseName = exercise.getAttribute('data-name').toLowerCase();
+                if (exerciseName.includes(searchLower)) {
+                    exercise.style.display = 'block';
+                } else {
+                    exercise.style.display = 'none';
+                }
+            });
+        }
+
+        searchSm.addEventListener('input', syncSearchInputs);
+        searchLg.addEventListener('input', syncSearchInputs);
         </script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     </body>
