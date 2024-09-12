@@ -38,8 +38,8 @@ fs.readFile("atlas.json", "utf8", (err, data) => {
       htmlContent += `
                     <h1>${exercise}</h1>
                     <div class="image-container">
-                        <img src="${details.jpgUrl}" alt="${exercise} Image 1">
-                        <img src="${details.jpgUrl2}" alt="${exercise} Image 2">
+                        <img src="../${details.jpgUrl}" alt="${exercise} Image 1">
+                        <img src="../${details.jpgUrl2}" alt="${exercise} Image 2">
                     </div>
                     <p>
             `;
