@@ -1,0 +1,47 @@
+.jadlospis_btn
+{
+    font-family: "Poppins", sans-serif!important;
+    font-weight: 600!important;
+    font-size: 22px!important;
+    color: black!important;
+    padding: 20px!important;
+    border: 0!important;
+    border-radius: 0px!important;
+}
+
+.jadlospis_btn_mobile
+{
+    font-family: "Poppins", sans-serif!important;
+    font-weight: 600!important;
+    font-size: 12px!important;
+    border: 0!important;
+    border-radius: 0!important;
+}
+
+.jadlospis_text_mobile
+{
+    border: 0!important;
+    font-family: "Poppins", sans-serif!important;
+    font-weight: 600!important;
+}
+
+.jadlospis_btn_mobile:active
+{
+    background-color: lightblue!important;
+}
+
+.jadlospis_btn:hover:not(.active)
+{
+    color: rgba(176,132,255,255)!important;
+}
+
+.active.jadlospis_btn
+{
+    color: rgba(176,132,255,255)!important;
+    box-shadow: 0 5px 0 rgba(176,132,255,255)!important;
+}
+
+.jadlospis_text_decsription_blod
+{
+    color: rgba(153,51,102,255)!important;
+}
