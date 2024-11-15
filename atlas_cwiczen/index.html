@@ -1,1257 +1,1545 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercise Index</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
-</head>
-
-<body>
-    <nav class="position-sticky top-0 navbar navbar-expand-lg bg-body-tertiary" id="top-menu">
-        <div class="container-fluid">
-            <div class="d-flex w-100 justify-content-between row">
-
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercise Index</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+    </head>
+    <body>
+              <nav class="position-sticky top-0 navbar navbar-expand-lg bg-body-tertiary" id="top-menu">
+            <div class="container-fluid">
+              <div class="d-flex w-100 justify-content-between row">
+                
                 <div class="d-lg-none d-flex align-items-right col">
-                    <input type="text" class="form-control search" id="search-sm" placeholder="Search exercises..."
-                        autocomplete="off" autofill="off" autocorrect="off" spellcheck="false">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                  <input type="text" class="form-control search" id="search-sm" placeholder="Search exercises..." autocomplete="off" autofill="off" autocorrect="off" spellcheck="false">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
                 </div>
-
+          
                 <div class="d-flex col-11 col-lg-12 align-items-center">
-                    <div class="collapse navbar-collapse flex-grow-1" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#nogi-i-pośladki">NOGI I POŚLADKI</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#ramiona">RAMIONA</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#barki-(mięśnie-naramienne)">BARKI (MIĘŚNIE NARAMIENNE)</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#plecy">PLECY</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#klatka-piersiowa">KLATKA PIERSIOWA</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#brzuch">BRZUCH</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#łydki">ŁYDKI</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="d-none d-lg-block  end-0">
-                        <input type="text" class="form-control search" id="search-lg" placeholder="Search exercises..."
-                            autocomplete="off" autofill="off" autocorrect="off" spellcheck="false">
-                    </div>
+                  <div class="collapse navbar-collapse flex-grow-1" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+        <a class="nav-link" href="#nogi-i-pośladki">NOGI I POŚLADKI</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#ramiona">RAMIONA</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#barki-(mięśnie-naramienne)">BARKI (MIĘŚNIE NARAMIENNE)</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#plecy">PLECY</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#klatka-piersiowa">KLATKA PIERSIOWA</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#brzuch">BRZUCH</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#łydki">ŁYDKI</a>
+        </li>
+                    </ul>
+                  </div>
+          
+                  <div class="d-none d-lg-block  end-0">
+                    <input type="text" class="form-control search" id="search-lg" placeholder="Search exercises..." autocomplete="off" autofill="off" autocorrect="off" spellcheck="false">
+                  </div>
                 </div>
-
+          
+              </div>
             </div>
-        </div>
-    </nav>
-
-    <div class="section-container" id="nogi-i-pośladki">
-        <h2 class="section-title">NOGI I POŚLADKI</h2>
-        <div class="row row-cols-1 row-cols-md-3 row-cols-xl-4 ms-5 me-5 text-center">
-
-            <a class="card-link exercise text-decoration-none" data-name="przysiad klasyczny"
-                href='/test-w-przenoszeniu-atlasu/watch/54839' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/PRZYSIAD_KLASYCZNY_1.jpg" class="card-img-top"
-                            alt="PRZYSIAD KLASYCZNY">
-                        <div class="card-body">
-                            <h5 class="card-title">PRZYSIAD KLASYCZNY</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="box squat"
-                href='/test-w-przenoszeniu-atlasu/watch/54840' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/BOX_SQUAT_1.jpg" class="card-img-top" alt="BOX SQUAT">
-                        <div class="card-body">
-                            <h5 class="card-title">BOX SQUAT</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="goblet squat"
-                href='/test-w-przenoszeniu-atlasu/watch/54841' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/GOBLET_SQUAT_1.jpg" class="card-img-top" alt="GOBLET SQUAT">
-                        <div class="card-body">
-                            <h5 class="card-title">GOBLET SQUAT</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="przysiad sumo"
-                href='/test-w-przenoszeniu-atlasu/watch/54842' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/PRZYSIAD_SUMO_1.jpg" class="card-img-top" alt="PRZYSIAD SUMO">
-                        <div class="card-body">
-                            <h5 class="card-title">PRZYSIAD SUMO</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="front squat (przysiad ze sztangą z przodu)"
-                href='/test-w-przenoszeniu-atlasu/watch/54843' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/FRONT_SQUAT_(PRZYSIAD_ZE_SZTANGA_Z_PRZODU)_1.jpg"
-                            class="card-img-top" alt="FRONT SQUAT (PRZYSIAD ZE SZTANGĄ Z PRZODU)">
-                        <div class="card-body">
-                            <h5 class="card-title">FRONT SQUAT (PRZYSIAD ZE SZTANGĄ Z PRZODU)</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="przysiad bułgarski"
-                href='/test-w-przenoszeniu-atlasu/watch/54844' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/PRZYSIAD_BULGARSKI_1.jpg" class="card-img-top"
-                            alt="PRZYSIAD BUŁGARSKI">
-                        <div class="card-body">
-                            <h5 class="card-title">PRZYSIAD BUŁGARSKI</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="wyciskanie na suwnicy"
-                href='/test-w-przenoszeniu-atlasu/watch/54845' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/WYCISKANIE_NA_SUWNICY_1.jpg" class="card-img-top"
-                            alt="WYCISKANIE NA SUWNICY">
-                        <div class="card-body">
-                            <h5 class="card-title">WYCISKANIE NA SUWNICY</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="wyciskanie na suwnicy jednonóż"
-                href='/test-w-przenoszeniu-atlasu/watch/54846' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/WYCISKANIE_NA_SUWNICY_JEDNONOZ_1.jpg" class="card-img-top"
-                            alt="WYCISKANIE NA SUWNICY JEDNONÓŻ">
-                        <div class="card-body">
-                            <h5 class="card-title">WYCISKANIE NA SUWNICY JEDNONÓŻ</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="martwy ciąg sumo"
-                href='/test-w-przenoszeniu-atlasu/watch/54847' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/MARTWY_CIAG_SUMO_1.jpg" class="card-img-top"
-                            alt="MARTWY CIĄG SUMO">
-                        <div class="card-body">
-                            <h5 class="card-title">MARTWY CIĄG SUMO</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="martwy ciąg klasyczny"
-                href='/test-w-przenoszeniu-atlasu/watch/54848' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/MARTWY_CIAG_KLASYCZNY_1.jpg" class="card-img-top"
-                            alt="MARTWY CIĄG KLASYCZNY">
-                        <div class="card-body">
-                            <h5 class="card-title">MARTWY CIĄG KLASYCZNY</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="martwy ciąg rumuński"
-                href='/test-w-przenoszeniu-atlasu/watch/54849' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/MARTWY_CIAG_RUMUNSKI_1.jpg" class="card-img-top"
-                            alt="MARTWY CIĄG RUMUŃSKI">
-                        <div class="card-body">
-                            <h5 class="card-title">MARTWY CIĄG RUMUŃSKI</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="martwy ciąg na prostych nogach"
-                href='/test-w-przenoszeniu-atlasu/watch/54850' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/MARTWY_CIAG_NA_PROSTYCH_NOGACH_1.jpg" class="card-img-top"
-                            alt="MARTWY CIĄG NA PROSTYCH NOGACH">
-                        <div class="card-body">
-                            <h5 class="card-title">MARTWY CIĄG NA PROSTYCH NOGACH</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="martwy ciąg jednonóż"
-                href='/test-w-przenoszeniu-atlasu/watch/54851' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/MARTWY_CIAG_JEDNONOZ_1.jpg" class="card-img-top"
-                            alt="MARTWY CIĄG JEDNONÓŻ">
-                        <div class="card-body">
-                            <h5 class="card-title">MARTWY CIĄG JEDNONÓŻ</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="dzień dobry"
-                href='/test-w-przenoszeniu-atlasu/watch/54852' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/DZIEN_DOBRY_1.jpg" class="card-img-top" alt="DZIEŃ DOBRY">
-                        <div class="card-body">
-                            <h5 class="card-title">DZIEŃ DOBRY</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="zakroki"
-                href='/test-w-przenoszeniu-atlasu/watch/54853' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/ZAKROKI_1.jpg" class="card-img-top" alt="ZAKROKI">
-                        <div class="card-body">
-                            <h5 class="card-title">ZAKROKI</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="zakroki z podwyższenia"
-                href='/test-w-przenoszeniu-atlasu/watch/54854' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/ZAKROKI_Z_PODWYZSZENIA_1.jpg" class="card-img-top"
-                            alt="ZAKROKI Z PODWYŻSZENIA">
-                        <div class="card-body">
-                            <h5 class="card-title">ZAKROKI Z PODWYŻSZENIA</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="wykroki chodzone"
-                href='/test-w-przenoszeniu-atlasu/watch/54855' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/WYKROKI_CHODZONE_1.jpg" class="card-img-top"
-                            alt="WYKROKI CHODZONE">
-                        <div class="card-body">
-                            <h5 class="card-title">WYKROKI CHODZONE</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="wykroki w miejscu"
-                href='/test-w-przenoszeniu-atlasu/watch/54856' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/WYKROKI_W_MIEJSCU_1.jpg" class="card-img-top"
-                            alt="WYKROKI W MIEJSCU">
-                        <div class="card-body">
-                            <h5 class="card-title">WYKROKI W MIEJSCU</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="side lying hip raise"
-                href='/test-w-przenoszeniu-atlasu/watch/54857' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/SIDE_LYING_HIP_RAISE_1.jpg" class="card-img-top"
-                            alt="SIDE LYING HIP RAISE">
-                        <div class="card-body">
-                            <h5 class="card-title">SIDE LYING HIP RAISE</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="przywodzenie gumy power band"
-                href='/test-w-przenoszeniu-atlasu/watch/54858' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/PRZYWODZENIE_GUMY_POWER_BAND_1.jpg" class="card-img-top"
-                            alt="PRZYWODZENIE GUMY POWER BAND">
-                        <div class="card-body">
-                            <h5 class="card-title">PRZYWODZENIE GUMY POWER BAND</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="monsterwalk"
-                href='/test-w-przenoszeniu-atlasu/watch/54859' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/MONSTERWALK_1.jpg" class="card-img-top" alt="MONSTERWALK">
-                        <div class="card-body">
-                            <h5 class="card-title">MONSTERWALK</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="odwodzenie nogi w tył na wyciągu"
-                href='/test-w-przenoszeniu-atlasu/watch/54860' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/ODWODZENIE_NOGI_W_TYL_NA_WYCIAGU_1.jpg" class="card-img-top"
-                            alt="ODWODZENIE NOGI W TYŁ NA WYCIĄGU">
-                        <div class="card-body">
-                            <h5 class="card-title">ODWODZENIE NOGI W TYŁ NA WYCIĄGU</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="odwodzenie nogi w bok na wyciągu"
-                href='/test-w-przenoszeniu-atlasu/watch/54861' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/ODWODZENIE_NOGI_W_BOK_NA_WYCIAGU_1.jpg" class="card-img-top"
-                            alt="ODWODZENIE NOGI W BOK NA WYCIĄGU">
-                        <div class="card-body">
-                            <h5 class="card-title">ODWODZENIE NOGI W BOK NA WYCIĄGU</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="unoszenie nogi z deficytu"
-                href='/test-w-przenoszeniu-atlasu/watch/54862' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/UNOSZENIE_NOGI_Z_DEFICYTU_1.jpg" class="card-img-top"
-                            alt="UNOSZENIE NOGI Z DEFICYTU">
-                        <div class="card-body">
-                            <h5 class="card-title">UNOSZENIE NOGI Z DEFICYTU</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="uginanie ud na maszynie leżąc"
-                href='/test-w-przenoszeniu-atlasu/watch/54863' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/UGINANIE_UD_NA_MASZYNIE_LEZAC_1.jpg" class="card-img-top"
-                            alt="UGINANIE UD NA MASZYNIE LEŻĄC">
-                        <div class="card-body">
-                            <h5 class="card-title">UGINANIE UD NA MASZYNIE LEŻĄC</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="wyprosty ud na maszynie"
-                href='/test-w-przenoszeniu-atlasu/watch/54864' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/WYPROSTY_UD_NA_MASZYNIE_1.jpg" class="card-img-top"
-                            alt="WYPROSTY UD NA MASZYNIE">
-                        <div class="card-body">
-                            <h5 class="card-title">WYPROSTY UD NA MASZYNIE</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="frog pump"
-                href='/test-w-przenoszeniu-atlasu/watch/54865' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/FROG_PUMP_1.jpg" class="card-img-top" alt="FROG PUMP">
-                        <div class="card-body">
-                            <h5 class="card-title">FROG PUMP</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="hip thrust jednonóż"
-                href='/test-w-przenoszeniu-atlasu/watch/54866' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/HIP_THRUST_JEDNONOZ_1.jpg" class="card-img-top"
-                            alt="HIP THRUST JEDNONÓŻ">
-                        <div class="card-body">
-                            <h5 class="card-title">HIP THRUST JEDNONÓŻ</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="hip thrust"
-                href='/test-w-przenoszeniu-atlasu/watch/54867' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/HIP_THRUST_1.jpg" class="card-img-top" alt="HIP THRUST">
-                        <div class="card-body">
-                            <h5 class="card-title">HIP THRUST</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="glute bridge"
-                href='/test-w-przenoszeniu-atlasu/watch/54868' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/GLUTE_BRIDGE_1.jpg" class="card-img-top" alt="GLUTE BRIDGE">
-                        <div class="card-body">
-                            <h5 class="card-title">GLUTE BRIDGE</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="straddle lift"
-                href='/test-w-przenoszeniu-atlasu/watch/54869' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/STRADDLE_LIFT_1.jpg" class="card-img-top" alt="STRADDLE LIFT">
-                        <div class="card-body">
-                            <h5 class="card-title">STRADDLE LIFT</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="cable pullthrough"
-                href='/test-w-przenoszeniu-atlasu/watch/54870' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/CABLE_PULLTHROUGH_1.jpg" class="card-img-top"
-                            alt="CABLE PULLTHROUGH">
-                        <div class="card-body">
-                            <h5 class="card-title">CABLE PULLTHROUGH</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="przywodzenie kopenhaskie"
-                href='/test-w-przenoszeniu-atlasu/watch/54871' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/PRZYWODZENIE_KOPENHASKIE_1.jpg" class="card-img-top"
-                            alt="PRZYWODZENIE KOPENHASKIE">
-                        <div class="card-body">
-                            <h5 class="card-title">PRZYWODZENIE KOPENHASKIE</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="wstępowanie na skrzynię bokiem"
-                href='/test-w-przenoszeniu-atlasu/watch/54872' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/WSTEPOWANIE_NA_SKRZYNIE_BOKIEM_1.jpg" class="card-img-top"
-                            alt="WSTĘPOWANIE NA SKRZYNIĘ BOKIEM">
-                        <div class="card-body">
-                            <h5 class="card-title">WSTĘPOWANIE NA SKRZYNIĘ BOKIEM</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="wstępowanie na skrzynię przodem"
-                href='/test-w-przenoszeniu-atlasu/watch/54873' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/WSTEPOWANIE_NA_SKRZYNIE_PRZODEM_1.jpg" class="card-img-top"
-                            alt="WSTĘPOWANIE NA SKRZYNIĘ PRZODEM">
-                        <div class="card-body">
-                            <h5 class="card-title">WSTĘPOWANIE NA SKRZYNIĘ PRZODEM</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-        </div>
-    </div>
-    <div class="section-container" id="ramiona">
-        <h2 class="section-title">RAMIONA</h2>
-        <div class="row row-cols-1 row-cols-md-3 row-cols-xl-4 ms-5 me-5 text-center">
-
-            <a class="card-link exercise text-decoration-none" data-name="prostowanie przedramion na wyciągu zza głowy"
-                href='/test-w-przenoszeniu-atlasu/watch/54874' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/PROSTOWANIE_PRZEDRAMION_NA_WYCIAGU_ZZA_GLOWY_1.jpg"
-                            class="card-img-top" alt="PROSTOWANIE PRZEDRAMION NA WYCIĄGU ZZA GŁOWY">
-                        <div class="card-body">
-                            <h5 class="card-title">PROSTOWANIE PRZEDRAMION NA WYCIĄGU ZZA GŁOWY</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="prostowanie przedramion na wyciągu"
-                href='/test-w-przenoszeniu-atlasu/watch/54875' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/PROSTOWANIE_PRZEDRAMION_NA_WYCIAGU_1.jpg" class="card-img-top"
-                            alt="PROSTOWANIE PRZEDRAMION NA WYCIĄGU">
-                        <div class="card-body">
-                            <h5 class="card-title">PROSTOWANIE PRZEDRAMION NA WYCIĄGU</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="wyciskanie hantla zza głowy"
-                href='/test-w-przenoszeniu-atlasu/watch/54876' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/WYCISKANIE_HANTLA_ZZA_GLOWY_1.jpg" class="card-img-top"
-                            alt="WYCISKANIE HANTLA ZZA GŁOWY">
-                        <div class="card-body">
-                            <h5 class="card-title">WYCISKANIE HANTLA ZZA GŁOWY</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="uginanie przedramion chwytem młotkowym"
-                href='/test-w-przenoszeniu-atlasu/watch/54877' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/UGINANIE_PRZEDRAMION_CHWYTEM_MLOTKOWYM_1.jpg"
-                            class="card-img-top" alt="UGINANIE PRZEDRAMION CHWYTEM MŁOTKOWYM">
-                        <div class="card-body">
-                            <h5 class="card-title">UGINANIE PRZEDRAMION CHWYTEM MŁOTKOWYM</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="uginanie przedramion na wyciągu"
-                href='/test-w-przenoszeniu-atlasu/watch/54878' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/UGINANIE_PRZEDRAMION_NA_WYCIAGU_1.jpg" class="card-img-top"
-                            alt="UGINANIE PRZEDRAMION NA WYCIĄGU">
-                        <div class="card-body">
-                            <h5 class="card-title">UGINANIE PRZEDRAMION NA WYCIĄGU</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="uginanie przedramion z supinacją"
-                href='/test-w-przenoszeniu-atlasu/watch/54879' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/UGINANIE_PRZEDRAMION_Z_SUPINACJA_1.jpg" class="card-img-top"
-                            alt="UGINANIE PRZEDRAMION Z SUPINACJĄ">
-                        <div class="card-body">
-                            <h5 class="card-title">UGINANIE PRZEDRAMION Z SUPINACJĄ</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="uginanie przedramion ze sztangą"
-                href='/test-w-przenoszeniu-atlasu/watch/54880' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/UGINANIE_PRZEDRAMION_ZE_SZTANGA_1.jpg" class="card-img-top"
-                            alt="UGINANIE PRZEDRAMION ZE SZTANGĄ">
-                        <div class="card-body">
-                            <h5 class="card-title">UGINANIE PRZEDRAMION ZE SZTANGĄ</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="wyciskanie sztangi wąsko"
-                href='/test-w-przenoszeniu-atlasu/watch/54881' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/WYCISKANIE_SZTANGI_WASKO_1.jpg" class="card-img-top"
-                            alt="WYCISKANIE SZTANGI WĄSKO">
-                        <div class="card-body">
-                            <h5 class="card-title">WYCISKANIE SZTANGI WĄSKO</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none d-none" data-name="dipy (pompki na poręczach)"
-                href='/test-w-przenoszeniu-atlasu/watch/54882' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/DIPY_(POMPKI_NA_PORECZACH)_1.jpg" class="card-img-top"
-                            alt="DIPY (POMPKI NA PORĘCZACH)">
-                        <div class="card-body">
-                            <h5 class="card-title">DIPY (POMPKI NA PORĘCZACH)</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-        </div>
-    </div>
-    <div class="section-container" id="barki-(mięśnie-naramienne)">
-        <h2 class="section-title">BARKI (MIĘŚNIE NARAMIENNE)</h2>
-        <div class="row row-cols-1 row-cols-md-3 row-cols-xl-4 ms-5 me-5 text-center">
-
-            <a class="card-link exercise text-decoration-none" data-name="facepull"
-                href='/test-w-przenoszeniu-atlasu/watch/54883' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/FACEPULL_1.jpg" class="card-img-top" alt="FACEPULL">
-                        <div class="card-body">
-                            <h5 class="card-title">FACEPULL</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="wznosy bokiem"
-                href='/test-w-przenoszeniu-atlasu/watch/54884' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/WZNOSY_BOKIEM_1.jpg" class="card-img-top" alt="WZNOSY BOKIEM">
-                        <div class="card-body">
-                            <h5 class="card-title">WZNOSY BOKIEM</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none"
-                data-name="odwodzenie ramion na maszynie (odwrotny butterfly)"
-                href='/test-w-przenoszeniu-atlasu/watch/54885' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/ODWODZENIE_RAMION_NA_MASZYNIE_(ODWROTNY_BUTTERFLY)_1.jpg"
-                            class="card-img-top" alt="ODWODZENIE RAMION NA MASZYNIE (ODWROTNY BUTTERFLY)">
-                        <div class="card-body">
-                            <h5 class="card-title">ODWODZENIE RAMION NA MASZYNIE (ODWROTNY BUTTERFLY)</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="y-raise"
-                href='/test-w-przenoszeniu-atlasu/watch/54886' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/Y-RAISE_1.jpg" class="card-img-top" alt="Y-RAISE">
-                        <div class="card-body">
-                            <h5 class="card-title">Y-RAISE</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="t-raise"
-                href='/test-w-przenoszeniu-atlasu/watch/54887' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/T-RAISE_1.jpg" class="card-img-top" alt="T-RAISE">
-                        <div class="card-body">
-                            <h5 class="card-title">T-RAISE</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="ohp"
-                href='/test-w-przenoszeniu-atlasu/watch/54888' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/OHP_1.jpg" class="card-img-top" alt="OHP">
-                        <div class="card-body">
-                            <h5 class="card-title">OHP</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="wyciskanie hantli nad głowę"
-                href='/test-w-przenoszeniu-atlasu/watch/54889' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/WYCISKANIE_HANTLI_NAD_GLOWE_1.jpg" class="card-img-top"
-                            alt="WYCISKANIE HANTLI NAD GŁOWĘ">
-                        <div class="card-body">
-                            <h5 class="card-title">WYCISKANIE HANTLI NAD GŁOWĘ</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="arnoldki"
-                href='/test-w-przenoszeniu-atlasu/watch/54890' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/ARNOLDKI_1.jpg" class="card-img-top" alt="ARNOLDKI">
-                        <div class="card-body">
-                            <h5 class="card-title">ARNOLDKI</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-        </div>
-    </div>
-    <div class="section-container" id="plecy">
-        <h2 class="section-title">PLECY</h2>
-        <div class="row row-cols-1 row-cols-md-3 row-cols-xl-4 ms-5 me-5 text-center">
-
-            <a class="card-link exercise text-decoration-none" data-name="narciarz"
-                href='/test-w-przenoszeniu-atlasu/watch/54891' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/NARCIARZ_1.jpg" class="card-img-top" alt="NARCIARZ">
-                        <div class="card-body">
-                            <h5 class="card-title">NARCIARZ</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="wciąganie na wyciągu"
-                href='/test-w-przenoszeniu-atlasu/watch/54892' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/WCIAGANIE_NA_WYCIAGU_1.jpg" class="card-img-top"
-                            alt="WCIĄGANIE NA WYCIĄGU">
-                        <div class="card-body">
-                            <h5 class="card-title">WCIĄGANIE NA WYCIĄGU</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="przyciąganie wyciągu dolnego do brzucha"
-                href='/test-w-przenoszeniu-atlasu/watch/54893' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/PRZYCIAGANIE_WYCIAGU_DOLNEGO_DO_BRZUCHA_1.jpg"
-                            class="card-img-top" alt="PRZYCIĄGANIE WYCIĄGU DOLNEGO DO BRZUCHA">
-                        <div class="card-body">
-                            <h5 class="card-title">PRZYCIĄGANIE WYCIĄGU DOLNEGO DO BRZUCHA</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none"
-                data-name="przyciąganie drążka wyciągu górnego do klatki nachwytem"
-                href='/test-w-przenoszeniu-atlasu/watch/54894' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/PRZYCIAGANIE_DRAZKA_WYCIAGU_GORNEGO_DO_KLATKI_NACHWYTEM_1.jpg"
-                            class="card-img-top" alt="PRZYCIĄGANIE DRĄŻKA WYCIĄGU GÓRNEGO DO KLATKI NACHWYTEM">
-                        <div class="card-body">
-                            <h5 class="card-title">PRZYCIĄGANIE DRĄŻKA WYCIĄGU GÓRNEGO DO KLATKI NACHWYTEM</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="pendlay row"
-                href='/test-w-przenoszeniu-atlasu/watch/54895' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/PENDLAY_ROW_1.jpg" class="card-img-top" alt="PENDLAY ROW">
-                        <div class="card-body">
-                            <h5 class="card-title">PENDLAY ROW</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="wiosłowanie sztangą"
-                href='/test-w-przenoszeniu-atlasu/watch/54896' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/WIOSLOWANIE_SZTANGA_1.jpg" class="card-img-top"
-                            alt="WIOSŁOWANIE SZTANGĄ">
-                        <div class="card-body">
-                            <h5 class="card-title">WIOSŁOWANIE SZTANGĄ</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="pullover"
-                href='/test-w-przenoszeniu-atlasu/watch/54897' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/PULLOVER_1.jpg" class="card-img-top" alt="PULLOVER">
-                        <div class="card-body">
-                            <h5 class="card-title">PULLOVER</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="high row"
-                href='/test-w-przenoszeniu-atlasu/watch/54898' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/HIGH_ROW_1.jpg" class="card-img-top" alt="HIGH ROW">
-                        <div class="card-body">
-                            <h5 class="card-title">HIGH ROW</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="seal row"
-                href='/test-w-przenoszeniu-atlasu/watch/54899' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/SEAL_ROW_1.jpg" class="card-img-top" alt="SEAL ROW">
-                        <div class="card-body">
-                            <h5 class="card-title">SEAL ROW</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="wiosłowanie hantlem"
-                href='/test-w-przenoszeniu-atlasu/watch/54900' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/WIOSLOWANIE_HANTLEM_1.jpg" class="card-img-top"
-                            alt="WIOSŁOWANIE HANTLEM">
-                        <div class="card-body">
-                            <h5 class="card-title">WIOSŁOWANIE HANTLEM</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="podciąganie na drążku nachwytem"
-                href='/test-w-przenoszeniu-atlasu/watch/54901' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/PODCIAGANIE_NA_DRAZKU_NACHWYTEM_1.jpg" class="card-img-top"
-                            alt="PODCIĄGANIE NA DRĄŻKU NACHWYTEM">
-                        <div class="card-body">
-                            <h5 class="card-title">PODCIĄGANIE NA DRĄŻKU NACHWYTEM</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="podciąganie na drążku podchwytem"
-                href='/test-w-przenoszeniu-atlasu/watch/54902' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/PODCIAGANIE_NA_DRAZKU_PODCHWYTEM_1.jpg" class="card-img-top"
-                            alt="PODCIĄGANIE NA DRĄŻKU PODCHWYTEM">
-                        <div class="card-body">
-                            <h5 class="card-title">PODCIĄGANIE NA DRĄŻKU PODCHWYTEM</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="negatywy (podciąganie negatywne)"
-                href='/test-w-przenoszeniu-atlasu/watch/54903' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/NEGATYWY_(PODCIAGANIE_NEGATYWNE)_1.jpg" class="card-img-top"
-                            alt="NEGATYWY (PODCIĄGANIE NEGATYWNE)">
-                        <div class="card-body">
-                            <h5 class="card-title">NEGATYWY (PODCIĄGANIE NEGATYWNE)</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="podciąganie australijskie"
-                href='/test-w-przenoszeniu-atlasu/watch/54904' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/PODCIAGANIE_AUSTRALIJSKIE_1.jpg" class="card-img-top"
-                            alt="PODCIĄGANIE AUSTRALIJSKIE">
-                        <div class="card-body">
-                            <h5 class="card-title">PODCIĄGANIE AUSTRALIJSKIE</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="wiosłowanie końcem sztangi"
-                href='/test-w-przenoszeniu-atlasu/watch/54905' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/WIOSLOWANIE_KONCEM_SZTANGI_1.jpg" class="card-img-top"
-                            alt="WIOSŁOWANIE KOŃCEM SZTANGI">
-                        <div class="card-body">
-                            <h5 class="card-title">WIOSŁOWANIE KOŃCEM SZTANGI</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-        </div>
-    </div>
-    <div class="section-container" id="klatka-piersiowa">
-        <h2 class="section-title">KLATKA PIERSIOWA</h2>
-        <div class="row row-cols-1 row-cols-md-3 row-cols-xl-4 ms-5 me-5 text-center">
-
-            <a class="card-link exercise text-decoration-none" data-name="pompka"
-                href='/test-w-przenoszeniu-atlasu/watch/54906' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/POMPKA_1.jpg" class="card-img-top" alt="POMPKA">
-                        <div class="card-body">
-                            <h5 class="card-title">POMPKA</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="wyciskanie sztangi na ławce poziomej"
-                href='/test-w-przenoszeniu-atlasu/watch/54907' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/WYCISKANIE_SZTANGI_NA_LAWCE_POZIOMEJ_1.jpg" class="card-img-top"
-                            alt="WYCISKANIE SZTANGI NA ŁAWCE POZIOMEJ">
-                        <div class="card-body">
-                            <h5 class="card-title">WYCISKANIE SZTANGI NA ŁAWCE POZIOMEJ</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="rozpiętki z hantlami"
-                href='/test-w-przenoszeniu-atlasu/watch/54908' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/ROZPIETKI_Z_HANTLAMI_1.jpg" class="card-img-top"
-                            alt="ROZPIĘTKI Z HANTLAMI">
-                        <div class="card-body">
-                            <h5 class="card-title">ROZPIĘTKI Z HANTLAMI</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="rozpiętki na bramie"
-                href='/test-w-przenoszeniu-atlasu/watch/54909' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/ROZPIETKI_NA_BRAMIE_1.jpg" class="card-img-top"
-                            alt="ROZPIĘTKI NA BRAMIE">
-                        <div class="card-body">
-                            <h5 class="card-title">ROZPIĘTKI NA BRAMIE</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="wyciskanie hantli na ławce skośnej"
-                href='/test-w-przenoszeniu-atlasu/watch/54910' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/WYCISKANIE_HANTLI_NA_LAWCE_SKOSNEJ_1.jpg" class="card-img-top"
-                            alt="WYCISKANIE HANTLI NA ŁAWCE SKOŚNEJ">
-                        <div class="card-body">
-                            <h5 class="card-title">WYCISKANIE HANTLI NA ŁAWCE SKOŚNEJ</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="przenoszenie hantla zza głowy"
-                href='/test-w-przenoszeniu-atlasu/watch/54911' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/PRZENOSZENIE_HANTLA_ZZA_GLOWY_1.jpg" class="card-img-top"
-                            alt="PRZENOSZENIE HANTLA ZZA GŁOWY">
-                        <div class="card-body">
-                            <h5 class="card-title">PRZENOSZENIE HANTLA ZZA GŁOWY</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="wyciskanie na maszynie"
-                href='/test-w-przenoszeniu-atlasu/watch/54912' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/WYCISKANIE_NA_MASZYNIE_1.jpg" class="card-img-top"
-                            alt="WYCISKANIE NA MASZYNIE">
-                        <div class="card-body">
-                            <h5 class="card-title">WYCISKANIE NA MASZYNIE</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="rozpiętki na maszynie"
-                href='/test-w-przenoszeniu-atlasu/watch/54913' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/ROZPIETKI_NA_MASZYNIE_1.jpg" class="card-img-top"
-                            alt="ROZPIĘTKI NA MASZYNIE">
-                        <div class="card-body">
-                            <h5 class="card-title">ROZPIĘTKI NA MASZYNIE</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-        </div>
-    </div>
-    <div class="section-container" id="brzuch">
-        <h2 class="section-title">BRZUCH</h2>
-        <div class="row row-cols-1 row-cols-md-3 row-cols-xl-4 ms-5 me-5 text-center">
-
-            <a class="card-link exercise text-decoration-none" data-name="hollow body"
-                href='/test-w-przenoszeniu-atlasu/watch/54914' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/HOLLOW_BODY_1.jpg" class="card-img-top" alt="HOLLOW BODY">
-                        <div class="card-body">
-                            <h5 class="card-title">HOLLOW BODY</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="anty rotacja na wyciągu"
-                href='/test-w-przenoszeniu-atlasu/watch/54915' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/ANTY_ROTACJA_NA_WYCIAGU_1.jpg" class="card-img-top"
-                            alt="ANTY ROTACJA NA WYCIĄGU">
-                        <div class="card-body">
-                            <h5 class="card-title">ANTY ROTACJA NA WYCIĄGU</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="allahy"
-                href='/test-w-przenoszeniu-atlasu/watch/54916' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/ALLAHY_1.jpg" class="card-img-top" alt="ALLAHY">
-                        <div class="card-body">
-                            <h5 class="card-title">ALLAHY</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="wznosy nóg do świecy"
-                href='/test-w-przenoszeniu-atlasu/watch/54917' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/WZNOSY_NOG_DO_SWIECY_1.jpg" class="card-img-top"
-                            alt="WZNOSY NÓG DO ŚWIECY">
-                        <div class="card-body">
-                            <h5 class="card-title">WZNOSY NÓG DO ŚWIECY</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="plank (deska)"
-                href='/test-w-przenoszeniu-atlasu/watch/54918' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/PLANK_(DESKA)_1.jpg" class="card-img-top" alt="PLANK (DESKA)">
-                        <div class="card-body">
-                            <h5 class="card-title">PLANK (DESKA)</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="spięcia brzucha na wydłużonej dźwigni"
-                href='/test-w-przenoszeniu-atlasu/watch/54919' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/SPIECIA_BRZUCHA_NA_WYDLUZONEJ_DZWIGNI_1.jpg" class="card-img-top"
-                            alt="SPIĘCIA BRZUCHA NA WYDŁUŻONEJ DŹWIGNI">
-                        <div class="card-body">
-                            <h5 class="card-title">SPIĘCIA BRZUCHA NA WYDŁUŻONEJ DŹWIGNI</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none"
-                data-name="spięcia brzucha z unoszeniem nóg naprzemiennie"
-                href='/test-w-przenoszeniu-atlasu/watch/54920' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/SPIECIA_BRZUCHA_Z_UNOSZENIEM_NOG_NAPRZEMIENNIE_1.jpg"
-                            class="card-img-top" alt="SPIĘCIA BRZUCHA Z UNOSZENIEM NÓG NAPRZEMIENNIE">
-                        <div class="card-body">
-                            <h5 class="card-title">SPIĘCIA BRZUCHA Z UNOSZENIEM NÓG NAPRZEMIENNIE</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="spięcia brzucha z dotykaniem kostek"
-                href='/test-w-przenoszeniu-atlasu/watch/54921' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/SPIECIA_BRZUCHA_Z_DOTYKANIEM_KOSTEK_1.jpg" class="card-img-top"
-                            alt="SPIĘCIA BRZUCHA Z DOTYKANIEM KOSTEK">
-                        <div class="card-body">
-                            <h5 class="card-title">SPIĘCIA BRZUCHA Z DOTYKANIEM KOSTEK</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="klasyczne spięcia brzucha (brzuszki)"
-                href='/test-w-przenoszeniu-atlasu/watch/54922' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/KLASYCZNE_SPIECIA_BRZUCHA_(BRZUSZKI)_1.jpg" class="card-img-top"
-                            alt="KLASYCZNE SPIĘCIA BRZUCHA (BRZUSZKI)">
-                        <div class="card-body">
-                            <h5 class="card-title">KLASYCZNE SPIĘCIA BRZUCHA (BRZUSZKI)</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="dead bug"
-                href='/test-w-przenoszeniu-atlasu/watch/54923' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/DEAD_BUG_1.jpg" class="card-img-top" alt="DEAD BUG">
-                        <div class="card-body">
-                            <h5 class="card-title">DEAD BUG</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="wznosy nóg w zwisie na drążku"
-                href='/test-w-przenoszeniu-atlasu/watch/54924' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/WZNOSY_NOG_W_ZWISIE_NA_DRAZKU_1.jpg" class="card-img-top"
-                            alt="WZNOSY NÓG W ZWISIE NA DRĄŻKU">
-                        <div class="card-body">
-                            <h5 class="card-title">WZNOSY NÓG W ZWISIE NA DRĄŻKU</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="wznosy nóg na boki w zwisie na drążku"
-                href='/test-w-przenoszeniu-atlasu/watch/54925' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/WZNOSY_NOG_NA_BOKI_W_ZWISIE_NA_DRAZKU_1.jpg" class="card-img-top"
-                            alt="WZNOSY NÓG NA BOKI W ZWISIE NA DRĄŻKU">
-                        <div class="card-body">
-                            <h5 class="card-title">WZNOSY NÓG NA BOKI W ZWISIE NA DRĄŻKU</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="ab roller"
-                href='/test-w-przenoszeniu-atlasu/watch/54926' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/AB_ROLLER_1.jpg" class="card-img-top" alt="AB ROLLER">
-                        <div class="card-body">
-                            <h5 class="card-title">AB ROLLER</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-        </div>
-    </div>
-    <div class="section-container" id="łydki">
-        <h2 class="section-title">ŁYDKI</h2>
-        <div class="row row-cols-1 row-cols-md-3 row-cols-xl-4 ms-5 me-5 text-center">
-
-            <a class="card-link exercise text-decoration-none" data-name="wspięcia na palce z deficytu"
-                href='/test-w-przenoszeniu-atlasu/watch/54927' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/WSPIECIA_NA_PALCE_Z_DEFICYTU_1.jpg" class="card-img-top"
-                            alt="WSPIĘCIA NA PALCE Z DEFICYTU">
-                        <div class="card-body">
-                            <h5 class="card-title">WSPIĘCIA NA PALCE Z DEFICYTU</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card-link exercise text-decoration-none" data-name="wspięcia na palce na maszynie smitha"
-                href='/test-w-przenoszeniu-atlasu/watch/54928' target="_parent">
-                <div class="col mb-4">
-                    <div class="card">
-                        <img src="../img/atlas_cwiczen/WSPIECIA_NA_PALCE_NA_MASZYNIE_SMITHA_1.jpg" class="card-img-top"
-                            alt="WSPIĘCIA NA PALCE NA MASZYNIE SMITHA">
-                        <div class="card-body">
-                            <h5 class="card-title">WSPIĘCIA NA PALCE NA MASZYNIE SMITHA</h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-        </div>
+          </nav>
+    
+            <div class="section-container" id="nogi-i-pośladki">
+            <h2 class="section-title">NOGI I POŚLADKI</h2> 
+            <div class="row row-cols-1 row-cols-md-3 row-cols-xl-4 ms-5 me-5 text-center">
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="przysiad klasyczny" 
+            href='/test-w-przenoszeniu-atlasu/watch/54839' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/PRZYSIAD_KLASYCZNY_1.jpg" class="card-img-top" alt="PRZYSIAD KLASYCZNY">
+                    <div class="card-body">
+                        <h5 class="card-title">PRZYSIAD KLASYCZNY</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="box squat" 
+            href='/test-w-przenoszeniu-atlasu/watch/54840' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/BOX_SQUAT_1.jpg" class="card-img-top" alt="BOX SQUAT">
+                    <div class="card-body">
+                        <h5 class="card-title">BOX SQUAT</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="goblet squat" 
+            href='/test-w-przenoszeniu-atlasu/watch/54841' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/GOBLET_SQUAT_1.jpg" class="card-img-top" alt="GOBLET SQUAT">
+                    <div class="card-body">
+                        <h5 class="card-title">GOBLET SQUAT</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="przysiad sumo" 
+            href='/test-w-przenoszeniu-atlasu/watch/54842' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/PRZYSIAD_SUMO_1.jpg" class="card-img-top" alt="PRZYSIAD SUMO">
+                    <div class="card-body">
+                        <h5 class="card-title">PRZYSIAD SUMO</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="front squat (przysiad ze sztangą z przodu)" 
+            href='/test-w-przenoszeniu-atlasu/watch/54970' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/FRONT_SQUAT_(PRZYSIAD_ZE_SZTANGA_Z_PRZODU)_1.jpg" class="card-img-top" alt="FRONT SQUAT (PRZYSIAD ZE SZTANGĄ Z PRZODU)">
+                    <div class="card-body">
+                        <h5 class="card-title">FRONT SQUAT (PRZYSIAD ZE SZTANGĄ Z PRZODU)</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="przysiad bułgarski" 
+            href='/test-w-przenoszeniu-atlasu/watch/55070' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/PRZYSIAD_BULGARSKI_1.jpg" class="card-img-top" alt="PRZYSIAD BUŁGARSKI">
+                    <div class="card-body">
+                        <h5 class="card-title">PRZYSIAD BUŁGARSKI</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="wyciskanie na suwnicy" 
+            href='/test-w-przenoszeniu-atlasu/watch/55071' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/WYCISKANIE_NA_SUWNICY_1.jpg" class="card-img-top" alt="WYCISKANIE NA SUWNICY">
+                    <div class="card-body">
+                        <h5 class="card-title">WYCISKANIE NA SUWNICY</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="wyciskanie na suwnicy jednonóż" 
+            href='/test-w-przenoszeniu-atlasu/watch/55072' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/WYCISKANIE_NA_SUWNICY_JEDNONOZ_1.jpg" class="card-img-top" alt="WYCISKANIE NA SUWNICY JEDNONÓŻ">
+                    <div class="card-body">
+                        <h5 class="card-title">WYCISKANIE NA SUWNICY JEDNONÓŻ</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="martwy ciąg sumo" 
+            href='/test-w-przenoszeniu-atlasu/watch/55073' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/MARTWY_CIAG_SUMO_1.jpg" class="card-img-top" alt="MARTWY CIĄG SUMO">
+                    <div class="card-body">
+                        <h5 class="card-title">MARTWY CIĄG SUMO</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="martwy ciąg klasyczny" 
+            href='/test-w-przenoszeniu-atlasu/watch/55074' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/MARTWY_CIAG_KLASYCZNY_1.jpg" class="card-img-top" alt="MARTWY CIĄG KLASYCZNY">
+                    <div class="card-body">
+                        <h5 class="card-title">MARTWY CIĄG KLASYCZNY</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="martwy ciąg rumuński" 
+            href='/test-w-przenoszeniu-atlasu/watch/55075' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/MARTWY_CIAG_RUMUNSKI_1.jpg" class="card-img-top" alt="MARTWY CIĄG RUMUŃSKI">
+                    <div class="card-body">
+                        <h5 class="card-title">MARTWY CIĄG RUMUŃSKI</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="martwy ciąg na prostych nogach" 
+            href='/test-w-przenoszeniu-atlasu/watch/55076' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/MARTWY_CIAG_NA_PROSTYCH_NOGACH_1.jpg" class="card-img-top" alt="MARTWY CIĄG NA PROSTYCH NOGACH">
+                    <div class="card-body">
+                        <h5 class="card-title">MARTWY CIĄG NA PROSTYCH NOGACH</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="martwy ciąg jednonóż" 
+            href='/test-w-przenoszeniu-atlasu/watch/55077' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/MARTWY_CIAG_JEDNONOZ_1.jpg" class="card-img-top" alt="MARTWY CIĄG JEDNONÓŻ">
+                    <div class="card-body">
+                        <h5 class="card-title">MARTWY CIĄG JEDNONÓŻ</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="dzień dobry" 
+            href='/test-w-przenoszeniu-atlasu/watch/55078' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/DZIEN_DOBRY_1.jpg" class="card-img-top" alt="DZIEŃ DOBRY">
+                    <div class="card-body">
+                        <h5 class="card-title">DZIEŃ DOBRY</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="zakroki" 
+            href='/test-w-przenoszeniu-atlasu/watch/55079' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/ZAKROKI_1.jpg" class="card-img-top" alt="ZAKROKI">
+                    <div class="card-body">
+                        <h5 class="card-title">ZAKROKI</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="zakroki z podwyższenia" 
+            href='/test-w-przenoszeniu-atlasu/watch/55080' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/ZAKROKI_Z_PODWYZSZENIA_1.jpg" class="card-img-top" alt="ZAKROKI Z PODWYŻSZENIA">
+                    <div class="card-body">
+                        <h5 class="card-title">ZAKROKI Z PODWYŻSZENIA</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="wykroki chodzone" 
+            href='/test-w-przenoszeniu-atlasu/watch/55081' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/WYKROKI_CHODZONE_1.jpg" class="card-img-top" alt="WYKROKI CHODZONE">
+                    <div class="card-body">
+                        <h5 class="card-title">WYKROKI CHODZONE</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="wykroki w miejscu" 
+            href='/test-w-przenoszeniu-atlasu/watch/55082' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/WYKROKI_W_MIEJSCU_1.jpg" class="card-img-top" alt="WYKROKI W MIEJSCU">
+                    <div class="card-body">
+                        <h5 class="card-title">WYKROKI W MIEJSCU</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="side lying hip raise" 
+            href='/test-w-przenoszeniu-atlasu/watch/55083' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/SIDE_LYING_HIP_RAISE_1.jpg" class="card-img-top" alt="SIDE LYING HIP RAISE">
+                    <div class="card-body">
+                        <h5 class="card-title">SIDE LYING HIP RAISE</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="przywodzenie gumy power band" 
+            href='/test-w-przenoszeniu-atlasu/watch/55084' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/PRZYWODZENIE_GUMY_POWER_BAND_1.jpg" class="card-img-top" alt="PRZYWODZENIE GUMY POWER BAND">
+                    <div class="card-body">
+                        <h5 class="card-title">PRZYWODZENIE GUMY POWER BAND</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="monsterwalk" 
+            href='/test-w-przenoszeniu-atlasu/watch/55085' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/MONSTERWALK_1.jpg" class="card-img-top" alt="MONSTERWALK">
+                    <div class="card-body">
+                        <h5 class="card-title">MONSTERWALK</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="odwodzenie nogi w tył na wyciągu" 
+            href='/test-w-przenoszeniu-atlasu/watch/55086' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/ODWODZENIE_NOGI_W_TYL_NA_WYCIAGU_1.jpg" class="card-img-top" alt="ODWODZENIE NOGI W TYŁ NA WYCIĄGU">
+                    <div class="card-body">
+                        <h5 class="card-title">ODWODZENIE NOGI W TYŁ NA WYCIĄGU</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="odwodzenie nogi w bok na wyciągu" 
+            href='/test-w-przenoszeniu-atlasu/watch/55087' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/ODWODZENIE_NOGI_W_BOK_NA_WYCIAGU_1.jpg" class="card-img-top" alt="ODWODZENIE NOGI W BOK NA WYCIĄGU">
+                    <div class="card-body">
+                        <h5 class="card-title">ODWODZENIE NOGI W BOK NA WYCIĄGU</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="unoszenie nogi z deficytu" 
+            href='/test-w-przenoszeniu-atlasu/watch/55088' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/UNOSZENIE_NOGI_Z_DEFICYTU_1.jpg" class="card-img-top" alt="UNOSZENIE NOGI Z DEFICYTU">
+                    <div class="card-body">
+                        <h5 class="card-title">UNOSZENIE NOGI Z DEFICYTU</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="uginanie ud na maszynie leżąc" 
+            href='/test-w-przenoszeniu-atlasu/watch/55089' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/UGINANIE_UD_NA_MASZYNIE_LEZAC_1.jpg" class="card-img-top" alt="UGINANIE UD NA MASZYNIE LEŻĄC">
+                    <div class="card-body">
+                        <h5 class="card-title">UGINANIE UD NA MASZYNIE LEŻĄC</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="wyprosty ud na maszynie" 
+            href='/test-w-przenoszeniu-atlasu/watch/55090' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/WYPROSTY_UD_NA_MASZYNIE_1.jpg" class="card-img-top" alt="WYPROSTY UD NA MASZYNIE">
+                    <div class="card-body">
+                        <h5 class="card-title">WYPROSTY UD NA MASZYNIE</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="frog pump" 
+            href='/test-w-przenoszeniu-atlasu/watch/55091' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/FROG_PUMP_1.jpg" class="card-img-top" alt="FROG PUMP">
+                    <div class="card-body">
+                        <h5 class="card-title">FROG PUMP</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="hip thrust jednonóż" 
+            href='/test-w-przenoszeniu-atlasu/watch/55092' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/HIP_THRUST_JEDNONOZ_1.jpg" class="card-img-top" alt="HIP THRUST JEDNONÓŻ">
+                    <div class="card-body">
+                        <h5 class="card-title">HIP THRUST JEDNONÓŻ</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="hip thrust" 
+            href='/test-w-przenoszeniu-atlasu/watch/55093' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/HIP_THRUST_1.jpg" class="card-img-top" alt="HIP THRUST">
+                    <div class="card-body">
+                        <h5 class="card-title">HIP THRUST</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="glute bridge" 
+            href='/test-w-przenoszeniu-atlasu/watch/55094' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/GLUTE_BRIDGE_1.jpg" class="card-img-top" alt="GLUTE BRIDGE">
+                    <div class="card-body">
+                        <h5 class="card-title">GLUTE BRIDGE</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="straddle lift" 
+            href='/test-w-przenoszeniu-atlasu/watch/55095' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/STRADDLE_LIFT_1.jpg" class="card-img-top" alt="STRADDLE LIFT">
+                    <div class="card-body">
+                        <h5 class="card-title">STRADDLE LIFT</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="cable pullthrough" 
+            href='/test-w-przenoszeniu-atlasu/watch/55096' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/CABLE_PULLTHROUGH_1.jpg" class="card-img-top" alt="CABLE PULLTHROUGH">
+                    <div class="card-body">
+                        <h5 class="card-title">CABLE PULLTHROUGH</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="przywodzenie kopenhaskie" 
+            href='/test-w-przenoszeniu-atlasu/watch/55097' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/PRZYWODZENIE_KOPENHASKIE_1.jpg" class="card-img-top" alt="PRZYWODZENIE KOPENHASKIE">
+                    <div class="card-body">
+                        <h5 class="card-title">PRZYWODZENIE KOPENHASKIE</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="wstępowanie na skrzynię bokiem" 
+            href='/test-w-przenoszeniu-atlasu/watch/55098' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/WSTEPOWANIE_NA_SKRZYNIE_BOKIEM_1.jpg" class="card-img-top" alt="WSTĘPOWANIE NA SKRZYNIĘ BOKIEM">
+                    <div class="card-body">
+                        <h5 class="card-title">WSTĘPOWANIE NA SKRZYNIĘ BOKIEM</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="wstępowanie na skrzynię przodem" 
+            href='/test-w-przenoszeniu-atlasu/watch/55099' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/WSTEPOWANIE_NA_SKRZYNIE_PRZODEM_1.jpg" class="card-img-top" alt="WSTĘPOWANIE NA SKRZYNIĘ PRZODEM">
+                    <div class="card-body">
+                        <h5 class="card-title">WSTĘPOWANIE NA SKRZYNIĘ PRZODEM</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
     </div>
     </div>
+            <div class="section-container" id="ramiona">
+            <h2 class="section-title">RAMIONA</h2> 
+            <div class="row row-cols-1 row-cols-md-3 row-cols-xl-4 ms-5 me-5 text-center">
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="prostowanie przedramion na wyciągu zza głowy" 
+            href='/test-w-przenoszeniu-atlasu/watch/55100' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/PROSTOWANIE_PRZEDRAMION_NA_WYCIAGU_ZZA_GLOWY_1.jpg" class="card-img-top" alt="PROSTOWANIE PRZEDRAMION NA WYCIĄGU ZZA GŁOWY">
+                    <div class="card-body">
+                        <h5 class="card-title">PROSTOWANIE PRZEDRAMION NA WYCIĄGU ZZA GŁOWY</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="prostowanie przedramion na wyciągu" 
+            href='/test-w-przenoszeniu-atlasu/watch/55101' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/PROSTOWANIE_PRZEDRAMION_NA_WYCIAGU_1.jpg" class="card-img-top" alt="PROSTOWANIE PRZEDRAMION NA WYCIĄGU">
+                    <div class="card-body">
+                        <h5 class="card-title">PROSTOWANIE PRZEDRAMION NA WYCIĄGU</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="wyciskanie hantla zza głowy" 
+            href='/test-w-przenoszeniu-atlasu/watch/55102' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/WYCISKANIE_HANTLA_ZZA_GLOWY_1.jpg" class="card-img-top" alt="WYCISKANIE HANTLA ZZA GŁOWY">
+                    <div class="card-body">
+                        <h5 class="card-title">WYCISKANIE HANTLA ZZA GŁOWY</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="uginanie przedramion chwytem młotkowym" 
+            href='/test-w-przenoszeniu-atlasu/watch/55103' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/UGINANIE_PRZEDRAMION_CHWYTEM_MLOTKOWYM_1.jpg" class="card-img-top" alt="UGINANIE PRZEDRAMION CHWYTEM MŁOTKOWYM">
+                    <div class="card-body">
+                        <h5 class="card-title">UGINANIE PRZEDRAMION CHWYTEM MŁOTKOWYM</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="uginanie przedramion na wyciągu" 
+            href='/test-w-przenoszeniu-atlasu/watch/55104' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/UGINANIE_PRZEDRAMION_NA_WYCIAGU_1.jpg" class="card-img-top" alt="UGINANIE PRZEDRAMION NA WYCIĄGU">
+                    <div class="card-body">
+                        <h5 class="card-title">UGINANIE PRZEDRAMION NA WYCIĄGU</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="uginanie przedramion z supinacją" 
+            href='/test-w-przenoszeniu-atlasu/watch/55105' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/UGINANIE_PRZEDRAMION_Z_SUPINACJA_1.jpg" class="card-img-top" alt="UGINANIE PRZEDRAMION Z SUPINACJĄ">
+                    <div class="card-body">
+                        <h5 class="card-title">UGINANIE PRZEDRAMION Z SUPINACJĄ</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="uginanie przedramion ze sztangą" 
+            href='/test-w-przenoszeniu-atlasu/watch/55106' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/UGINANIE_PRZEDRAMION_ZE_SZTANGA_1.jpg" class="card-img-top" alt="UGINANIE PRZEDRAMION ZE SZTANGĄ">
+                    <div class="card-body">
+                        <h5 class="card-title">UGINANIE PRZEDRAMION ZE SZTANGĄ</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="wyciskanie sztangi wąsko" 
+            href='/test-w-przenoszeniu-atlasu/watch/55107' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/WYCISKANIE_SZTANGI_WASKO_1.jpg" class="card-img-top" alt="WYCISKANIE SZTANGI WĄSKO">
+                    <div class="card-body">
+                        <h5 class="card-title">WYCISKANIE SZTANGI WĄSKO</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="dipy (pompki na poręczach)" 
+            href='/test-w-przenoszeniu-atlasu/watch/null' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/DIPY_(POMPKI_NA_PORECZACH)_1.jpg" class="card-img-top" alt="DIPY (POMPKI NA PORĘCZACH)">
+                    <div class="card-body">
+                        <h5 class="card-title">DIPY (POMPKI NA PORĘCZACH)</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+    </div>
+    </div>
+            <div class="section-container" id="barki-(mięśnie-naramienne)">
+            <h2 class="section-title">BARKI (MIĘŚNIE NARAMIENNE)</h2> 
+            <div class="row row-cols-1 row-cols-md-3 row-cols-xl-4 ms-5 me-5 text-center">
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="facepull" 
+            href='/test-w-przenoszeniu-atlasu/watch/55109' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/FACEPULL_1.jpg" class="card-img-top" alt="FACEPULL">
+                    <div class="card-body">
+                        <h5 class="card-title">FACEPULL</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="wznosy bokiem" 
+            href='/test-w-przenoszeniu-atlasu/watch/55110' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/WZNOSY_BOKIEM_1.jpg" class="card-img-top" alt="WZNOSY BOKIEM">
+                    <div class="card-body">
+                        <h5 class="card-title">WZNOSY BOKIEM</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="odwodzenie ramion na maszynie (odwrotny butterfly)" 
+            href='/test-w-przenoszeniu-atlasu/watch/55111' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/ODWODZENIE_RAMION_NA_MASZYNIE_(ODWROTNY_BUTTERFLY)_1.jpg" class="card-img-top" alt="ODWODZENIE RAMION NA MASZYNIE (ODWROTNY BUTTERFLY)">
+                    <div class="card-body">
+                        <h5 class="card-title">ODWODZENIE RAMION NA MASZYNIE (ODWROTNY BUTTERFLY)</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="y-raise" 
+            href='/test-w-przenoszeniu-atlasu/watch/55112' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/Y-RAISE_1.jpg" class="card-img-top" alt="Y-RAISE">
+                    <div class="card-body">
+                        <h5 class="card-title">Y-RAISE</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="t-raise" 
+            href='/test-w-przenoszeniu-atlasu/watch/55113' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/T-RAISE_1.jpg" class="card-img-top" alt="T-RAISE">
+                    <div class="card-body">
+                        <h5 class="card-title">T-RAISE</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="ohp" 
+            href='/test-w-przenoszeniu-atlasu/watch/55114' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/OHP_1.jpg" class="card-img-top" alt="OHP">
+                    <div class="card-body">
+                        <h5 class="card-title">OHP</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="wyciskanie hantli nad głowę" 
+            href='/test-w-przenoszeniu-atlasu/watch/55115' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/WYCISKANIE_HANTLI_NAD_GLOWE_1.jpg" class="card-img-top" alt="WYCISKANIE HANTLI NAD GŁOWĘ">
+                    <div class="card-body">
+                        <h5 class="card-title">WYCISKANIE HANTLI NAD GŁOWĘ</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="arnoldki" 
+            href='/test-w-przenoszeniu-atlasu/watch/55116' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/ARNOLDKI_1.jpg" class="card-img-top" alt="ARNOLDKI">
+                    <div class="card-body">
+                        <h5 class="card-title">ARNOLDKI</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+    </div>
+    </div>
+            <div class="section-container" id="plecy">
+            <h2 class="section-title">PLECY</h2> 
+            <div class="row row-cols-1 row-cols-md-3 row-cols-xl-4 ms-5 me-5 text-center">
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="narciarz" 
+            href='/test-w-przenoszeniu-atlasu/watch/55117' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/NARCIARZ_1.jpg" class="card-img-top" alt="NARCIARZ">
+                    <div class="card-body">
+                        <h5 class="card-title">NARCIARZ</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="wciąganie na wyciągu" 
+            href='/test-w-przenoszeniu-atlasu/watch/55118' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/WCIAGANIE_NA_WYCIAGU_1.jpg" class="card-img-top" alt="WCIĄGANIE NA WYCIĄGU">
+                    <div class="card-body">
+                        <h5 class="card-title">WCIĄGANIE NA WYCIĄGU</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="przyciąganie wyciągu dolnego do brzucha" 
+            href='/test-w-przenoszeniu-atlasu/watch/55119' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/PRZYCIAGANIE_WYCIAGU_DOLNEGO_DO_BRZUCHA_1.jpg" class="card-img-top" alt="PRZYCIĄGANIE WYCIĄGU DOLNEGO DO BRZUCHA">
+                    <div class="card-body">
+                        <h5 class="card-title">PRZYCIĄGANIE WYCIĄGU DOLNEGO DO BRZUCHA</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="przyciąganie drążka wyciągu górnego do klatki nachwytem" 
+            href='/test-w-przenoszeniu-atlasu/watch/55120' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/PRZYCIAGANIE_DRAZKA_WYCIAGU_GORNEGO_DO_KLATKI_NACHWYTEM_1.jpg" class="card-img-top" alt="PRZYCIĄGANIE DRĄŻKA WYCIĄGU GÓRNEGO DO KLATKI NACHWYTEM">
+                    <div class="card-body">
+                        <h5 class="card-title">PRZYCIĄGANIE DRĄŻKA WYCIĄGU GÓRNEGO DO KLATKI NACHWYTEM</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="pendlay row" 
+            href='/test-w-przenoszeniu-atlasu/watch/55121' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/PENDLAY_ROW_1.jpg" class="card-img-top" alt="PENDLAY ROW">
+                    <div class="card-body">
+                        <h5 class="card-title">PENDLAY ROW</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="wiosłowanie sztangą" 
+            href='/test-w-przenoszeniu-atlasu/watch/55122' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/WIOSLOWANIE_SZTANGA_1.jpg" class="card-img-top" alt="WIOSŁOWANIE SZTANGĄ">
+                    <div class="card-body">
+                        <h5 class="card-title">WIOSŁOWANIE SZTANGĄ</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="pullover" 
+            href='/test-w-przenoszeniu-atlasu/watch/55123' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/PULLOVER_1.jpg" class="card-img-top" alt="PULLOVER">
+                    <div class="card-body">
+                        <h5 class="card-title">PULLOVER</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="high row" 
+            href='/test-w-przenoszeniu-atlasu/watch/55124' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/HIGH_ROW_1.jpg" class="card-img-top" alt="HIGH ROW">
+                    <div class="card-body">
+                        <h5 class="card-title">HIGH ROW</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="seal row" 
+            href='/test-w-przenoszeniu-atlasu/watch/55125' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/SEAL_ROW_1.jpg" class="card-img-top" alt="SEAL ROW">
+                    <div class="card-body">
+                        <h5 class="card-title">SEAL ROW</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="wiosłowanie hantlem" 
+            href='/test-w-przenoszeniu-atlasu/watch/55126' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/WIOSLOWANIE_HANTLEM_1.jpg" class="card-img-top" alt="WIOSŁOWANIE HANTLEM">
+                    <div class="card-body">
+                        <h5 class="card-title">WIOSŁOWANIE HANTLEM</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="podciąganie na drążku nachwytem" 
+            href='/test-w-przenoszeniu-atlasu/watch/55127' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/PODCIAGANIE_NA_DRAZKU_NACHWYTEM_1.jpg" class="card-img-top" alt="PODCIĄGANIE NA DRĄŻKU NACHWYTEM">
+                    <div class="card-body">
+                        <h5 class="card-title">PODCIĄGANIE NA DRĄŻKU NACHWYTEM</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="podciąganie na drążku podchwytem" 
+            href='/test-w-przenoszeniu-atlasu/watch/55128' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/PODCIAGANIE_NA_DRAZKU_PODCHWYTEM_1.jpg" class="card-img-top" alt="PODCIĄGANIE NA DRĄŻKU PODCHWYTEM">
+                    <div class="card-body">
+                        <h5 class="card-title">PODCIĄGANIE NA DRĄŻKU PODCHWYTEM</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="negatywy (podciąganie negatywne)" 
+            href='/test-w-przenoszeniu-atlasu/watch/55129' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/NEGATYWY_(PODCIAGANIE_NEGATYWNE)_1.jpg" class="card-img-top" alt="NEGATYWY (PODCIĄGANIE NEGATYWNE)">
+                    <div class="card-body">
+                        <h5 class="card-title">NEGATYWY (PODCIĄGANIE NEGATYWNE)</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="podciąganie australijskie" 
+            href='/test-w-przenoszeniu-atlasu/watch/55130' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/PODCIAGANIE_AUSTRALIJSKIE_1.jpg" class="card-img-top" alt="PODCIĄGANIE AUSTRALIJSKIE">
+                    <div class="card-body">
+                        <h5 class="card-title">PODCIĄGANIE AUSTRALIJSKIE</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="wiosłowanie końcem sztangi" 
+            href='/test-w-przenoszeniu-atlasu/watch/55131' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/WIOSLOWANIE_KONCEM_SZTANGI_1.jpg" class="card-img-top" alt="WIOSŁOWANIE KOŃCEM SZTANGI">
+                    <div class="card-body">
+                        <h5 class="card-title">WIOSŁOWANIE KOŃCEM SZTANGI</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+    </div>
+    </div>
+            <div class="section-container" id="klatka-piersiowa">
+            <h2 class="section-title">KLATKA PIERSIOWA</h2> 
+            <div class="row row-cols-1 row-cols-md-3 row-cols-xl-4 ms-5 me-5 text-center">
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="pompka" 
+            href='/test-w-przenoszeniu-atlasu/watch/55132' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/POMPKA_1.jpg" class="card-img-top" alt="POMPKA">
+                    <div class="card-body">
+                        <h5 class="card-title">POMPKA</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="wyciskanie sztangi na ławce poziomej" 
+            href='/test-w-przenoszeniu-atlasu/watch/55133' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/WYCISKANIE_SZTANGI_NA_LAWCE_POZIOMEJ_1.jpg" class="card-img-top" alt="WYCISKANIE SZTANGI NA ŁAWCE POZIOMEJ">
+                    <div class="card-body">
+                        <h5 class="card-title">WYCISKANIE SZTANGI NA ŁAWCE POZIOMEJ</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="rozpiętki z hantlami" 
+            href='/test-w-przenoszeniu-atlasu/watch/55134' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/ROZPIETKI_Z_HANTLAMI_1.jpg" class="card-img-top" alt="ROZPIĘTKI Z HANTLAMI">
+                    <div class="card-body">
+                        <h5 class="card-title">ROZPIĘTKI Z HANTLAMI</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="rozpiętki na bramie" 
+            href='/test-w-przenoszeniu-atlasu/watch/55135' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/ROZPIETKI_NA_BRAMIE_1.jpg" class="card-img-top" alt="ROZPIĘTKI NA BRAMIE">
+                    <div class="card-body">
+                        <h5 class="card-title">ROZPIĘTKI NA BRAMIE</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="wyciskanie hantli na ławce skośnej" 
+            href='/test-w-przenoszeniu-atlasu/watch/55136' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/WYCISKANIE_HANTLI_NA_LAWCE_SKOSNEJ_1.jpg" class="card-img-top" alt="WYCISKANIE HANTLI NA ŁAWCE SKOŚNEJ">
+                    <div class="card-body">
+                        <h5 class="card-title">WYCISKANIE HANTLI NA ŁAWCE SKOŚNEJ</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="przenoszenie hantla zza głowy" 
+            href='/test-w-przenoszeniu-atlasu/watch/55137' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/PRZENOSZENIE_HANTLA_ZZA_GLOWY_1.jpg" class="card-img-top" alt="PRZENOSZENIE HANTLA ZZA GŁOWY">
+                    <div class="card-body">
+                        <h5 class="card-title">PRZENOSZENIE HANTLA ZZA GŁOWY</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="wyciskanie na maszynie" 
+            href='/test-w-przenoszeniu-atlasu/watch/55138' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/WYCISKANIE_NA_MASZYNIE_1.jpg" class="card-img-top" alt="WYCISKANIE NA MASZYNIE">
+                    <div class="card-body">
+                        <h5 class="card-title">WYCISKANIE NA MASZYNIE</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="rozpiętki na maszynie" 
+            href='/test-w-przenoszeniu-atlasu/watch/55139' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/ROZPIETKI_NA_MASZYNIE_1.jpg" class="card-img-top" alt="ROZPIĘTKI NA MASZYNIE">
+                    <div class="card-body">
+                        <h5 class="card-title">ROZPIĘTKI NA MASZYNIE</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+    </div>
+    </div>
+            <div class="section-container" id="brzuch">
+            <h2 class="section-title">BRZUCH</h2> 
+            <div class="row row-cols-1 row-cols-md-3 row-cols-xl-4 ms-5 me-5 text-center">
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="hollow body" 
+            href='/test-w-przenoszeniu-atlasu/watch/55140' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/HOLLOW_BODY_1.jpg" class="card-img-top" alt="HOLLOW BODY">
+                    <div class="card-body">
+                        <h5 class="card-title">HOLLOW BODY</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="anty rotacja na wyciągu" 
+            href='/test-w-przenoszeniu-atlasu/watch/55141' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/ANTY_ROTACJA_NA_WYCIAGU_1.jpg" class="card-img-top" alt="ANTY ROTACJA NA WYCIĄGU">
+                    <div class="card-body">
+                        <h5 class="card-title">ANTY ROTACJA NA WYCIĄGU</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="allahy" 
+            href='/test-w-przenoszeniu-atlasu/watch/55142' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/ALLAHY_1.jpg" class="card-img-top" alt="ALLAHY">
+                    <div class="card-body">
+                        <h5 class="card-title">ALLAHY</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="wznosy nóg do świecy" 
+            href='/test-w-przenoszeniu-atlasu/watch/55143' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/WZNOSY_NOG_DO_SWIECY_1.jpg" class="card-img-top" alt="WZNOSY NÓG DO ŚWIECY">
+                    <div class="card-body">
+                        <h5 class="card-title">WZNOSY NÓG DO ŚWIECY</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="plank (deska)" 
+            href='/test-w-przenoszeniu-atlasu/watch/55144' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/PLANK_(DESKA)_1.jpg" class="card-img-top" alt="PLANK (DESKA)">
+                    <div class="card-body">
+                        <h5 class="card-title">PLANK (DESKA)</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="spięcia brzucha na wydłużonej dźwigni" 
+            href='/test-w-przenoszeniu-atlasu/watch/55148' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/SPIECIA_BRZUCHA_NA_WYDLUZONEJ_DZWIGNI_1.jpg" class="card-img-top" alt="SPIĘCIA BRZUCHA NA WYDŁUŻONEJ DŹWIGNI">
+                    <div class="card-body">
+                        <h5 class="card-title">SPIĘCIA BRZUCHA NA WYDŁUŻONEJ DŹWIGNI</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="spięcia brzucha z unoszeniem nóg naprzemiennie" 
+            href='/test-w-przenoszeniu-atlasu/watch/55149' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/SPIECIA_BRZUCHA_Z_UNOSZENIEM_NOG_NAPRZEMIENNIE_1.jpg" class="card-img-top" alt="SPIĘCIA BRZUCHA Z UNOSZENIEM NÓG NAPRZEMIENNIE">
+                    <div class="card-body">
+                        <h5 class="card-title">SPIĘCIA BRZUCHA Z UNOSZENIEM NÓG NAPRZEMIENNIE</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="spięcia brzucha z dotykaniem kostek" 
+            href='/test-w-przenoszeniu-atlasu/watch/55150' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/SPIECIA_BRZUCHA_Z_DOTYKANIEM_KOSTEK_1.jpg" class="card-img-top" alt="SPIĘCIA BRZUCHA Z DOTYKANIEM KOSTEK">
+                    <div class="card-body">
+                        <h5 class="card-title">SPIĘCIA BRZUCHA Z DOTYKANIEM KOSTEK</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="klasyczne spięcia brzucha (brzuszki)" 
+            href='/test-w-przenoszeniu-atlasu/watch/55151' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/KLASYCZNE_SPIECIA_BRZUCHA_(BRZUSZKI)_1.jpg" class="card-img-top" alt="KLASYCZNE SPIĘCIA BRZUCHA (BRZUSZKI)">
+                    <div class="card-body">
+                        <h5 class="card-title">KLASYCZNE SPIĘCIA BRZUCHA (BRZUSZKI)</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="dead bug" 
+            href='/test-w-przenoszeniu-atlasu/watch/55152' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/DEAD_BUG_1.jpg" class="card-img-top" alt="DEAD BUG">
+                    <div class="card-body">
+                        <h5 class="card-title">DEAD BUG</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="wznosy nóg w zwisie na drążku" 
+            href='/test-w-przenoszeniu-atlasu/watch/55155' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/WZNOSY_NOG_W_ZWISIE_NA_DRAZKU_1.jpg" class="card-img-top" alt="WZNOSY NÓG W ZWISIE NA DRĄŻKU">
+                    <div class="card-body">
+                        <h5 class="card-title">WZNOSY NÓG W ZWISIE NA DRĄŻKU</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="wznosy nóg na boki w zwisie na drążku" 
+            href='/test-w-przenoszeniu-atlasu/watch/55156' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/WZNOSY_NOG_NA_BOKI_W_ZWISIE_NA_DRAZKU_1.jpg" class="card-img-top" alt="WZNOSY NÓG NA BOKI W ZWISIE NA DRĄŻKU">
+                    <div class="card-body">
+                        <h5 class="card-title">WZNOSY NÓG NA BOKI W ZWISIE NA DRĄŻKU</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="ab roller" 
+            href='/test-w-przenoszeniu-atlasu/watch/55157' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/AB_ROLLER_1.jpg" class="card-img-top" alt="AB ROLLER">
+                    <div class="card-body">
+                        <h5 class="card-title">AB ROLLER</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+    </div>
+    </div>
+            <div class="section-container" id="łydki">
+            <h2 class="section-title">ŁYDKI</h2> 
+            <div class="row row-cols-1 row-cols-md-3 row-cols-xl-4 ms-5 me-5 text-center">
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="wspięcia na palce z deficytu" 
+            href='/test-w-przenoszeniu-atlasu/watch/55153' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/WSPIECIA_NA_PALCE_Z_DEFICYTU_1.jpg" class="card-img-top" alt="WSPIĘCIA NA PALCE Z DEFICYTU">
+                    <div class="card-body">
+                        <h5 class="card-title">WSPIĘCIA NA PALCE Z DEFICYTU</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+            <a class="card-link exercise text-decoration-none" 
+            data-name="wspięcia na palce na maszynie smitha" 
+            href='/test-w-przenoszeniu-atlasu/watch/55154' 
+            target="_parent"> 
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../img/atlas_cwiczen/WSPIECIA_NA_PALCE_NA_MASZYNIE_SMITHA_1.jpg" class="card-img-top" alt="WSPIĘCIA NA PALCE NA MASZYNIE SMITHA">
+                    <div class="card-body">
+                        <h5 class="card-title">WSPIĘCIA NA PALCE NA MASZYNIE SMITHA</h5>
+                        
+            
+                    </div>
+                </div>
+            </div>
+            </a>
+            
+    </div>
+    </div>
+        </div>
     <script>
         var searchSm = document.getElementById('search-sm');
         var searchLg = document.getElementById('search-lg');
@@ -1291,6 +1579,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
-</body>
-
-</html>
+        </body>
+    </html>
+    

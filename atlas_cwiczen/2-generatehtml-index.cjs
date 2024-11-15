@@ -1,13 +1,45 @@
-const fs = require("fs");
 
-// Read the JSON data from atlas.json
-fs.readFile("atlas.json", "utf8", (err, data) => {
-  if (err) {
-    console.error("Error reading atlas.json:", err);
-    return;
+async function getLectureId(sectionTitle, lectureTitle) {
+  try {
+    const fs = require("fs").promises;
+
+    // Load JSON data
+    const jsonData = await fs.readFile("acw_index.json", "utf8");
+    const data = JSON.parse(jsonData);
+
+    // Find the section by title
+    const section = data.sections.find(sec => sec.title.toLowerCase() === sectionTitle.toLowerCase());
+    if (!section) {
+      console.error(`Section titled "${sectionTitle}" not found.`);
+      return null;
+    }
+
+    // Find the lecture by title in the section
+    const lecture = section.lectures.find(lec => lec.title.toLowerCase() === lectureTitle.toLowerCase());
+    if (!lecture) {
+      console.error(`Lecture titled "${lectureTitle}" not found in section "${sectionTitle}".`);
+      return null;
+    }
+
+    // Return the lecture ID
+    return lecture.id;
+  } catch (err) {
+    console.error("Error reading or parsing JSON file:", err);
+    return null;
   }
+}
 
-  const exercisesData = JSON.parse(data);
+
+
+async function loadAndParseFiles() {
+  try {
+    const fs = require("fs").promises; // Correctly import fs.promises
+    // Read both files using fs.promises
+    const exerciseJsData = await fs.readFile("atlas.json", "utf8");
+
+    // Parse the JSON data
+    const exercisesData = JSON.parse(exerciseJsData);
+
 
   // Generate the HTML content
   let htmlContent = `
@@ -63,8 +95,6 @@ fs.readFile("atlas.json", "utf8", (err, data) => {
 
 
 
-    
-    let basePreviewNumber = 54839;
   // Add exercises to the HTML content
   for (const category in exercisesData) {
 
@@ -80,9 +110,13 @@ fs.readFile("atlas.json", "utf8", (err, data) => {
       const details = exercisesData[category][exercise];
       const jpg = details.jpgUrl;
 
-      const previewUrl = `https://skyier.com/home/courses/5615/preview/${basePreviewNumber}`;
+      const lectureId = await getLectureId(category, exercise);
+
       htmlContent += `
-            <a class="card-link exercise text-decoration-none" data-name="${exercise.toLowerCase()}" href='https://skyier.com/home/courses/5615/preview/${basePreviewNumber++}' target="_parent"> 
+            <a class="card-link exercise text-decoration-none" 
+            data-name="${exercise.toLowerCase()}" 
+            href='/test-w-przenoszeniu-atlasu/watch/${lectureId}' 
+            target="_parent"> 
             <div class="col mb-4">
                 <div class="card">
                     <img src="${jpg}" class="card-img-top" alt="${exercise}">
@@ -107,7 +141,7 @@ fs.readFile("atlas.json", "utf8", (err, data) => {
   // Close the HTML content
   htmlContent += `
         </div>
-        <script>
+    <script>
         var searchSm = document.getElementById('search-sm');
         var searchLg = document.getElementById('search-lg');
 
@@ -119,7 +153,7 @@ fs.readFile("atlas.json", "utf8", (err, data) => {
 
             var searchLower = searchValue.toLowerCase();
             var exercises = document.querySelectorAll('.exercise');
-            exercises.forEach(function(exercise) {
+            exercises.forEach(function (exercise) {
                 var exerciseName = exercise.getAttribute('data-name').toLowerCase();
                 if (exerciseName.includes(searchLower)) {
                     exercise.style.display = 'block';
@@ -131,18 +165,31 @@ fs.readFile("atlas.json", "utf8", (err, data) => {
 
         searchSm.addEventListener('input', syncSearchInputs);
         searchLg.addEventListener('input', syncSearchInputs);
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    </body>
+
+        var card_links = document.querySelectorAll('a.card-link');
+
+        card_links.forEach(card_link => {
+            card_link.addEventListener('click', function (event) {
+                event.preventDefault();
+                var href = card_link.getAttribute('href');
+                var lecture_id = href.split('/').pop();
+                window.parent.postMessage({ action: 'navigate', lecture_id: lecture_id }, '*');
+            });
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+        </body>
     </html>
     `;
 
-  // Save the HTML content to a file
-  fs.writeFile("index.html", htmlContent, "utf8", (err) => {
-    if (err) {
-      console.error("Error writing index.html:", err);
-    } else {
-      console.log("index.html has been saved.");
-    }
-  });
-});
+    // Write the HTML content to index.html
+    await fs.writeFile("index.html", htmlContent, "utf8");
+    console.log("index.html has been saved.");
+  } catch (err) {
+    console.error("Error reading or parsing JSON files:", err);
+  }
+}
+
+loadAndParseFiles();
