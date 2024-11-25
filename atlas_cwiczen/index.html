@@ -1552,15 +1552,15 @@
 
         var card_links = document.querySelectorAll('a.card-link');
 
-        card_links.forEach(card_link => {
+        card_links.forEach(function(card_link) {
             function handleEvent(event) {
                 event.preventDefault();
-                var href = card_link.getAttribute('href');
+                var href = event.currentTarget.getAttribute('href');
                 var lecture_id = href.split('/').pop();
                 window.parent.postMessage({ action: 'navigate', lecture_id: lecture_id }, '*');
             }
             card_link.addEventListener('click', handleEvent);
-            card_link.addEventListener('touchstart', handleEvent);
+            card_link.addEventListener('touchend', handleEvent, { passive: false });
         });
         });
 
