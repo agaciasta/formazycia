@@ -114,8 +114,9 @@ async function loadAndParseFiles() {
 
       htmlContent += `
             <a class="card-link exercise text-decoration-none" 
-            data-name="${exercise.toLowerCase()}" 
-            href='/atlas-cwiczen/watch/${lectureId}' 
+            data-name="${exercise.toLowerCase()}"
+            href="#" 
+            data-lecture-id="${lectureId}" 
             target="_parent"> 
             <div class="col mb-4">
                 <div class="card">
@@ -166,16 +167,22 @@ async function loadAndParseFiles() {
         searchSm.addEventListener('input', syncSearchInputs);
         searchLg.addEventListener('input', syncSearchInputs);
 
-        var card_links = document.querySelectorAll('a.card-link');
+        document.addEventListener('DOMContentLoaded', function () {
 
-        card_links.forEach(card_link => {
-            card_link.addEventListener('click', function (event) {
+        var card_links = document.querySelectorAll('.card-link');
+
+        card_links.forEach(function(card_link) {
+            card_link.addEventListener('click', function(event) {
                 event.preventDefault();
-                var href = card_link.getAttribute('href');
-                var lecture_id = href.split('/').pop();
+                event.stopPropagation();
+
+                // Retrieve lecture_id from data attribute
+                var lecture_id = this.getAttribute('data-lecture-id');
+
                 window.parent.postMessage({ action: 'navigate', lecture_id: lecture_id }, '*');
             });
-        })
+        });
+        });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
