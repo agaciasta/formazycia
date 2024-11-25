@@ -1478,18 +1478,14 @@
         document.addEventListener('DOMContentLoaded', function () {
 
             const cardLinks = document.querySelectorAll('a.card-link');
-
-            cardLinks.forEach(cardLink => {
-                cardLink.addEventListener('click', function(event) {
-                    event.preventDefault();
-                    event.stopPropagation();
-
-                    const href = cardLink.getAttribute('href');
-                    const lecture_id = href.split('/').pop();
-
-                    window.parent.postMessage({ action: 'navigate', lecture_id: lecture_id }, '*');
-                }, { passive: false });
+        card_links.forEach(card_link => {
+            card_link.addEventListener('click', function (event) {
+                event.preventDefault();
+                var href = card_link.getAttribute('href');
+                var lecture_id = href.split('/').pop();
+                window.parent.postMessage({ action: 'navigate', lecture_id: lecture_id }, '*');
             });
+        });
         });
 
     </script>
