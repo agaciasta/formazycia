@@ -1562,7 +1562,7 @@
                     const lecture_id = href.split('/').pop();
 
                     window.parent.postMessage({ action: 'navigate', lecture_id: lecture_id }, '*');
-                }, { passive: false });
+                });
             });
         });
 
