@@ -1554,11 +1554,11 @@
             const cardLinks = document.querySelectorAll('a.card-link');
 
             cardLinks.forEach(cardLink => {
-                cardLink.addEventListener('pointerup', function(event) {
+                cardLink.addEventListener('click', function(event) {
                     event.preventDefault();
                     event.stopPropagation();
 
-                    const href = cardLink.getAttribute('data-href');
+                    const href = cardLink.getAttribute('href');
                     const lecture_id = href.split('/').pop();
 
                     window.parent.postMessage({ action: 'navigate', lecture_id: lecture_id }, '*');
