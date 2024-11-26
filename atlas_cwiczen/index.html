@@ -1549,21 +1549,16 @@
         searchSm.addEventListener('input', syncSearchInputs);
         searchLg.addEventListener('input', syncSearchInputs);
 
-        document.addEventListener('DOMContentLoaded', function () {
+        document.addEventListener('click', function(event) {
+            if (event.target.matches('a.card-link')) {
+                event.preventDefault();
+                event.stopPropagation();
 
-            const cardLinks = document.querySelectorAll('a.card-link');
+                const href = event.target.getAttribute('href');
+                const lecture_id = href.split('/').pop();
 
-            cardLinks.forEach(cardLink => {
-                cardLink.addEventListener('click', function(event) {
-                    event.preventDefault();
-                    event.stopPropagation();
-
-                    const href = cardLink.getAttribute('href');
-                    const lecture_id = href.split('/').pop();
-
-                    window.parent.postMessage({ action: 'navigate', lecture_id: lecture_id }, '*');
-                });
-            });
+                window.parent.postMessage({ action: 'navigate', lecture_id: lecture_id }, '*');
+            }
         });
 
     </script>
