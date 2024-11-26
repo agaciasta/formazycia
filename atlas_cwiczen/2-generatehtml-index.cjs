@@ -115,7 +115,8 @@ async function loadAndParseFiles() {
       htmlContent += `
             <a class="card-link exercise text-decoration-none" 
             data-name="${exercise.toLowerCase()}" 
-            href='/atlas-cwiczen/watch/${lectureId}'> 
+            href='/atlas-cwiczen/watch/${lectureId}'
+            target="_parent"> 
             <div class="col mb-4">
                 <div class="card">
                     <img src="${jpg}" class="card-img-top" alt="${exercise}">
