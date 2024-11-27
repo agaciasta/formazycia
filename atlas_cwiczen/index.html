@@ -1751,7 +1751,6 @@
             cardLinks.forEach(cardLink => {
                 cardLink.addEventListener('click', function(event) {
                     event.preventDefault();
-                    event.stopPropagation();
 
                     const lecture_id = event.currentTarget.getAttribute('ac-lecture-id');
 
