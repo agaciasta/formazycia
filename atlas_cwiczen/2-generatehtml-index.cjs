@@ -151,26 +151,19 @@ async function loadAndParseFiles() {
         const searchValue = event.target.value.toLowerCase();
         const exercises = document.querySelectorAll('.exercise');
 
-    exercises.forEach((exercise) => {
-        const exerciseName = exercise.getAttribute('data-name').toLowerCase();
+        exercises.forEach((exercise) => {
+            const exerciseName = exercise.getAttribute('data-name').toLowerCase();
+            const shouldShow = exerciseName.includes(searchValue);
 
-            if (exerciseName.includes(searchValue)) {
-                // Show element if it's hidden
-                if (exercise.style.display === "none" || exercise.classList.contains('hidden')) {
-                    exercise.style.display = "block"; // Make sure it's visible in the layout
-                    requestAnimationFrame(() => exercise.classList.remove('hidden')); // Trigger animation
-                }
-            } else {
-                // Hide element if it's visible
-                if (!exercise.classList.contains('hidden')) {
-                    exercise.classList.add('hidden');
-                    setTimeout(() => {
-                        exercise.style.display = "none";
-                    }, 200); // Match duration with CSS transition
-                }
+            if (shouldShow) {
+                exercise.style.display = "block";
+                exercise.classList.remove('hidden');
+            } else if (!exercise.classList.contains('hidden')) {
+                exercise.classList.add('hidden');
+                setTimeout(() => exercise.style.display = "none", 200);
             }
         });
-}
+    }
 
         searchSm.addEventListener('input', syncSearchInputs);
         searchLg.addEventListener('input', syncSearchInputs);
