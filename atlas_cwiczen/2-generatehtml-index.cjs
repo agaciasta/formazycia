@@ -67,7 +67,7 @@ async function loadAndParseFiles() {
           
                 <div class="d-flex col-11 col-lg-12 align-items-center">
                   <div class="collapse navbar-collapse flex-grow-1" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">`
+                    <ul class="navbar-nav me-auto mt-1 mb-1 mb-lg-0">`
             
     for (category in exercisesData)
     {
@@ -75,7 +75,7 @@ async function loadAndParseFiles() {
 
         htmlContent += `
         <li class="nav-item">
-        <a class="nav-link" href="#${sectionId}">${category}</a>
+        <a class="nav-link ps-2" href="#${sectionId}">${category}</a>
         </li>`;
     }
             
@@ -103,8 +103,8 @@ async function loadAndParseFiles() {
     htmlContent += `
             <div class="section-container" id="${sectionId}">
             <h2 class="section-title">${category}</h2> 
-            <div class="row row-cols-1 row-cols-md-3 row-cols-xl-4 ms-5 me-5 text-center">
-            `;
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-3 ms-5 me-5 text-center">
+                        `;
 
     for (const exercise in exercisesData[category]) {
       const details = exercisesData[category][exercise];
@@ -116,12 +116,14 @@ async function loadAndParseFiles() {
             <a class="card-link exercise text-decoration-none" 
             data-name="${exercise.toLowerCase()}" 
             href='/atlas-cwiczen/watch/${lectureId}'
-            target="_parent"> 
-            <div class="col mb-4">
-                <div class="card">
-                    <img src="${jpg}" class="card-img-top" alt="${exercise}">
-                    <div class="card-body">
-                        <h5 class="card-title">${exercise}</h5>
+            ac-lecture-id="${lectureId}"
+            target="_parent"
+            > 
+            <div class="col mb-4" ac-lecture-id="${lectureId}">
+                <div class="card" ac-lecture-id="${lectureId}">
+                    <img src="${jpg}" class="card-img-top" alt="${exercise}" ac-lecture-id="${lectureId}">
+                    <div class="card-body" ac-lecture-id="${lectureId}">
+                        <h5 class="card-title" ac-lecture-id="${lectureId}">${exercise}</h5>
                         
             `;
 
@@ -146,42 +148,45 @@ async function loadAndParseFiles() {
         var searchLg = document.getElementById('search-lg');
 
         function syncSearchInputs(event) {
-            var searchValue = event.target.value;
-            searchSm.value = searchValue;
-            searchLg.value = searchValue;
+        const searchValue = event.target.value.toLowerCase();
+        const exercises = document.querySelectorAll('.exercise');
 
+    exercises.forEach((exercise) => {
+        const exerciseName = exercise.getAttribute('data-name').toLowerCase();
 
-            var searchLower = searchValue.toLowerCase();
-            var exercises = document.querySelectorAll('.exercise');
-            exercises.forEach(function (exercise) {
-                var exerciseName = exercise.getAttribute('data-name').toLowerCase();
-                if (exerciseName.includes(searchLower)) {
-                    exercise.style.display = 'block';
-                } else {
-                    exercise.style.display = 'none';
+            if (exerciseName.includes(searchValue)) {
+                // Show element if it's hidden
+                if (exercise.style.display === "none" || exercise.classList.contains('hidden')) {
+                    exercise.style.display = "block"; // Make sure it's visible in the layout
+                    requestAnimationFrame(() => exercise.classList.remove('hidden')); // Trigger animation
                 }
-            });
-        }
+            } else {
+                // Hide element if it's visible
+                if (!exercise.classList.contains('hidden')) {
+                    exercise.classList.add('hidden');
+                    setTimeout(() => {
+                        exercise.style.display = "none";
+                    }, 200); // Match duration with CSS transition
+                }
+            }
+        });
+}
 
         searchSm.addEventListener('input', syncSearchInputs);
         searchLg.addEventListener('input', syncSearchInputs);
 
-        document.addEventListener('DOMContentLoaded', function () {
-
-            const cardLinks = document.querySelectorAll('a.card-link');
+        const cardLinks = document.querySelectorAll('a.card-link');
 
             cardLinks.forEach(cardLink => {
                 cardLink.addEventListener('click', function(event) {
                     event.preventDefault();
-                    event.stopPropagation();
 
-                    const href = cardLink.getAttribute('href');
-                    const lecture_id = href.split('/').pop();
+                    const lecture_id = event.currentTarget.getAttribute('ac-lecture-id');
 
                     window.parent.postMessage({ action: 'navigate', lecture_id: lecture_id }, '*');
-                }, { passive: false });
+                });
             });
-        });
+
 
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"

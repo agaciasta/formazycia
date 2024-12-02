@@ -36,16 +36,16 @@ fs.readFile("atlas.json", "utf8", (err, data) => {
       </head>
       <body><div id="exercise-content-atlas-cwiczen">`;
       htmlContent += `
-                    <h1>${exercise}</h1>
-                    <div class="image-container">
-                        <img src="../${details.jpgUrl}" alt="${exercise} Image 1">
-                        <img src="../${details.jpgUrl2}" alt="${exercise} Image 2">
+                    <h1 class=" border-bottom border-dark border-1 text-center ps-3 pe-3">${exercise}</h1>
+                    <div class="image-container row row-cols-1 row-cols-md-2">
+                        <img src="../${details.jpgUrl}" class="border border-1 rounded border-dark p-0" alt="${exercise} Image 1">
+                        <img src="../${details.jpgUrl2}" class="border border-1 rounded border-dark p-0" alt="${exercise} Image 2">
                     </div>
-                    <p>
+                    <p class="text-start">
             `;
             for(const step in details.steps)
-              htmlContent += `${details.steps[step]}<br>`;
-            htmlContent += `</p></div>
+              htmlContent += `${details.steps[step]}\n`;
+            htmlContent += `\n<br></p></div>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
         </body>
         </html>
